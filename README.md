@@ -14,14 +14,14 @@
 
 ## Daftar sumber daya yang telah selesai dikurasi
 
-### KawanKoding
+### https://santrikoding.com
 
-- Website: https://www.kawankoding.id/
-- Business Model: Gratis tanpa iklan
-- Rating : * * * * *
-- Topik: Laravel, Web, PHP
-- Tipe: Video, Blog
-- Deskripsi: bla..bla..bla..
+Creator: Fika Ridaul Maulayya
+URL: https://santrikoding.com
+Description: Belajar koding bahasa indonesia terlengkap dan mudah dipahami seperti Laravel, CodeIgniter, Vue JS, JavaScript dan masih banyak lagi.
+Topic Tags: PHP, CodeIgniter, Laravel, SysAdmin, Database, JavaScript, dan lain-lain.
+Business Model: FREEMIUM
+Rating:
 
 ---
 
