@@ -12,19 +12,15 @@
 - Rating akan disematakan oleh tim kurasi dari PHPID
 - Semua item akan dikurasi terlebih dahulu oleh tim PHPID, keputusan tim adalah mutlak
 
-## Video
-
 ### KawanKoding
 
 - Website: https://www.kawankoding.id/
 - Business Model: Gratis tanpa iklan
 - Rating : * * * * *
 - Topik: Laravel, Web, PHP
+- Tipe: Video, Blog
 - Deskripsi: bla..bla..bla..
 
-## Blog
-
-## Buku Digital
 
 ---
 
