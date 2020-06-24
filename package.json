@@ -1,0 +1,18 @@
+{
+  "name": "ajari-koding",
+  "version": "1.0.0",
+  "description": "📚 Kumpulan berbagai sumber daya untuk belajar koding hasil karya para kreator lokal yang terpercaya dan telah dikurasi oleh komunitas PHPID",
+  "main": "index.js",
+  "repository": "https://github.com/phpid-jakarta/ajari-koding.git",
+  "author": "PHPID Community",
+  "license": "MIT",
+	"private": false,
+	"scripts": {
+    "toJson": "node ./toJson.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "markdown-it": "^11.0.0"
+  }
+}
