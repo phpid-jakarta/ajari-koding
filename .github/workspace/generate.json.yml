@@ -37,20 +37,7 @@ jobs:
 
       - name: Generate file json
         run: yarn toJson
-      # - name: Build UI
-      #   run: yarn build
 
-      # - name: GitHub Pages Deploy
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     personal_token: ${{ secrets.PERSONAL_TOKEN }}
-      #     publish_dir: ./dist
-      # - name: Commit files report
-      #   run: |
-      #     git config --local user.email "mazipanneh@gmail.com"
-      #     git config --local user.name "mazipan"
-      #     git add -A
-      #     git commit -m "[Github Actions]: Generate json file"
       - name: GitHub Push
         uses: ad-m/github-push-action@v0.5.0
         with:
