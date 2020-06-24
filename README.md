@@ -14,14 +14,14 @@
 
 ## Daftar sumber daya yang telah selesai dikurasi
 
-### https://santrikoding.com
+### Santri Koding
 
-Creator: Fika Ridaul Maulayya
-URL: https://santrikoding.com
-Description: Belajar koding bahasa indonesia terlengkap dan mudah dipahami seperti Laravel, CodeIgniter, Vue JS, JavaScript dan masih banyak lagi.
-Topic Tags: PHP, CodeIgniter, Laravel, SysAdmin, Database, JavaScript, dan lain-lain.
-Business Model: FREEMIUM
-Rating:
+- Creator: Fika Ridaul Maulayya
+- URL: https://santrikoding.com
+- Description: Belajar koding bahasa indonesia terlengkap dan mudah dipahami seperti Laravel, CodeIgniter, Vue JS, JavaScript dan masih banyak lagi.
+- Topic Tags: PHP, CodeIgniter, Laravel, SysAdmin, Database, JavaScript, dan lain-lain.
+- Business Model: FREEMIUM
+- Rating:
 
 ---
 
