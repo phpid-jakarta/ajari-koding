@@ -23,7 +23,6 @@
 - Tipe: Video, Blog
 - Deskripsi: bla..bla..bla..
 
-
 ---
 
 Copyright © 2020, dipersembahkan oleh tim PHPID untuk 🇮🇩
