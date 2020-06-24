@@ -33,7 +33,7 @@
 - Creator: Fika Ridaul Maulayya
 - URL: https://santrikoding.com
 - Description: Belajar koding bahasa indonesia terlengkap dan mudah dipahami seperti Laravel, CodeIgniter, Vue JS, JavaScript dan masih banyak lagi.
-- Topic Tags: PHP, CodeIgniter, Laravel, SysAdmin, Database, JavaScript, dan lain-lain.
+- Topic Tags: PHP, CodeIgniter, Laravel, SysAdmin, Database, JavaScript
 - Business Model: FREEMIUM
 - Tipe: VIDEO
 - Rating:
