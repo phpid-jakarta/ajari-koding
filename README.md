@@ -1,4 +1,4 @@
-# Ajari-Koding
+# Ajari Koding
 
 ![PHPID](https://img.shields.io/badge/Dikurasi_Oleh-PHPID_Community-blue?cacheSeconds=604800)
 
