@@ -14,7 +14,7 @@
 
 ## Daftar sumber daya yang telah selesai dikurasi
 
-### https://santrikoding.com
+### Santri Koding
 
 - Creator: Fika Ridaul Maulayya
 - URL: https://santrikoding.com
