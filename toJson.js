@@ -23,13 +23,12 @@ const main = async () => {
 				const t = itemSplit[0].trim().toLowerCase().replace(/\s/g, '_');
 				if (t === 'website' || t === 'url') {
 					formatteddata[t] = item.replace(/website:/gi, '').replace(/url:/gi, '').trim();
+				} else if (t === 'topic_tags' || t === 'topic' || t === 'tags') {
+					const v = itemSplit[1].trim();
+					formatteddata[t] = v.split(',').map(i => i.trim());
 				} else {
 					const v = itemSplit[1].trim();
-					if (v.includes(',')) {
-						formatteddata[t] = v.split(',');
-					} else {
-						formatteddata[t] = v;
-					}
+					formatteddata[t] = v;
 				}
 			})
 
@@ -61,9 +60,31 @@ const main = async () => {
       `module.exports = ${JSON.stringify(fileContent)}`,
       function (err) {
         if (err) {
-          return console.log('❌ Error write file data.json', err);
+          return console.log('❌ Error write file data.js', err);
         }
-        console.log('✅ Success write file data.json');
+        console.log('✅ Success write file data.js');
+      }
+		);
+
+		fs.writeFile(
+      path.resolve('./data-es.js'),
+      `export default ${JSON.stringify(fileContent)}`,
+      function (err) {
+        if (err) {
+          return console.log('❌ Error write file data-es.js', err);
+        }
+        console.log('✅ Success write file data-es.js');
+      }
+		);
+
+		fs.writeFile(
+      path.resolve('./src/data-es.js'),
+      `export default ${JSON.stringify(fileContent)}`,
+      function (err) {
+        if (err) {
+          return console.log('❌ Error write file src/data-es.js', err);
+        }
+        console.log('✅ Success write file src/data-es.js');
       }
     );
   } catch (error) {

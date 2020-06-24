@@ -1,13 +1,10 @@
 name: Generate JSON
-
-on:
+'on':
   push:
     branches:
       - master
-
 jobs:
   generate_json:
-
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -15,38 +12,39 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
-
       - name: Use node 12
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
-
       - name: Get yarn cache
         id: yarn-cache
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-
+        run: 'echo "::set-output name=dir::$(yarn cache dir)"'
       - name: Cache Node.js modules
         uses: actions/cache@v1
         with:
-          path: ${{ steps.yarn-cache.outputs.dir }}
-          key: ${{ runner.OS }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          path: '${{ steps.yarn-cache.outputs.dir }}'
+          key: '${{ runner.OS }}-yarn-${{ hashFiles(''**/yarn.lock'') }}'
           restore-keys: |
             ${{ runner.OS }}-yarn-
       - name: Install dependencies
         run: yarn
-
       - name: Generate file json
         run: yarn toJson
-
       - name: Commit files report
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "Github Actions"
           git add -A
           git commit -m "[Github Actions]: Generate json file"
-
       - name: GitHub Push
         uses: ad-m/github-push-action@v0.5.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: '${{ secrets.GITHUB_TOKEN }}'
           force: true
+      - name: Build UI
+        run: yarn build
+      - name: GitHub Pages Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: '${{ secrets.PERSONAL_TOKEN }}'
+          publish_dir: ./public
