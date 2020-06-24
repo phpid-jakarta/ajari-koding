@@ -8,6 +8,7 @@
 
 - Urutkan setiap item berdasarkan abjad
 - Ikuti format yang telah tersedia
+- Jelaskan Business Model sesuai dengan pilihan yang kami telah sediakan, yakni `Gratis tanpa iklan`, `Gratis dengan iklan`, `Gratis dan berbayar`, `Berbayar`
 - Semua item akan dikurasi terlebih dahulu oleh tim PHPID, keputusan tim adalah mutlak
 
 ## Video
@@ -15,7 +16,7 @@
 ### KawanKoding
 
 - Website: https://www.kawankoding.id/
-- Business Model: FREE No Ads
+- Business Model: Gratis tanpa iklan
 - Rating : * * * * *
 - Topik: Laravel, Web, PHP
 - Deskripsi: bla..bla..bla..
