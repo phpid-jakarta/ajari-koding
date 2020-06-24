@@ -12,6 +12,8 @@
 - Rating akan disematakan oleh tim kurasi dari PHPID
 - Semua item akan dikurasi terlebih dahulu oleh tim PHPID, keputusan tim adalah mutlak
 
+## Daftar sumber daya yang terlah selesai dikurasi
+
 ### KawanKoding
 
 - Website: https://www.kawankoding.id/
