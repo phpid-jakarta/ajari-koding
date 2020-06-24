@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../../App.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n\timport Hero from './components/Hero.svelte';\n\timport CardItem from './components/CardItem.svelte';\n\timport Footer from './components/Footer.svelte';\n\n\texport let data;\n</script>\n\n<main class=\"app\">\n\t<Hero />\n\n\t<section class=\"app-content container mt-5 mb-5\">\n\t\t{#if data.awesome_list}\n\t\t\t<div class=\"row justify-content-center\">\n\t\t\t\t{#each data.awesome_list as item, i}\n\t\t\t\t\t<CardItem {item} />\n\t\t\t\t{/each}\n\t\t\t</div>\n\t\t{/if}\n\t</section>\n\n\t<Footer />\n</main>\n\n<style>\n.app-content {\n\tmin-height: 70vh;\n}\n</style>\n"
+  ],
+  "names": [],
+  "mappings": "AAyBA,YAAY,cAAC,CAAC,AACb,UAAU,CAAE,IAAI,AACjB,CAAC"
+}
