@@ -8,9 +8,22 @@
 
 - Urutkan setiap item berdasarkan abjad
 - Ikuti format yang telah tersedia
-- Jelaskan Business Model sesuai dengan pilihan yang kami telah sediakan, yakni `Gratis tanpa iklan`, `Gratis dengan iklan`, `Gratis dan berbayar`, `Berbayar`
+- Jelaskan Business Model sesuai dengan pilihan yang kami telah sediakan, yakni `FREE No Ads`, `FREE with Ads`, `FREE TRIAL`, `FREEMIUM`, `MEMBERSHIP`
 - Rating akan disematakan oleh tim kurasi dari PHPID
 - Semua item akan dikurasi terlebih dahulu oleh tim PHPID, keputusan tim adalah mutlak
+
+## Template
+
+```
+### Nama Produk
+
+- Creator: Nama pembuat atau tim
+- URL: Alamat website/apps
+- Description: Deskripsi singkat
+- Topic Tags: Tags
+- Business Model: FREE No Ads | FREE with Ads | FREE TRIAL | FREEMIUM | MEMBERSHIP
+- Rating:
+```
 
 ## Daftar sumber daya yang telah selesai dikurasi
 
