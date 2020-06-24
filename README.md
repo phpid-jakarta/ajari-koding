@@ -22,6 +22,7 @@
 - Description: Deskripsi singkat
 - Topic Tags: Tags
 - Business Model: FREE No Ads | FREE with Ads | FREE TRIAL | FREEMIUM | MEMBERSHIP
+- Tipe: VIDEO | BLOG | EBOOK
 - Rating:
 ```
 
@@ -34,6 +35,7 @@
 - Description: Belajar koding bahasa indonesia terlengkap dan mudah dipahami seperti Laravel, CodeIgniter, Vue JS, JavaScript dan masih banyak lagi.
 - Topic Tags: PHP, CodeIgniter, Laravel, SysAdmin, Database, JavaScript, dan lain-lain.
 - Business Model: FREEMIUM
+- Tipe: VIDEO
 - Rating:
 
 ---
