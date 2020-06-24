@@ -21,8 +21,8 @@ const main = async () => {
 				// website doesn't work to split with :
 				const itemSplit = item.split(':');
 				const t = itemSplit[0].trim().toLowerCase().replace(/\s/g, '_');
-				if (t === 'website') {
-					formatteddata[t] = item.replace(/website:/gi, '').trim();
+				if (t === 'website' || t === 'url') {
+					formatteddata[t] = item.replace(/website:/gi, '').replace(/url:/gi, '').trim();
 				} else {
 					const v = itemSplit[1].trim();
 					if (v.includes(',')) {
