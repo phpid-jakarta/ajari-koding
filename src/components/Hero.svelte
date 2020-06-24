@@ -5,7 +5,7 @@
 			<h2 class="text-muted">oleh PHPID</h2>
 			<p class="mt-3 text-light">Kumpulan berbagai sumber daya untuk belajar koding hasil karya para kreator lokal yang terpercaya dan telah dikurasi oleh komunitas PHPID</p>
 
-			<a href="https://github.com/phpid-jakarta/ajari-koding" target="_blank" rel="noopener noreferrer" class="btn btn-light">Ikut Berkontibusi</a>
+			<a href="https://github.com/phpid-jakarta/ajari-koding" target="_blank" rel="noopener noreferrer" class="btn btn-light">Yuk Berkontribusi</a>
 		</div>
 	</div>
 </header>
