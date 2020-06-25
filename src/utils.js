@@ -49,7 +49,7 @@ export const getDistinctTags = (allItems) => {
 		});
 	});
 
-  const sortedTags = (Array.from(tags)).sort((a, b) => tagsWithCount[a] > tagsWithCount[b]);
+  const sortedTags = (Array.from(tags)).sort((a, b) => tagsWithCount[b] - tagsWithCount[a]);
 
   return {
 		tags: sortedTags,
