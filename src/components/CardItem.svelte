@@ -11,7 +11,7 @@
 			<p class="card-text">{item.description}</p>
 			<Tags topic_tags={item.topic_tags} />
 
-			<a href="{item.url}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Pelajari</a>
+			<a href="{item.url}?utm_source=ajari-koding&utm_medium=website&utm_campaign=phpid" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Kunjungi</a>
 		</div>
 	</div>
 </div>
