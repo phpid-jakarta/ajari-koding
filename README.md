@@ -2,7 +2,7 @@
 
 ![PHPID](https://img.shields.io/badge/Dikurasi_Oleh-PHPID_Community-blue?cacheSeconds=604800)
 
-📚 Kumpulan berbagai sumber daya untuk belajar koding hasil karya para kreator lokal yang terpercaya dan telah dikurasi oleh komunitas PHPID
+📚 Kumpulan berbagai sumber daya untuk belajar koding dari hasil karya para kreator lokal yang terpercaya dan telah dikurasi oleh komunitas PHPID
 
 ## Panduan Berkontribusi
 
