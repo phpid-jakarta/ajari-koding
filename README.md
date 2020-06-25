@@ -35,7 +35,7 @@ Diurutkan berdasarkan abjad
 - Creator: Moch Diki Widianto
 - URL : https://www.youtube.com/channel/UCHCeXVac9AsNvOCkqYE4UtA
 - Description: Channel berbagi informasi dan pengetahuan dunia teknologi informasi dengan menggunakan Bahasa Indonesia.
-- Topic Tags: HTML, CSS, Javascript, PHP, Laravel, Git, Tips & Trik, Programming, Full Stack Developer
+- Topic Tags: HTML, CSS, JavaScript, PHP, Laravel, Git, Tips Trik, Programming, Full Stack
 - Business Model: FREE No Ads
 - Tipe: VIDEO
 - Rating:
@@ -45,7 +45,7 @@ Diurutkan berdasarkan abjad
 - Creator: Kresna Galuh
 - URL: www.codepolitan.com
 - Description: Semua yang kamu butuhkan untuk memulai belajar coding dan meningkatkan keahlian codingmu hingga mahir dengan alur belajar yang super jelas dan terarah.
-- Topic Tags: Fullstack Web Developer, Laravel, CodeIgniter, Web, PHP, JavaScript, Android, Belajar Studi Kasus
+- Topic Tags: Full Stack, Laravel, CodeIgniter, Web, PHP, JavaScript, Android
 - Business Model: MEMBERSHIP
 - Tipe: PORTAL
 - Rating: 5
@@ -55,7 +55,7 @@ Diurutkan berdasarkan abjad
 - Creator: Anugrah Sandi
 - URL: https://daengweb.id
 - Description: Belajar pemrograman dengan study case.
-- Topic Tags: PHP, Laravel, Flutter, VueJS, Tips & Trik
+- Topic Tags: PHP, Laravel, Flutter, VueJS, Tips Trik
 - Business Model: FREE With Ads
 - Tipe: BLOG
 - Rating:
@@ -66,7 +66,7 @@ Diurutkan berdasarkan abjad
 - URL : https://www.youtube.com/c/DeaVenditama
 - Medium : https://medium.com/@deavenditama
 - Description : Coding Tutorial and Random Things about Technology
-- Topic Tags : Tutorial, Web, PHP, Codeigniter, Yii, Python, Machine Learning, Data Science
+- Topic Tags : Web, PHP, CodeIgniter, Yii, Python, Machine Learning, Data Science
 - Business Model: FREE No Ads (for now)
 - Tipe: VIDEO
 - Rating:
@@ -76,7 +76,7 @@ Diurutkan berdasarkan abjad
 - Creator : Didik Kurniawan
 - URL : https://youtube.com/didikmakaryo
 - Description : Bahas materi-materi kuliah S1-Teknik Informatika yang dikemas secara simple agar lebih mudah dipahami.
-- Topic Tags : Komputer , Opini IT , PHP , HTML , database
+- Topic Tags : Opini, PHP, HTML, Database
 - Business Model : FREE No Ads
 - Tipe: VIDEO
 - Rating:
@@ -96,7 +96,7 @@ Diurutkan berdasarkan abjad
 - Creator: Achmad Mardiansyah
 - URL: https://www.glcnetworks.com
 - Description: organisasi yang menyediakan jasa training dan solusi IT (aplikasi, networking, system dan automation), ada free webinar dan rekamannya diupload ke youtube
-- Topic Tags: HTML, CSS, JavaScript, PHP, python, django, shell script, CodeIgniter, SQL, GIT, Laravel, Git, networking, sysadmin, radius, billing dan automation.
+- Topic Tags: HTML, CSS, JavaScript, PHP, Python, Django, Shell Script, CodeIgniter, SQL, GIT, Laravel, Git, Networking, SysAdmin, Radius
 - Business Model: paid services with free webinars/consultation
 - Tipe: PORTAL
 - Rating:
@@ -106,7 +106,7 @@ Diurutkan berdasarkan abjad
 - Creator: Hendri Pemenang
 - URL : https://www.youtube.com/hobikomputer
 - Description: Channel Youtube Pembelajaran dan Berbagi Ilmu Web Developer untuk Front End, Back End, FULL STACK DEVELOPER, Dev Ops, Web Design & Web Programming Dasar.
-- Topic Tags: HTML, CSS, Javascript, PHP, Laravel, Git, Tips & Trik, Programming, Web Design, Modern Web, Front End Dev, Full Stack Developer
+- Topic Tags: HTML, CSS, JavaScript, PHP, Laravel, Git, Tips Trik, Design, Web, Front End, Full Stack
 - Business Model: FREE No Ads
 - Tipe: VIDEO
 - Rating:
@@ -116,7 +116,7 @@ Diurutkan berdasarkan abjad
 - Creator: Harry Setya Hadi
 - URL: https://www.youtube.com/c/H4nkTech
 - Description: Berbagi seputar Tutotrial Komputer yang meliputi Pemograman, Jaringan, Video Editing, Tips dan Trik, Seputar kegiatan Dunia Kampus
-- Topic Tags: Database, Serivice, PHP, Codeigniter, HTML,Project, Filmora
+- Topic Tags: Database, PHP, CodeIgniter, HTML, Filmora
 - Business Model: FREE No Ads
 - Tipe: VIDEO
 - Rating:
@@ -136,7 +136,7 @@ Diurutkan berdasarkan abjad
 - Creator: Muhammad Amirul Ihsan
 - URL: https://kawankoding.id
 - Description: Tempatnya Belajar Laravel
-- Topic Tags: PHP, Laravel, Tips
+- Topic Tags: PHP, Laravel, Tips Trik
 - Business Model: FREE With Ads
 - Tipe: BLOG
 - Rating:
@@ -146,7 +146,7 @@ Diurutkan berdasarkan abjad
 - Creator: Ilham Julian Efendi
 - URL : https://www.youtube.com/channel/UCEzN0oBll3dQga-9z88heyA
 - Description: Berbagi tutorial pemrograman web dan mobile dan segala sesuatu yang menarik seputar dunia IT.
-- Topic Tags: PHP, CodeIgniter, Laravel, Flutter, git, github, Android, Database, Tips
+- Topic Tags: PHP, CodeIgniter, Laravel, Flutter, Git, Android, Database, Tips Trik
 - Business Model: FREE With Ads
 - Tipe: VIDEO
 - Rating:
@@ -156,7 +156,7 @@ Diurutkan berdasarkan abjad
 - Creator: Rizaldi Maulidia Achmad
 - URL: https://www.mynotescode.com
 - Description: My Notes Code adalah sebuah blog yang berisi mengenai kumpulan catatan seputar pemograman seperti tutorial, tips, trik, dan pemecahan masalah beserta solusinya
-- Topic Tags: PHP, Codeigniter, Laravel, jQuery, Tips & Trik
+- Topic Tags: PHP, CodeIgniter, Laravel, jQuery, Tips Trik
 - Business Model: FREE With Ads
 - Tipe: BLOG
 - Rating:
@@ -166,7 +166,7 @@ Diurutkan berdasarkan abjad
 - Creator: Muhammad Fahriansyah & M Iqbal Maulana
 - URL: https://www.youtube.com/c/Ngodingers/featured
 - Description: Ngodingers bertujuan untuk memberikan konten pemrograman dengan Bahasa Indonesia, agar lebih mudah dalam dipahamai dan diaplikasikan dalam kehidupan.
-- Topic Tags: NodeJs, Golang, Aritificial Intelligence, OpenCV, Deep Learning, Machine Learning, Data Sience, Fullstack Developer, PHP, JavaScript
+- Topic Tags: NodeJS, Golang, AI, OpenCV, Deep Learning, Machine Learning, Data Sience, Full Stack, PHP, JavaScript
 - Bussines Model: FREE with Ads
 - Tipe: VIDEO
 - Rating:
@@ -186,7 +186,7 @@ Diurutkan berdasarkan abjad
 - Creator: Asep Komarudin
 - URL: https://www.youtube.com/pojokcode
 - Description: Tutorial SQL dan Pemprograman
-- Topic Tags: PHP, Java, MySQL,MariaDB, SQL Server, Oracle
+- Topic Tags: PHP, Java, MySQL, MariaDB, SQL Server, Oracle
 - Business Model: FREE With Ads
 - Tipe: VIDEO
 - Rating:
@@ -206,7 +206,7 @@ Diurutkan berdasarkan abjad
 - Creator: Rio Astamal
 - URL: https://teknocerdas.com/
 - Description: TeknoCerdas.com adalah sebuah portal berita teknologi informasi yang membahas cloud computing dan tutorial programming
-- Topic Tags: cloud computing, programming, security, aws, gcp, azure
+- Topic Tags: Cloud, Security, AWS, GCP, Azure
 - Business Model: Free with Ads
 - Tipe: BLOG
 - Rating:
@@ -216,7 +216,7 @@ Diurutkan berdasarkan abjad
 - Creator: Victor Silalahi
 - URL: https://www.youtube.com/c/VictorSilalahi
 - Description: Video pembelajaran programming di javascript dan python
-- Topic Tags: Javascript, Jquery, Threejs, Visjs, Chartjs, plotlyjs, babylonjs, Python, Matplotlib, MySQL, Tkinter, socket, Data Visualization, Graph, 3D
+- Topic Tags: JavaScript, jQuery, ThreeJS, VisJS, ChartJS, PlotlyJS, BabylonJS, Python, Matplotlib, MySQL, Tkinter, Socket, Data Visualization, Graph, 3D
 - Business Model: FREE No Ads
 - Tipe: VIDEO
 - Rating:
@@ -226,7 +226,7 @@ Diurutkan berdasarkan abjad
 - Creator: Aris Samsudin
 - URL: https://www.warungbelajar.com
 - Description: Sebuah Blog yang berisi mengenai tutorial dibidang teknologi, seperti Tutorial Pemrograman, penggunaan aplikasi komputer, dan smartphone.
-- Topic Tags: CMS Wordpress, HTML, CSS, Bootstrap, PHP, Codeigniter, Tips & Trik
+- Topic Tags: CMS Wordpress, HTML, CSS, Bootstrap, PHP, CodeIgniter, Tips Trik
 - Business Model: FREE With Ads
 - Tipe: BLOG
 - Rating:
@@ -236,7 +236,7 @@ Diurutkan berdasarkan abjad
 - Creator: Sandhika Galih
 - URL: https://youtube.com/webprogrammingunpas
 - Description: Channel Youtube Pembelajaran Web Design & Web Programming Dasar
-- Topic Tags: HTML, CSS, JavaScript, PHP, CodeIgniter, Laravel, Git, Tips & Trik, Programming, Web Design
+- Topic Tags: HTML, CSS, JavaScript, PHP, CodeIgniter, Laravel, Git, Tips Trik, Design
 - Business Model: FREE With Ads
 - Tipe: VIDEO
 - Rating: 5
@@ -246,7 +246,7 @@ Diurutkan berdasarkan abjad
 - Creator: M. Nur Fawaiq
 - URL: https://youtube.com/yukcoding2
 - Description: Berbagi tutorial pemrograman gratis dan tips trik menarik seputar dunia IT.
-- Topic Tags: PHP, CodeIgniter, Laravel, Android, Database, Tips & Trik
+- Topic Tags: PHP, CodeIgniter, Laravel, Android, Database, Tips Trik
 - Business Model: FREE With Ads
 - Tipe: VIDEO
 - Rating:
