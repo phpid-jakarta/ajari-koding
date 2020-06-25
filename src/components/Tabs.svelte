@@ -1,7 +1,8 @@
 <script>
+  import TabIcon from "./TabIcon.svelte";
   import { createEventDispatcher } from "svelte";
   import { FILTERS } from "../constant.js";
-	export let activeFilter;
+  export let activeFilter;
 
   const dispatch = createEventDispatcher();
 
@@ -26,6 +27,7 @@
           aria-current="page"
           href="?"
           on:click={e => doFilter(e, f)}>
+          <TabIcon {f} />
           {f}
         </a>
       </li>
@@ -35,6 +37,7 @@
           class="nav-link text-capitalize"
           href="?tipe={f}"
           on:click={e => doFilter(e, f)}>
+          <TabIcon {f} />
           {f}
         </a>
       </li>

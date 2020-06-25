@@ -20,6 +20,6 @@
     type="text"
     class="form-control"
     id="txt-search"
-    placeholder="Ketik kata kunci untuk mencari..."
+    placeholder="Ketik apa saja yang ingin dipelajari?"
     on:change={doSearch} />
 </div>

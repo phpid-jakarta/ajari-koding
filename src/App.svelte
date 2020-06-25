@@ -5,6 +5,7 @@
   import TagsCloud from "./components/TagsCloud.svelte";
   import CardItem from "./components/CardItem.svelte";
   import Footer from "./components/Footer.svelte";
+  import Empty from "./components/Empty.svelte";
   import { FILTER_ITEMS } from "./constant.js";
   import { getDistinctTags, isHaveTag } from "./utils.js";
 
@@ -35,7 +36,8 @@
           i.title.toLowerCase().includes(searchKeyword) ||
           i.creator.toLowerCase().includes(searchKeyword) ||
           i.description.toLowerCase().includes(searchKeyword) ||
-          i.url.toLowerCase().includes(searchKeyword)
+          i.url.toLowerCase().includes(searchKeyword) ||
+          isHaveTag(i, searchKeyword)
       );
     }
   };
@@ -58,13 +60,15 @@
   <section class="app-content container mt-5 mb-5">
     <Tabs {activeFilter} on:filter={handleFilter} />
     <Search on:search={handleSearch} />
-    <TagsCloud {allTags} on:tagclick={handleClickTag} />
     {#if showData.length > 0}
+      <TagsCloud {allTags} on:tagclick={handleClickTag} />
       <div class="row justify-content-center gx-3 gy-3">
         {#each showData as item, i}
           <CardItem {item} />
         {/each}
       </div>
+    {:else}
+      <Empty />
     {/if}
   </section>
 
