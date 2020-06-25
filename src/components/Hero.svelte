@@ -9,7 +9,7 @@
                         
                         <p>
 			  <a href="https://github.com/phpid-jakarta/ajari-koding" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light">Yuk bantu kami</a>
-                          <a href="https://github.com/phpid-jakarta/ajari-koding/issues/new" target="_blank" rel="noopener noreferrer" class="btn btn-light">Tambahkan data baru</a>
+                          <a href="https://github.com/phpid-jakarta/ajari-koding/issues/new?assignees=%40mazipan&labels=data-proposal&template=add_new_data.md&title=New+Data+-+Nama+Produk" target="_blank" rel="noopener noreferrer" class="btn btn-light">Tambahkan data baru</a>
                         </p>
 		</div>
 	</div>
