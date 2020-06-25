@@ -222,31 +222,31 @@
 
 ### WARUNG BELAJAR
 
-Creator: Aris Samsudin
-Website/URL: https://www.warungbelajar.com
-Description: Sebuah Blog yang berisi mengenai tutorial dibidang teknologi, seperti Tutorial Pemrograman, penggunaan aplikasi komputer, dan smartphone.
-Topic Tags: CMS Wordpress, HTML, CSS, Bootstrap, PHP, Codeigniter, Tips & Trik
-Business Model: FREE With Ads
+- Creator: Aris Samsudin
+- Website/URL: https://www.warungbelajar.com
+- Description: Sebuah Blog yang berisi mengenai tutorial dibidang teknologi, seperti Tutorial Pemrograman, penggunaan aplikasi komputer, dan smartphone.
+- Topic Tags: CMS Wordpress, HTML, CSS, Bootstrap, PHP, Codeigniter, Tips & Trik
+- Business Model: FREE With Ads
 - Tipe: BLOG
 - Rating:
 
 ### BADUYTECH SOLUTIONS
 
-Creator/ Founder Name: Moch Diki Widianto
-Website/URL : https://www.youtube.com/channel/UCHCeXVac9AsNvOCkqYE4UtA
-Description: Channel berbagi informasi dan pengetahuan dunia teknologi informasi dengan menggunakan Bahasa Indonesia.
-Topic Tags: HTML, CSS, Javascript, PHP, Laravel, Git, Tips & Trik, Programming, Full Stack Developer.
-Business Model: FREE No Ads
+- Creator/ Founder Name: Moch Diki Widianto
+- Website/URL : https://www.youtube.com/channel/UCHCeXVac9AsNvOCkqYE4UtA
+- Description: Channel berbagi informasi dan pengetahuan dunia teknologi informasi dengan menggunakan Bahasa Indonesia.
+- Topic Tags: HTML, CSS, Javascript, PHP, Laravel, Git, Tips & Trik, Programming, Full Stack Developer.
+- Business Model: FREE No Ads
 - Tipe: VIDEO
 - Rating:
 
 ### PETANI KODE
 
-Founder Name: Ahmad Muhardian
-Website/URL: www.petanikode.com
-Description: Tempat belajar budidaya kode.
-Topic Tags: Javascript, Java, PHP, Python, Git, C, C++
-Business Model: Free with Ads
+- Founder Name: Ahmad Muhardian
+- Website/URL: www.petanikode.com
+- Description: Tempat belajar budidaya kode.
+- Topic Tags: Javascript, Java, PHP, Python, Git, C, C++
+- Business Model: Free with Ads
 - Tipe: VIDEO
 - Rating:
 
