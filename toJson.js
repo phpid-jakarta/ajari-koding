@@ -25,7 +25,7 @@ const main = async () => {
 					formatteddata['url'] = item.replace(/website:/gi, '').replace(/url:/gi, '').trim();
 				} else if (t === 'topic_tags' || t === 'topic' || t === 'tags' || t === 'topik') {
 					const v = itemSplit[1].trim();
-					formatteddata['topic_tags'] = v.split(',').map(i => i.trim().toLowerCase().replace(/\./g, ''));
+					formatteddata['topic_tags'] = v.split(',').map(i => i.trim().toLowerCase().replace(/\./g, '')).sort();
 				} else {
 					const v = itemSplit[1].trim();
 					formatteddata[t] = v;
