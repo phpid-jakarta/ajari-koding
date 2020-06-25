@@ -38,7 +38,7 @@ Diurutkan berdasarkan abjad
 - Topic Tags: HTML, CSS, JavaScript, PHP, Laravel, Git, Tips Trik, Programming, Full Stack
 - Business Model: FREE No Ads
 - Tipe: VIDEO
-- Rating:
+- Rating: 0
 
 ### CODEPOLITAN
 
@@ -48,7 +48,7 @@ Diurutkan berdasarkan abjad
 - Topic Tags: Full Stack, Laravel, CodeIgniter, Web, PHP, JavaScript, Android
 - Business Model: MEMBERSHIP
 - Tipe: PORTAL
-- Rating: 5
+- Rating: 0
 
 ### DAENG WEB
 
@@ -58,7 +58,7 @@ Diurutkan berdasarkan abjad
 - Topic Tags: PHP, Laravel, Flutter, VueJS, Tips Trik
 - Business Model: FREE With Ads
 - Tipe: BLOG
-- Rating:
+- Rating: 0
 
 ### DEA VENDITAMA
 
@@ -69,7 +69,7 @@ Diurutkan berdasarkan abjad
 - Topic Tags : Web, PHP, CodeIgniter, Yii, Python, Machine Learning, Data Science
 - Business Model: FREE No Ads (for now)
 - Tipe: VIDEO
-- Rating:
+- Rating: 0
 
 ### DIDIK MAKARYO
 
@@ -79,7 +79,7 @@ Diurutkan berdasarkan abjad
 - Topic Tags : Opini, PHP, HTML, Database
 - Business Model : FREE No Ads
 - Tipe: VIDEO
-- Rating:
+- Rating: 0
 
 ### ELRUSTA STUDIO
 
@@ -89,7 +89,7 @@ Diurutkan berdasarkan abjad
 - Topic Tags: HTML, CSS, JavaScript, PHP, CodeIgniter, Angular, Ionic
 - Business Model: FREE With Ads
 - Tipe: VIDEO
-- Rating:
+- Rating: 0
 
 ### GLC NETWORKS
 
@@ -99,7 +99,7 @@ Diurutkan berdasarkan abjad
 - Topic Tags: HTML, CSS, JavaScript, PHP, Python, Django, Shell Script, CodeIgniter, SQL, GIT, Laravel, Git, Networking, SysAdmin, Radius
 - Business Model: paid services with free webinars/consultation
 - Tipe: PORTAL
-- Rating:
+- Rating: 0
 
 ### HOBI KOMPUTER
 
@@ -109,7 +109,7 @@ Diurutkan berdasarkan abjad
 - Topic Tags: HTML, CSS, JavaScript, PHP, Laravel, Git, Tips Trik, Design, Web, Front End, Full Stack
 - Business Model: FREE No Ads
 - Tipe: VIDEO
-- Rating:
+- Rating: 0
 
 ### H4NK TECH
 
@@ -119,7 +119,7 @@ Diurutkan berdasarkan abjad
 - Topic Tags: Database, PHP, CodeIgniter, HTML, Filmora
 - Business Model: FREE No Ads
 - Tipe: VIDEO
-- Rating:
+- Rating: 0
 
 ### ID STACK
 
@@ -129,7 +129,7 @@ Diurutkan berdasarkan abjad
 - Topic Tags: PHP, JavaScript, Laravel, VueJS, NodeJS
 - Business Model: FREE, MEMBERSHIP
 - Tipe: BLOG
-- Rating:
+- Rating: 0
 
 ### KAWAN KODING
 
@@ -139,7 +139,7 @@ Diurutkan berdasarkan abjad
 - Topic Tags: PHP, Laravel, Tips Trik
 - Business Model: FREE With Ads
 - Tipe: BLOG
-- Rating:
+- Rating: 0
 
 ### KENDARI KODING
 
@@ -149,7 +149,17 @@ Diurutkan berdasarkan abjad
 - Topic Tags: PHP, CodeIgniter, Laravel, Flutter, Git, Android, Database, Tips Trik
 - Business Model: FREE With Ads
 - Tipe: VIDEO
-- Rating:
+- Rating: 0
+
+### LAZDAY
+
+- Creator: Muhammad Irsyad
+- URL: https://youtube.com/c/lazdayindonesia
+- Description: Video Tutorial Android Kotlin, Flutter & Java
+- Topic Tags: android, kotlin, flutter, java
+- Business Model: FREE with Ads
+- Tipe: VIDEO
+- Rating: 0
 
 ### MY NOTES CODE
 
@@ -159,7 +169,7 @@ Diurutkan berdasarkan abjad
 - Topic Tags: PHP, CodeIgniter, Laravel, jQuery, Tips Trik
 - Business Model: FREE With Ads
 - Tipe: BLOG
-- Rating:
+- Rating: 0
 
 ### NGODINGERS
 
@@ -169,7 +179,7 @@ Diurutkan berdasarkan abjad
 - Topic Tags: NodeJS, Golang, AI, OpenCV, Deep Learning, Machine Learning, Data Sience, Full Stack, PHP, JavaScript
 - Bussines Model: FREE with Ads
 - Tipe: VIDEO
-- Rating:
+- Rating: 0
 
 ### PETANI KODE
 
@@ -179,7 +189,7 @@ Diurutkan berdasarkan abjad
 - Topic Tags: JavaScript, Java, PHP, Python, Git, C, C++
 - Business Model: FREE with Ads
 - Tipe: VIDEO
-- Rating:
+- Rating: 0
 
 ### POJOK CODE
 
@@ -189,7 +199,7 @@ Diurutkan berdasarkan abjad
 - Topic Tags: PHP, Java, MySQL, MariaDB, SQL Server, Oracle
 - Business Model: FREE With Ads
 - Tipe: VIDEO
-- Rating:
+- Rating: 0
 
 ### SANTRI KODING
 
@@ -199,7 +209,7 @@ Diurutkan berdasarkan abjad
 - Topic Tags: PHP, CodeIgniter, Laravel, SysAdmin, Database, JavaScript
 - Business Model: FREEMIUM, MEMBERSHIP
 - Tipe: VIDEO
-- Rating:
+- Rating: 0
 
 ### TEKNO CERDAS
 
@@ -209,7 +219,7 @@ Diurutkan berdasarkan abjad
 - Topic Tags: Cloud, Security, AWS, GCP, Azure
 - Business Model: Free with Ads
 - Tipe: BLOG
-- Rating:
+- Rating: 0
 
 ### VICTOR SILALAHI
 
@@ -219,7 +229,7 @@ Diurutkan berdasarkan abjad
 - Topic Tags: JavaScript, jQuery, ThreeJS, VisJS, ChartJS, PlotlyJS, BabylonJS, Python, Matplotlib, MySQL, Tkinter, Socket, Data Visualization, Graph, 3D
 - Business Model: FREE No Ads
 - Tipe: VIDEO
-- Rating:
+- Rating: 0
 
 ### WARUNG BELAJAR
 
@@ -229,7 +239,7 @@ Diurutkan berdasarkan abjad
 - Topic Tags: CMS Wordpress, HTML, CSS, Bootstrap, PHP, CodeIgniter, Tips Trik
 - Business Model: FREE With Ads
 - Tipe: BLOG
-- Rating:
+- Rating: 0
 
 ### WEB PROGRAMMING UNPAS
 
@@ -239,7 +249,7 @@ Diurutkan berdasarkan abjad
 - Topic Tags: HTML, CSS, JavaScript, PHP, CodeIgniter, Laravel, Git, Tips Trik, Design
 - Business Model: FREE With Ads
 - Tipe: VIDEO
-- Rating: 5
+- Rating: 0
 
 ### YUK CODING
 
@@ -249,7 +259,7 @@ Diurutkan berdasarkan abjad
 - Topic Tags: PHP, CodeIgniter, Laravel, Android, Database, Tips Trik
 - Business Model: FREE With Ads
 - Tipe: VIDEO
-- Rating:
+- Rating: 0
 
 ---
 
