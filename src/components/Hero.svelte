@@ -6,8 +6,11 @@
 			<p class="mt-3 text-light">
 				Kumpulan berbagai sumber daya untuk belajar koding dari hasil karya para kreator lokal yang terpercaya dan telah dikurasi oleh komunitas PHPID
 			</p>
-
-			<a href="https://github.com/phpid-jakarta/ajari-koding" target="_blank" rel="noopener noreferrer" class="btn btn-light">Yuk Berkontribusi</a>
+                        
+                        <div class="row">
+			  <a href="https://github.com/phpid-jakarta/ajari-koding" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light">Yuk bantu kami</a>
+                          <a href="https://github.com/phpid-jakarta/ajari-koding/issues/new" target="_blank" rel="noopener noreferrer" class"btn btn-light">Tambahkan data baru</a>
+                        </div>
 		</div>
 	</div>
 </header>
