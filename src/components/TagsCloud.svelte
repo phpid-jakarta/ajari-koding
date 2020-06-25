@@ -25,7 +25,7 @@
       {#if item.isMapped}
         <button
           type="button"
-          class="btn mr-1"
+          class="btn mr-1 mb-1"
           style="background-color: {item.bg};color: {item.fg};"
           on:click={e => handleClick(e, item.tag)}>
           {item.tag}
@@ -34,7 +34,7 @@
       {:else}
         <button
           type="button"
-          class="btn mr-1 {item.classes}"
+          class="btn mr-1 mb-1 {item.classes}"
           on:click={e => handleClick(e, item.tag)}>
           {item.tag}
           <span class="badge bg-secondary">{allTags.withCount[item.tag]}</span>
