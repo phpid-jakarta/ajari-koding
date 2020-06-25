@@ -4,7 +4,7 @@
 
 📚 Kumpulan berbagai sumber daya untuk belajar koding dari hasil karya para kreator lokal yang terpercaya dan telah dikurasi oleh komunitas PHPID
 
-## :exclamation: Panduan Berkontribusi
+## ❗️ Panduan Berkontribusi
 
 - Urutkan setiap item berdasarkan abjad
 - Ikuti format yang telah tersedia
@@ -12,7 +12,7 @@
 - Rating akan disematakan oleh tim kurasi dari PHPID
 - Semua item akan dikurasi terlebih dahulu oleh tim PHPID, keputusan tim adalah mutlak
 
-## :memo: Template
+## 📝 Template
 
 ```
 ### Nama Produk
@@ -23,10 +23,10 @@
 - Topic Tags: Tags
 - Business Model: FREE No Ads | FREE with Ads | FREE TRIAL | FREEMIUM | MEMBERSHIP
 - Tipe: VIDEO | BLOG | PORTAL | EBOOK | CONTRIBUTOR
-- Rating:
+- Rating: 1-5
 ```
 
-##  :white_check_mark: Daftar sumber daya yang telah selesai dikurasi
+## ✅ Daftar sumber daya yang telah selesai dikurasi
 
 Diurutkan berdasarkan abjad
 
@@ -48,7 +48,7 @@ Diurutkan berdasarkan abjad
 - Topic Tags: Fullstack Web Developer, Laravel, CodeIgniter, Web, PHP, JavaScript, Android, Belajar Studi Kasus
 - Business Model: MEMBERSHIP
 - Tipe: PORTAL
-- Rating:
+- Rating: 5
 
 ### DAENG WEB
 
@@ -240,7 +240,7 @@ Diurutkan berdasarkan abjad
 - Topic Tags: HTML, CSS, JavaScript, PHP, CodeIgniter, Laravel, Git, Tips & Trik, Programming, Web Design
 - Business Model: FREE With Ads
 - Tipe: VIDEO
-- Rating:
+- Rating: 5
 
 ### YUK CODING
 
