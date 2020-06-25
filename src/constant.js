@@ -1,4 +1,4 @@
-export const TAG_CLASSES = ['bg-primary', 'bg-success', 'bg-danger', 'bg-warning text-dark', 'bg-info', 'bg-dark'];
+export const TAG_CLASSES = ['bg-primary', 'bg-success', 'bg-danger', 'bg-warning text-dark', 'bg-info', 'bg-dark text-light'];
 
 export const TAGS_MAPPING = {
 	php: {

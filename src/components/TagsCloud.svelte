@@ -20,7 +20,7 @@
 </style>
 
 <div class="mb-3">
-  {#if tags_w_color.length > 0}
+  {#if tags_w_color && tags_w_color.length > 0}
     {#each tags_w_color as item}
       {#if item.isMapped}
         <button

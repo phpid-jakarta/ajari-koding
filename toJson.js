@@ -22,10 +22,10 @@ const main = async () => {
 				const itemSplit = item.split(':');
 				const t = itemSplit[0].trim().toLowerCase().replace(/\s/g, '_');
 				if (t === 'website' || t === 'url') {
-					formatteddata[t] = item.replace(/website:/gi, '').replace(/url:/gi, '').trim();
-				} else if (t === 'topic_tags' || t === 'topic' || t === 'tags') {
+					formatteddata['url'] = item.replace(/website:/gi, '').replace(/url:/gi, '').trim();
+				} else if (t === 'topic_tags' || t === 'topic' || t === 'tags' || t === 'topik') {
 					const v = itemSplit[1].trim();
-					formatteddata[t] = v.split(',').map(i => i.trim());
+					formatteddata['topic_tags'] = v.split(',').map(i => i.trim().toLowerCase().replace(/\./g, ''));
 				} else {
 					const v = itemSplit[1].trim();
 					formatteddata[t] = v;

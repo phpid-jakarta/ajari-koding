@@ -185,7 +185,7 @@
 - Creator: Rio Astamal
 - URL: https://teknocerdas.com/
 - Description: TeknoCerdas.com adalah sebuah portal berita teknologi informasi yang membahas cloud computing dan tutorial programming.
-- Topik: cloud computing, programming, security, aws, gcp, azure
+- Topic Tags: cloud computing, programming, security, aws, gcp, azure
 - Business Model: Free with Ads
 - Tipe: BLOG
 - Rating:
@@ -203,7 +203,7 @@
 ### GLC NETWORKS
 
 - Creator/Founder Name: Achmad Mardiansyah
-- Website/URL: https://www.glcnetworks.com 
+- Website/URL: https://www.glcnetworks.com
 - Description: organisasi yang menyediakan jasa training dan solusi IT (aplikasi, networking, system dan automation), ada free webinar dan rekamannya diupload ke youtube
 - Topic Tags: HTML, CSS, Javascript, PHP, python, django, shell script, CodeIgniter, SQL, GIT, Laravel, Git, networking (cisco, mikrotik), sysadmin (linux, bsd), radius, billing dan automation.
 - Business Model: paid services with free webinars/consultation

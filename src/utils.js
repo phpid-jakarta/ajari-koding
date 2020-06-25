@@ -1,7 +1,7 @@
 import { TAG_CLASSES, TAGS_MAPPING } from './constant.js';
 
 export const getTagWithColor = (tags) => {
-  return tags.map((tag, i) => {
+  return tags && tags.map((tag, i) => {
     const dataMapping = TAGS_MAPPING[tag.toLowerCase()];
     if (dataMapping) {
       return {
@@ -33,7 +33,7 @@ export const getDistinctTags = (allItems) => {
 	let tags = new Set();
 	let tagsWithCount = {};
 	allItems.forEach(item => {
-		item.topic_tags.forEach(element => {
+		item.topic_tags && item.topic_tags.forEach(element => {
 			if (tags.has(element)) {
 				tagsWithCount = {
 					...tagsWithCount,
@@ -56,5 +56,5 @@ export const getDistinctTags = (allItems) => {
 };
 
 export const isHaveTag = (item, t) => {
-	return item.topic_tags.find(i => i.toLowerCase() === t)
+	return item.topic_tags && item.topic_tags.find(i => i.toLowerCase() === t)
 }
