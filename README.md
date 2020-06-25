@@ -43,7 +43,7 @@ Diurutkan berdasarkan abjad
 ### CODEPOLITAN
 
 - Creator: Kresna Galuh
-- URL: www.codepolitan.com
+- URL: https://www.codepolitan.com
 - Description: Semua yang kamu butuhkan untuk memulai belajar coding dan meningkatkan keahlian codingmu hingga mahir dengan alur belajar yang super jelas dan terarah.
 - Topic Tags: Full Stack, Laravel, CodeIgniter, Web, PHP, JavaScript, Android
 - Business Model: MEMBERSHIP
