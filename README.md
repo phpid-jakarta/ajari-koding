@@ -43,7 +43,7 @@
 - Creator: M. Nur Fawaiq
 - URL: https://youtube.com/yukcoding2
 - Description: Berbagi tutorial pemrograman gratis dan tips trik menarik seputar dunia IT.
-- Topic Tags: PHP, CodeIgniter, Laravel, Android, Database, Tips, dsb.
+- Topic Tags: PHP, CodeIgniter, Laravel, Android, Database, Tips & Trik
 - Business Model: FREE With Ads
 - Tipe: VIDEO
 - Rating:
@@ -53,7 +53,7 @@
 - Founder Name: Kresna Galuh
 - Website/URL: www.codepolitan.com
 - Description: Semua yang kamu butuhkan untuk memulai belajar coding dan meningkatkan keahlian codingmu hingga mahir dengan alur belajar yang super jelas dan terarah.
-- Topic Tags: Fullstack Web Developer, Laravel, CodeIgniter, Web, PHP, JS, Android, Belajar Studi Kasus
+- Topic Tags: Fullstack Web Developer, Laravel, CodeIgniter, Web, PHP, JavaScript, Android, Belajar Studi Kasus
 - Business Model: MEMBERSHIP
 - Tipe: PORTAL
 - Rating:
@@ -64,7 +64,7 @@
 - URL: https://www.youtube.com/c/Ngodingers/featured
 - Website: (masih dalam tahap develop)
 - Description: Ngodingers bertujuan untuk memberikan konten pemrograman dengan Bahasa Indonesia, agar lebih mudah dalam dipahamai dan diaplikasikan dalam kehidupan.
-- Topic Tags: Nodejs, Golang, Aritificial Intelligence, OpenCV, Deep Learning, Machine Learning, Data Sience, Fullstack Developer, PHP, JS
+- Topic Tags: NodeJs, Golang, Aritificial Intelligence, OpenCV, Deep Learning, Machine Learning, Data Sience, Fullstack Developer, PHP, JavaScript
 - Bussines Model: Free with Ads
 - Tipe: VIDEO
 - Rating:
@@ -74,7 +74,7 @@
 - Creator: Asep Komarudin
 - URL: https://www.youtube.com/pojokcode
 - Description: Tutorial SQL dan Pemprograman
-- Topic Tags: PHP, Java, MySQL,MariaDB, SQL Server , Oracle, dsb.
+- Topic Tags: PHP, Java, MySQL,MariaDB, SQL Server, Oracle
 - Business Model: FREE With Ads
 - Tipe: VIDEO
 - Rating:
@@ -84,7 +84,7 @@
 - Creator: Muhammad Amirul Ihsan
 - URL: https://kawankoding.id
 - Description: Tempatnya Belajar Laravel
-- Topic Tags: PHP, Laravel, Tips.
+- Topic Tags: PHP, Laravel, Tips
 - Business Model: FREE With Ads
 - Tipe: BLOG
 - Rating:
@@ -94,7 +94,7 @@
 - Creator: Ilham Julian Efendi
 - Url : https://www.youtube.com/channel/UCEzN0oBll3dQga-9z88heyA
 - Description: Berbagi tutorial pemrograman web dan mobile dan segala sesuatu yang menarik seputar dunia IT.
-- Topic Tags: PHP, CodeIgniter, Laravel, Flutter, git, github, Android, Database, Tips, dsb.
+- Topic Tags: PHP, CodeIgniter, Laravel, Flutter, git, github, Android, Database, Tips
 - Business Model: FREE With Ads
 - Tipe: VIDEO
 - Rating:
@@ -104,7 +104,7 @@
 - Creator: Anugrah Sandi
 - URL: https://daengweb.id
 - Description: Belajar pemrograman dengan study case.
-- Topic Tags: PHP, Laravel, Flutter, VueJS, Tips.
+- Topic Tags: PHP, Laravel, Flutter, VueJS, Tips & Trik
 - Business Model: FREE With Ads
 - Tipe: BLOG
 - Rating:
@@ -114,7 +114,7 @@
 - Creator/Founder Name: Sandhika Galih
 - Website/URL: https://youtube.com/webprogrammingunpas
 - Description: Channel Youtube Pembelajaran Web Design & Web Programming Dasar
-- Topic Tags: HTML, CSS, Javascript, PHP, CodeIgniter, Laravel, Git, Tips & Trik, Programming, Web Design
+- Topic Tags: HTML, CSS, JavaScript, PHP, CodeIgniter, Laravel, Git, Tips & Trik, Programming, Web Design
 - Business Model: FREE With Ads
 - Tipe: VIDEO
 - Rating:
@@ -123,7 +123,7 @@
 
 - Creator/Founder Name: Harry Setya Hadi
 - Website/URL: https://www.youtube.com/c/H4nkTech
-- Description: Berbagi seputar Tutotrial Komputer yang meliputi : Pemograman, Jaringan, Video Editing, Tips dan Trik dan Seputar kegiatan Dunia Kampus
+- Description: Berbagi seputar Tutotrial Komputer yang meliputi Pemograman, Jaringan, Video Editing, Tips dan Trik, Seputar kegiatan Dunia Kampus
 - Topic Tags: Database, Serivice, PHP, Codeigniter, HTML,Project, Filmora
 - Business Model: FREE No Ads
 - Tipe: VIDEO
@@ -184,7 +184,7 @@
 
 - Creator: Rio Astamal
 - URL: https://teknocerdas.com/
-- Description: TeknoCerdas.com adalah sebuah portal berita teknologi informasi yang membahas cloud computing dan tutorial programming.
+- Description: TeknoCerdas.com adalah sebuah portal berita teknologi informasi yang membahas cloud computing dan tutorial programming
 - Topic Tags: cloud computing, programming, security, aws, gcp, azure
 - Business Model: Free with Ads
 - Tipe: BLOG
@@ -205,7 +205,7 @@
 - Creator/Founder Name: Achmad Mardiansyah
 - Website/URL: https://www.glcnetworks.com
 - Description: organisasi yang menyediakan jasa training dan solusi IT (aplikasi, networking, system dan automation), ada free webinar dan rekamannya diupload ke youtube
-- Topic Tags: HTML, CSS, Javascript, PHP, python, django, shell script, CodeIgniter, SQL, GIT, Laravel, Git, networking (cisco, mikrotik), sysadmin (linux, bsd), radius, billing dan automation.
+- Topic Tags: HTML, CSS, JavaScript, PHP, python, django, shell script, CodeIgniter, SQL, GIT, Laravel, Git, networking, sysadmin, radius, billing dan automation.
 - Business Model: paid services with free webinars/consultation
 - Tipe: PORTAL
 - Rating:
@@ -215,7 +215,7 @@
 - Founder Name: Chandra Ahmad Rizki
 - Website/URL: https://www.youtube.com/channel/UCyIdrgBbX7-A8tcu_ivA4KA
 - Description: Sharing - sharing video belajar bahasa pemrograman
-- Topic Tags: HTML, CSS, Javascript, PHP, CodeIgniter, Angular, Ionic
+- Topic Tags: HTML, CSS, JavaScript, PHP, CodeIgniter, Angular, Ionic
 - Business Model: FREE With Ads
 - Tipe: VIDEO
 - Rating:
@@ -235,7 +235,7 @@
 - Creator/ Founder Name: Moch Diki Widianto
 - Website/URL : https://www.youtube.com/channel/UCHCeXVac9AsNvOCkqYE4UtA
 - Description: Channel berbagi informasi dan pengetahuan dunia teknologi informasi dengan menggunakan Bahasa Indonesia.
-- Topic Tags: HTML, CSS, Javascript, PHP, Laravel, Git, Tips & Trik, Programming, Full Stack Developer.
+- Topic Tags: HTML, CSS, Javascript, PHP, Laravel, Git, Tips & Trik, Programming, Full Stack Developer
 - Business Model: FREE No Ads
 - Tipe: VIDEO
 - Rating:
@@ -245,7 +245,7 @@
 - Founder Name: Ahmad Muhardian
 - Website/URL: www.petanikode.com
 - Description: Tempat belajar budidaya kode.
-- Topic Tags: Javascript, Java, PHP, Python, Git, C, C++
+- Topic Tags: JavaScript, Java, PHP, Python, Git, C, C++
 - Business Model: Free with Ads
 - Tipe: VIDEO
 - Rating:

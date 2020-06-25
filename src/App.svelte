@@ -60,7 +60,7 @@
     <Search on:search={handleSearch} />
     <TagsCloud {allTags} on:tagclick={handleClickTag} />
     {#if showData.length > 0}
-      <div class="row justify-content-center">
+      <div class="row justify-content-center gx-3 gy-3">
         {#each showData as item, i}
           <CardItem {item} />
         {/each}
