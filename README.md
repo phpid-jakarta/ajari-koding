@@ -4,7 +4,7 @@
 
 📚 Kumpulan berbagai sumber daya untuk belajar koding dari hasil karya para kreator lokal yang terpercaya dan telah dikurasi oleh komunitas PHPID
 
-## Panduan Berkontribusi
+## :exclamation: Panduan Berkontribusi
 
 - Urutkan setiap item berdasarkan abjad
 - Ikuti format yang telah tersedia
@@ -12,7 +12,7 @@
 - Rating akan disematakan oleh tim kurasi dari PHPID
 - Semua item akan dikurasi terlebih dahulu oleh tim PHPID, keputusan tim adalah mutlak
 
-## Template
+## :memo: Template
 
 ```
 ### Nama Produk
@@ -26,25 +26,17 @@
 - Rating:
 ```
 
-## Daftar sumber daya yang telah selesai dikurasi
+##  :white_check_mark: Daftar sumber daya yang telah selesai dikurasi
 
-### SANTRI KODING
+Diurutkan berdasarkan abjad
 
-- Creator: Fika Ridaul Maulayya
-- URL: https://santrikoding.com
-- Description: Belajar koding bahasa indonesia terlengkap dan mudah dipahami seperti Laravel, CodeIgniter, Vue JS, JavaScript dan masih banyak lagi.
-- Topic Tags: PHP, CodeIgniter, Laravel, SysAdmin, Database, JavaScript
-- Business Model: FREEMIUM | MEMBERSHIP
-- Tipe: VIDEO
-- Rating:
+### BADUYTECH SOLUTIONS
 
-### YUK CODING
-
-- Creator: M. Nur Fawaiq
-- URL: https://youtube.com/yukcoding2
-- Description: Berbagi tutorial pemrograman gratis dan tips trik menarik seputar dunia IT.
-- Topic Tags: PHP, CodeIgniter, Laravel, Android, Database, Tips & Trik
-- Business Model: FREE With Ads
+- Creator/ Founder Name: Moch Diki Widianto
+- Website/URL : https://www.youtube.com/channel/UCHCeXVac9AsNvOCkqYE4UtA
+- Description: Channel berbagi informasi dan pengetahuan dunia teknologi informasi dengan menggunakan Bahasa Indonesia.
+- Topic Tags: HTML, CSS, Javascript, PHP, Laravel, Git, Tips & Trik, Programming, Full Stack Developer
+- Business Model: FREE No Ads
 - Tipe: VIDEO
 - Rating:
 
@@ -58,47 +50,6 @@
 - Tipe: PORTAL
 - Rating:
 
-### NGODINGERS
-
-- Creator: Muhammad Fahriansyah & M Iqbal Maulana
-- URL: https://www.youtube.com/c/Ngodingers/featured
-- Website: (masih dalam tahap develop)
-- Description: Ngodingers bertujuan untuk memberikan konten pemrograman dengan Bahasa Indonesia, agar lebih mudah dalam dipahamai dan diaplikasikan dalam kehidupan.
-- Topic Tags: NodeJs, Golang, Aritificial Intelligence, OpenCV, Deep Learning, Machine Learning, Data Sience, Fullstack Developer, PHP, JavaScript
-- Bussines Model: Free with Ads
-- Tipe: VIDEO
-- Rating:
-
-### POJOK CODE
-
-- Creator: Asep Komarudin
-- URL: https://www.youtube.com/pojokcode
-- Description: Tutorial SQL dan Pemprograman
-- Topic Tags: PHP, Java, MySQL,MariaDB, SQL Server, Oracle
-- Business Model: FREE With Ads
-- Tipe: VIDEO
-- Rating:
-
-### KAWAN KODING
-
-- Creator: Muhammad Amirul Ihsan
-- URL: https://kawankoding.id
-- Description: Tempatnya Belajar Laravel
-- Topic Tags: PHP, Laravel, Tips
-- Business Model: FREE With Ads
-- Tipe: BLOG
-- Rating:
-
-### KENDARI KODING
-
-- Creator: Ilham Julian Efendi
-- Url : https://www.youtube.com/channel/UCEzN0oBll3dQga-9z88heyA
-- Description: Berbagi tutorial pemrograman web dan mobile dan segala sesuatu yang menarik seputar dunia IT.
-- Topic Tags: PHP, CodeIgniter, Laravel, Flutter, git, github, Android, Database, Tips
-- Business Model: FREE With Ads
-- Tipe: VIDEO
-- Rating:
-
 ### DAENG WEB
 
 - Creator: Anugrah Sandi
@@ -107,26 +58,6 @@
 - Topic Tags: PHP, Laravel, Flutter, VueJS, Tips & Trik
 - Business Model: FREE With Ads
 - Tipe: BLOG
-- Rating:
-
-### WEB PROGRAMMING UNPAS
-
-- Creator/Founder Name: Sandhika Galih
-- Website/URL: https://youtube.com/webprogrammingunpas
-- Description: Channel Youtube Pembelajaran Web Design & Web Programming Dasar
-- Topic Tags: HTML, CSS, JavaScript, PHP, CodeIgniter, Laravel, Git, Tips & Trik, Programming, Web Design
-- Business Model: FREE With Ads
-- Tipe: VIDEO
-- Rating:
-
-### H4NK TECH
-
-- Creator/Founder Name: Harry Setya Hadi
-- Website/URL: https://www.youtube.com/c/H4nkTech
-- Description: Berbagi seputar Tutotrial Komputer yang meliputi Pemograman, Jaringan, Video Editing, Tips dan Trik, Seputar kegiatan Dunia Kampus
-- Topic Tags: Database, Serivice, PHP, Codeigniter, HTML,Project, Filmora
-- Business Model: FREE No Ads
-- Tipe: VIDEO
 - Rating:
 
 ### DEA VENDITAMA
@@ -150,6 +81,26 @@
 - Tipe: VIDEO
 - Rating:
 
+### ELRUSTA STUDIO
+
+- Founder Name: Chandra Ahmad Rizki
+- Website/URL: https://www.youtube.com/channel/UCyIdrgBbX7-A8tcu_ivA4KA
+- Description: Sharing - sharing video belajar bahasa pemrograman
+- Topic Tags: HTML, CSS, JavaScript, PHP, CodeIgniter, Angular, Ionic
+- Business Model: FREE With Ads
+- Tipe: VIDEO
+- Rating:
+
+### GLC NETWORKS
+
+- Creator/Founder Name: Achmad Mardiansyah
+- Website/URL: https://www.glcnetworks.com
+- Description: organisasi yang menyediakan jasa training dan solusi IT (aplikasi, networking, system dan automation), ada free webinar dan rekamannya diupload ke youtube
+- Topic Tags: HTML, CSS, JavaScript, PHP, python, django, shell script, CodeIgniter, SQL, GIT, Laravel, Git, networking, sysadmin, radius, billing dan automation.
+- Business Model: paid services with free webinars/consultation
+- Tipe: PORTAL
+- Rating:
+
 ### HOBI KOMPUTER
 
 - Creator/ Founder Name: Hendri Pemenang
@@ -160,12 +111,12 @@
 - Tipe: VIDEO
 - Rating:
 
-### VICTOR SILALAHI
+### H4NK TECH
 
-- Creator/Founder Name: Victor Silalahi
-- Website/URL: https://www.youtube.com/c/VictorSilalahi
-- Description: Video pembelajaran programming di javascript dan python
-- Topic Tags: Javascript, Jquery, Threejs, Visjs, Chartjs, plotlyjs, babylonjs, Python, Matplotlib, MySQL, Tkinter, socket, Data Visualization, Graph, 3D
+- Creator/Founder Name: Harry Setya Hadi
+- Website/URL: https://www.youtube.com/c/H4nkTech
+- Description: Berbagi seputar Tutotrial Komputer yang meliputi Pemograman, Jaringan, Video Editing, Tips dan Trik, Seputar kegiatan Dunia Kampus
+- Topic Tags: Database, Serivice, PHP, Codeigniter, HTML,Project, Filmora
 - Business Model: FREE No Ads
 - Tipe: VIDEO
 - Rating:
@@ -180,14 +131,24 @@
 - Tipe: BLOG
 - Rating:
 
-### TEKNO CERDAS
+### KAWAN KODING
 
-- Creator: Rio Astamal
-- URL: https://teknocerdas.com/
-- Description: TeknoCerdas.com adalah sebuah portal berita teknologi informasi yang membahas cloud computing dan tutorial programming
-- Topic Tags: cloud computing, programming, security, aws, gcp, azure
-- Business Model: Free with Ads
+- Creator: Muhammad Amirul Ihsan
+- URL: https://kawankoding.id
+- Description: Tempatnya Belajar Laravel
+- Topic Tags: PHP, Laravel, Tips
+- Business Model: FREE With Ads
 - Tipe: BLOG
+- Rating:
+
+### KENDARI KODING
+
+- Creator: Ilham Julian Efendi
+- Url : https://www.youtube.com/channel/UCEzN0oBll3dQga-9z88heyA
+- Description: Berbagi tutorial pemrograman web dan mobile dan segala sesuatu yang menarik seputar dunia IT.
+- Topic Tags: PHP, CodeIgniter, Laravel, Flutter, git, github, Android, Database, Tips
+- Business Model: FREE With Ads
+- Tipe: VIDEO
 - Rating:
 
 ### MY NOTES CODE
@@ -200,23 +161,64 @@
 - Tipe: BLOG
 - Rating:
 
-### GLC NETWORKS
+### NGODINGERS
 
-- Creator/Founder Name: Achmad Mardiansyah
-- Website/URL: https://www.glcnetworks.com
-- Description: organisasi yang menyediakan jasa training dan solusi IT (aplikasi, networking, system dan automation), ada free webinar dan rekamannya diupload ke youtube
-- Topic Tags: HTML, CSS, JavaScript, PHP, python, django, shell script, CodeIgniter, SQL, GIT, Laravel, Git, networking, sysadmin, radius, billing dan automation.
-- Business Model: paid services with free webinars/consultation
-- Tipe: PORTAL
+- Creator: Muhammad Fahriansyah & M Iqbal Maulana
+- URL: https://www.youtube.com/c/Ngodingers/featured
+- Website: (masih dalam tahap develop)
+- Description: Ngodingers bertujuan untuk memberikan konten pemrograman dengan Bahasa Indonesia, agar lebih mudah dalam dipahamai dan diaplikasikan dalam kehidupan.
+- Topic Tags: NodeJs, Golang, Aritificial Intelligence, OpenCV, Deep Learning, Machine Learning, Data Sience, Fullstack Developer, PHP, JavaScript
+- Bussines Model: Free with Ads
+- Tipe: VIDEO
 - Rating:
 
-### ELRUSTA STUDIO
+### PETANI KODE
 
-- Founder Name: Chandra Ahmad Rizki
-- Website/URL: https://www.youtube.com/channel/UCyIdrgBbX7-A8tcu_ivA4KA
-- Description: Sharing - sharing video belajar bahasa pemrograman
-- Topic Tags: HTML, CSS, JavaScript, PHP, CodeIgniter, Angular, Ionic
+- Founder Name: Ahmad Muhardian
+- Website/URL: www.petanikode.com
+- Description: Tempat belajar budidaya kode.
+- Topic Tags: JavaScript, Java, PHP, Python, Git, C, C++
+- Business Model: Free with Ads
+- Tipe: VIDEO
+- Rating:
+
+### POJOK CODE
+
+- Creator: Asep Komarudin
+- URL: https://www.youtube.com/pojokcode
+- Description: Tutorial SQL dan Pemprograman
+- Topic Tags: PHP, Java, MySQL,MariaDB, SQL Server, Oracle
 - Business Model: FREE With Ads
+- Tipe: VIDEO
+- Rating:
+
+### SANTRI KODING
+
+- Creator: Fika Ridaul Maulayya
+- URL: https://santrikoding.com
+- Description: Belajar koding bahasa indonesia terlengkap dan mudah dipahami seperti Laravel, CodeIgniter, Vue JS, JavaScript dan masih banyak lagi.
+- Topic Tags: PHP, CodeIgniter, Laravel, SysAdmin, Database, JavaScript
+- Business Model: FREEMIUM | MEMBERSHIP
+- Tipe: VIDEO
+- Rating:
+
+### TEKNO CERDAS
+
+- Creator: Rio Astamal
+- URL: https://teknocerdas.com/
+- Description: TeknoCerdas.com adalah sebuah portal berita teknologi informasi yang membahas cloud computing dan tutorial programming
+- Topic Tags: cloud computing, programming, security, aws, gcp, azure
+- Business Model: Free with Ads
+- Tipe: BLOG
+- Rating:
+
+### VICTOR SILALAHI
+
+- Creator/Founder Name: Victor Silalahi
+- Website/URL: https://www.youtube.com/c/VictorSilalahi
+- Description: Video pembelajaran programming di javascript dan python
+- Topic Tags: Javascript, Jquery, Threejs, Visjs, Chartjs, plotlyjs, babylonjs, Python, Matplotlib, MySQL, Tkinter, socket, Data Visualization, Graph, 3D
+- Business Model: FREE No Ads
 - Tipe: VIDEO
 - Rating:
 
@@ -230,23 +232,23 @@
 - Tipe: BLOG
 - Rating:
 
-### BADUYTECH SOLUTIONS
+### WEB PROGRAMMING UNPAS
 
-- Creator/ Founder Name: Moch Diki Widianto
-- Website/URL : https://www.youtube.com/channel/UCHCeXVac9AsNvOCkqYE4UtA
-- Description: Channel berbagi informasi dan pengetahuan dunia teknologi informasi dengan menggunakan Bahasa Indonesia.
-- Topic Tags: HTML, CSS, Javascript, PHP, Laravel, Git, Tips & Trik, Programming, Full Stack Developer
-- Business Model: FREE No Ads
+- Creator/Founder Name: Sandhika Galih
+- Website/URL: https://youtube.com/webprogrammingunpas
+- Description: Channel Youtube Pembelajaran Web Design & Web Programming Dasar
+- Topic Tags: HTML, CSS, JavaScript, PHP, CodeIgniter, Laravel, Git, Tips & Trik, Programming, Web Design
+- Business Model: FREE With Ads
 - Tipe: VIDEO
 - Rating:
 
-### PETANI KODE
+### YUK CODING
 
-- Founder Name: Ahmad Muhardian
-- Website/URL: www.petanikode.com
-- Description: Tempat belajar budidaya kode.
-- Topic Tags: JavaScript, Java, PHP, Python, Git, C, C++
-- Business Model: Free with Ads
+- Creator: M. Nur Fawaiq
+- URL: https://youtube.com/yukcoding2
+- Description: Berbagi tutorial pemrograman gratis dan tips trik menarik seputar dunia IT.
+- Topic Tags: PHP, CodeIgniter, Laravel, Android, Database, Tips & Trik
+- Business Model: FREE With Ads
 - Tipe: VIDEO
 - Rating:
 
