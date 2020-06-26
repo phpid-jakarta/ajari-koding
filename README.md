@@ -37,7 +37,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Creator: Muhammad Azamuddin
 - URL: https://www.facebook.com/arrowfunxtion
 - Description: Fanspage tentang dunia web development modern
-- Topic Tags: react,laravel,node,modern,mongo,redis
+- Topic Tags: React, Laravel, NodeJS, Modern Web, MongoDB, Redis
 - Business Model: FREE no Ads (for now)
 - Tipe: PORTAL
 - Rating: 0
@@ -47,7 +47,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Creator: Kresna Galuh
 - URL: https://www.codepolitan.com
 - Description: Semua yang kamu butuhkan untuk memulai belajar coding dan meningkatkan keahlian codingmu hingga mahir dengan alur belajar yang super jelas dan terarah.
-- Topic Tags: Full Stack, Laravel, CodeIgniter, Web, PHP, JavaScript, Android
+- Topic Tags: Full Stack, Laravel, CodeIgniter, Web, PHP, JavaScript, Android, VueJS, React, Kotlin, CSS, HTML
 - Business Model: MEMBERSHIP
 - Tipe: PORTAL
 - Rating: 0
@@ -209,7 +209,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Creator: Sandhika Galih
 - URL: https://youtube.com/webprogrammingunpas
 - Description: Channel Youtube Pembelajaran Web Design & Web Programming Dasar
-- Topic Tags: HTML, CSS, JavaScript, PHP, CodeIgniter, Laravel, Git, Tips Trik, Design
+- Topic Tags: HTML, CSS, JavaScript, PHP, CodeIgniter, Laravel, Git, Tips Trik, Web Design, Modern Web, Web
 - Business Model: FREE With Ads
 - Tipe: VIDEO
 - Rating: 0
@@ -281,7 +281,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Creator: Aris Samsudin
 - URL: https://www.warungbelajar.com
 - Description: Sebuah Blog yang berisi mengenai tutorial dibidang teknologi, seperti Tutorial Pemrograman, penggunaan aplikasi komputer, dan smartphone.
-- Topic Tags: CMS Wordpress, HTML, CSS, Bootstrap, PHP, CodeIgniter, Tips Trik
+- Topic Tags: Wordpress, HTML, CSS, Bootstrap, PHP, CodeIgniter, Tips Trik
 - Business Model: FREE With Ads
 - Tipe: BLOG
 - Rating: 0
@@ -293,7 +293,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Creator: Muhammad Azamuddin & Hafid Mukhlasin
 - URL: https://buku-laravel-vue.com
 - Description: Ebook Bundle untuk Belajar Menjadi Fullstack Developer Laravel & Vue
-- Topic Tags: laravel,vue,database,mysql,api
+- Topic Tags: Laravel, VueJS, Database, MySQL, Rest API
 - Business Model: MEMBERSHIP
 - Tipe: EBOOK
 - Rating: 0
