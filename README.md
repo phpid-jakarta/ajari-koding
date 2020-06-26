@@ -125,6 +125,15 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: VIDEO
 - Rating: 0
 
+### JAGO REACT
+- Creator: Yuda Sukmana
+- URL: https://jagoreact.com
+- Description: Tempat Belajar Modern Web Development 
+- Topic Tags: react, firebase
+- Business Model:  MEMBERSHIP
+- Tipe: VIDEO
+- Rating: 0
+
 ### KENDARI KODING
 
 - Creator: Ilham Julian Efendi
