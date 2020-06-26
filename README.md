@@ -285,6 +285,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: BLOG
 - Rating: 0
 
+### FLUTTER ID
+
+- Creator: Ilham Maulana
+- URL: http://flutter.id/
+- Description: Tutorial flutter bahasa indonesia
+- Topic Tags: flutter, restapi
+- Business Model: FREE with Ads 
+- Tipe: BLOG
+- Rating: 0
+
 ### ID STACK
 
 - Creator: Hakim Sembiring
@@ -295,14 +305,14 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: BLOG
 - Rating: 0
 
-### FLUTTER ID
+### IHZA RIZKY BLOG
 
-- Creator: Ilham Maulana
-- URL: http://flutter.id/
-- Description: Tutorial flutter bahasa indonesia
-- Topic Tags: flutter, restapi
-- Business Model: FREE with Ads 
-- Tipe: BLOG
+- Creator: Mochammad Ihza Rizky Karim
+- URL: https://ihzarizkyk.blogspot.com/
+- Description: Blog Pribadi Yang Berisi mengenai Tutorial Pemrograman C, PHP, Python dan Data Science Seperti NumPy
+- Topic Tags: php, python, numpy 
+- Business Model: FREE No Ads 
+- Tipe: BLOG 
 - Rating: 0
 
 ### KAWAN KODING
