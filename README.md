@@ -255,6 +255,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 
 ## 📝 BLOG
 
+### ANEIQBAL
+
+- Creator: Iqbal Wahyudi
+- URL: https://www.aneiqbal.com/p/tutorial-php.html
+- Description: Tutorial CRUD sederhana dengan PHP & MySQL untuk pemula (study case data mahasiswa).
+- Topic Tags: php, mysql, phpmyadmin
+- Business Model: FREE with Ads
+- Tipe: BLOG
+- Rating: 0
+
 ### CODEDOCT
 
 - Creator: Victra sonata
