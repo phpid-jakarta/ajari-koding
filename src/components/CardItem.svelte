@@ -6,7 +6,16 @@
 </script>
 
 <style>
-
+  .card {
+    height: 100%;
+  }
+  .card .card-body {
+    padding-bottom: calc(1rem + 38px); /* card body padding + button height */
+  }
+  .card .btn--visit {
+    position: absolute;
+    bottom: 1rem;
+  }
 </style>
 
 <div class="col-md-4 col-sm-6 col-xs-12">
@@ -24,7 +33,7 @@
         href="{item.url}?utm_source=ajari-koding&utm_medium=website&utm_campaign=phpid"
         target="_blank"
         rel="noopener noreferrer"
-        class="btn btn-outline-primary">
+        class="btn btn-outline-primary btn--visit">
         Kunjungi
         <svg
           xmlns="http://www.w3.org/2000/svg"
