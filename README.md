@@ -62,6 +62,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: PORTAL
 - Rating: 0
 
+### TEKNO CERDAS
+
+- Creator: Rio Astamal
+- URL: https://teknocerdas.com/
+- Description: TeknoCerdas.com adalah sebuah portal berita teknologi informasi yang membahas cloud computing dan tutorial programming
+- Topic Tags: Cloud, Security, AWS, GCP, Azure
+- Business Model: Free with Ads
+- Tipe: PORTAL
+- Rating: 0
+
 ## 📽 VIDEO
 
 ### BADUYTECH SOLUTIONS
@@ -293,16 +303,6 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Description: My Notes Code adalah sebuah blog yang berisi mengenai kumpulan catatan seputar pemograman seperti tutorial, tips, trik, dan pemecahan masalah beserta solusinya
 - Topic Tags: PHP, CodeIgniter, Laravel, jQuery, Tips Trik
 - Business Model: FREE With Ads
-- Tipe: BLOG
-- Rating: 0
-
-### TEKNO CERDAS
-
-- Creator: Rio Astamal
-- URL: https://teknocerdas.com/
-- Description: TeknoCerdas.com adalah sebuah portal berita teknologi informasi yang membahas cloud computing dan tutorial programming
-- Topic Tags: Cloud, Security, AWS, GCP, Azure
-- Business Model: Free with Ads
 - Tipe: BLOG
 - Rating: 0
 
