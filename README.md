@@ -369,6 +369,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 
 ## 📦 CONTRIBUTORS
 
+### Komunitas Git Indonesia
+
+- Creator: Komunitas Git Indonesia
+- URL: https://github.com/GitIndonesia
+- Description: Komunitas Git Indonesia, didalamnya terdapat repository-repository yang berguna untuk semua yg dimana telah dijadikan satu menjadi list-awesome-repository indonesia, kalian juga bisa ikut membantu kontribusi.
+- Topic Tags: komunitas, git, php, html, css
+- Business Model: FREE No Ads
+- Tipe: CONTRIBUTOR
+- Rating: 0
+
 ---
 
 Copyright © 2020, dipersembahkan oleh tim PHPID untuk 🇮🇩
