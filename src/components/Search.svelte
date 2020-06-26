@@ -20,6 +20,6 @@
     type="text"
     class="form-control"
     id="txt-search"
-    placeholder="Ketik apa saja yang ingin dipelajari?"
+    placeholder="Cari berdasarkan nama produk, nama kreator, deskripsi atau tag..."
     on:change={doSearch} />
 </div>
