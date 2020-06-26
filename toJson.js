@@ -52,7 +52,7 @@ const main = async () => {
 
         const title = $(el).text();
         return {
-          id: `${i+1}-${title.toLowerCase().replace(/[^\w ]/, '').replace(/\s/g, '_')}`,
+          id: `${title.toLowerCase().replace(/[^\w ]/, '').replace(/\s/g, '_')}`,
           title,
           ...formatteddata,
         };
@@ -61,7 +61,11 @@ const main = async () => {
 
     const fileContent = {
       last_updated: new Date(),
-      awesome_list: jsonResult,
+      awesome_list: jsonResult.sort((a, b) => {
+				if(a.id < b.id) { return -1; }
+				if(a.id > b.id) { return 1; }
+				return 0;
+			}),
     };
 
     fs.writeFile(
