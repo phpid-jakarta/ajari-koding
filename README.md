@@ -256,6 +256,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: BLOG
 - Rating: 0
 
+### Flutter ID
+
+- Creator: Ilham Maulana
+- URL: http://flutter.id/
+- Description: Tutorial flutter bahasa indonesia
+- Topic Tags: flutter, restapi
+- Business Model: FREE with Ads 
+- Tipe: BLOG
+- Rating: 0
+
 ### KAWAN KODING
 
 - Creator: Muhammad Amirul Ihsan
