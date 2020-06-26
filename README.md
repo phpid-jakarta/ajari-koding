@@ -214,6 +214,15 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: VIDEO
 - Rating: 0
 
+### ThoriqAziz YouTube Channel
+- Creator: Thoriq Aziz
+- URL: https://www.youtube.com/thoriqaziz
+- Description: Tempat belajar & berbagi bersama seputar dunia IT.
+- Topic Tags: php, laravel, vuejs
+- Business Model: FREE No Ads
+- Tipe: VIDEO
+- Rating: 0
+
 ### VICTOR SILALAHI
 
 - Creator: Victor Silalahi
