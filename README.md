@@ -255,6 +255,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 
 ## 📝 BLOG
 
+### CODEDOCT
+
+- Creator: Victra sonata
+- URL: https://codedoct.com
+- Description: Tutorial programming
+- Topic Tags: php, laravel, ruby, rails, react native, visual basic, ubuntu, css, sass
+- Business Model: FREE with Ads
+- Tipe: BLOG
+- Rating: 0
+
 ### DAENG WEB
 
 - Creator: Anugrah Sandi
