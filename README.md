@@ -37,7 +37,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Creator: Muhammad Azamuddin
 - URL: https://www.facebook.com/arrowfunxtion
 - Description: Fanspage tentang dunia web development modern
-- Topic Tags: react,laravel,node,modern,mongo,redis
+- Topic Tags: React, Laravel, NodeJS, Modern Web, MongoDB, Redis
 - Business Model: FREE no Ads (for now)
 - Tipe: PORTAL
 - Rating: 0
@@ -47,7 +47,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Creator: Kresna Galuh
 - URL: https://www.codepolitan.com
 - Description: Semua yang kamu butuhkan untuk memulai belajar coding dan meningkatkan keahlian codingmu hingga mahir dengan alur belajar yang super jelas dan terarah.
-- Topic Tags: Full Stack, Laravel, CodeIgniter, Web, PHP, JavaScript, Android
+- Topic Tags: Full Stack, Laravel, CodeIgniter, Web, PHP, JavaScript, Android, VueJS, React, Kotlin, CSS, HTML
 - Business Model: MEMBERSHIP
 - Tipe: PORTAL
 - Rating: 0
@@ -59,6 +59,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Description: organisasi yang menyediakan jasa training dan solusi IT (aplikasi, networking, system dan automation), ada free webinar dan rekamannya diupload ke youtube
 - Topic Tags: HTML, CSS, JavaScript, PHP, Python, Django, Shell Script, CodeIgniter, SQL, GIT, Laravel, Git, Networking, SysAdmin, Radius
 - Business Model: paid services with free webinars/consultation
+- Tipe: PORTAL
+- Rating: 0
+
+### TEKNO CERDAS
+
+- Creator: Rio Astamal
+- URL: https://teknocerdas.com/
+- Description: TeknoCerdas.com adalah sebuah portal berita teknologi informasi yang membahas cloud computing dan tutorial programming
+- Topic Tags: Cloud, Security, AWS, GCP, Azure
+- Business Model: Free with Ads
 - Tipe: PORTAL
 - Rating: 0
 
@@ -154,6 +164,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: VIDEO
 - Rating: 0
 
+### MUSA AMIN YT CHANNEL
+
+- Creator: Musa Amin
+- URL: https://www.youtube.com/musaamin
+- Description: YouTube Channel seputar Linux System Administrator
+- Topic Tags: linux, sysadmin, cloud, devops
+- Business Model: FREE No Ads
+- Tipe: VIDEO
+- Rating: 0
+
 ### NGODINGERS
 
 - Creator: Muhammad Fahriansyah & M Iqbal Maulana
@@ -194,6 +214,15 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: VIDEO
 - Rating: 0
 
+### THORIQAZIZ YOUTUBE CHANNEL
+- Creator: Thoriq Aziz
+- URL: https://www.youtube.com/thoriqaziz
+- Description: Tempat belajar & berbagi bersama seputar dunia IT.
+- Topic Tags: php, laravel, vuejs
+- Business Model: FREE No Ads
+- Tipe: VIDEO
+- Rating: 0
+
 ### VICTOR SILALAHI
 
 - Creator: Victor Silalahi
@@ -209,7 +238,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Creator: Sandhika Galih
 - URL: https://youtube.com/webprogrammingunpas
 - Description: Channel Youtube Pembelajaran Web Design & Web Programming Dasar
-- Topic Tags: HTML, CSS, JavaScript, PHP, CodeIgniter, Laravel, Git, Tips Trik, Design
+- Topic Tags: HTML, CSS, JavaScript, PHP, CodeIgniter, Laravel, Git, Tips Trik, Web Design, Modern Web, Web
 - Business Model: FREE With Ads
 - Tipe: VIDEO
 - Rating: 0
@@ -226,6 +255,26 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 
 ## 📝 BLOG
 
+### ANEIQBAL
+
+- Creator: Iqbal Wahyudi
+- URL: https://www.aneiqbal.com/p/tutorial-php.html
+- Description: Tutorial CRUD sederhana dengan PHP & MySQL untuk pemula (study case data mahasiswa).
+- Topic Tags: php, mysql, phpmyadmin
+- Business Model: FREE with Ads
+- Tipe: BLOG
+- Rating: 0
+
+### CODEDOCT
+
+- Creator: Victra sonata
+- URL: https://codedoct.com
+- Description: Tutorial programming
+- Topic Tags: php, laravel, ruby, rails, react native, visual basic, ubuntu, css, sass
+- Business Model: FREE with Ads
+- Tipe: BLOG
+- Rating: 0
+
 ### DAENG WEB
 
 - Creator: Anugrah Sandi
@@ -233,6 +282,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Description: Belajar pemrograman dengan study case.
 - Topic Tags: PHP, Laravel, Flutter, VueJS, Tips Trik
 - Business Model: FREE With Ads
+- Tipe: BLOG
+- Rating: 0
+
+### FLUTTER ID
+
+- Creator: Ilham Maulana
+- URL: http://flutter.id/
+- Description: Tutorial flutter bahasa indonesia
+- Topic Tags: flutter, restapi
+- Business Model: FREE with Ads 
 - Tipe: BLOG
 - Rating: 0
 
@@ -246,6 +305,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: BLOG
 - Rating: 0
 
+### IHZA RIZKY BLOG
+
+- Creator: Mochammad Ihza Rizky Karim
+- URL: https://ihzarizkyk.blogspot.com/
+- Description: Blog Pribadi Yang Berisi mengenai Tutorial Pemrograman C, PHP, Python dan Data Science Seperti NumPy
+- Topic Tags: php, python, numpy 
+- Business Model: FREE No Ads 
+- Tipe: BLOG 
+- Rating: 0
+
 ### KAWAN KODING
 
 - Creator: Muhammad Amirul Ihsan
@@ -253,6 +322,26 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Description: Tempatnya Belajar Laravel
 - Topic Tags: PHP, Laravel, Tips Trik
 - Business Model: FREE With Ads
+- Tipe: BLOG
+- Rating: 0
+
+### KUMPUL4SEMUT
+
+- Creator: kumpul4semut
+- URL: kumpul4semut.com
+- Description: Tutorial koding otodidak php, python, react, linux, dsb
+- Topic Tags: python, bash shell, linux, vps, php, codeigniter, react
+- Business Model: REE with Ads 
+- Tipe: BLOG 
+- Rating: 0
+
+### MUSAAMIN.WEB.ID
+
+- Creator: Musa Amin
+- URL: https://musaamin.web.id
+- Description: Blog personal yang berisi tutorial Linux System Administrator dan teknologi open source lainnya.
+- Topic Tags: linux, sysadmin, cloud, devops
+- Business Model: FREE with Ads
 - Tipe: BLOG
 - Rating: 0
 
@@ -266,39 +355,39 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: BLOG
 - Rating: 0
 
-### TEKNO CERDAS
-
-- Creator: Rio Astamal
-- URL: https://teknocerdas.com/
-- Description: TeknoCerdas.com adalah sebuah portal berita teknologi informasi yang membahas cloud computing dan tutorial programming
-- Topic Tags: Cloud, Security, AWS, GCP, Azure
-- Business Model: Free with Ads
-- Tipe: BLOG
-- Rating: 0
-
 ### WARUNG BELAJAR
 
 - Creator: Aris Samsudin
 - URL: https://www.warungbelajar.com
 - Description: Sebuah Blog yang berisi mengenai tutorial dibidang teknologi, seperti Tutorial Pemrograman, penggunaan aplikasi komputer, dan smartphone.
-- Topic Tags: CMS Wordpress, HTML, CSS, Bootstrap, PHP, CodeIgniter, Tips Trik
+- Topic Tags: Wordpress, HTML, CSS, Bootstrap, PHP, CodeIgniter, Tips Trik
 - Business Model: FREE With Ads
 - Tipe: BLOG
 - Rating: 0
 
 ## 📕 EBOOK
 
-### Ebook Bundle Laravel Vue
+### EBOOK BUNDLE LARAVEL VUE
 
 - Creator: Muhammad Azamuddin & Hafid Mukhlasin
 - URL: https://buku-laravel-vue.com
 - Description: Ebook Bundle untuk Belajar Menjadi Fullstack Developer Laravel & Vue
-- Topic Tags: laravel,vue,database,mysql,api
+- Topic Tags: Laravel, VueJS, Database, MySQL, Rest API
 - Business Model: MEMBERSHIP
 - Tipe: EBOOK
 - Rating: 0
 
 ## 📦 CONTRIBUTORS
+
+### Komunitas Git Indonesia
+
+- Creator: Komunitas Git Indonesia
+- URL: https://github.com/GitIndonesia
+- Description: Komunitas Git Indonesia, didalamnya terdapat repository-repository yang berguna untuk semua yg dimana telah dijadikan satu menjadi list-awesome-repository indonesia, kalian juga bisa ikut membantu kontribusi.
+- Topic Tags: komunitas, git, php, html, css
+- Business Model: FREE No Ads
+- Tipe: CONTRIBUTOR
+- Rating: 0
 
 ---
 
