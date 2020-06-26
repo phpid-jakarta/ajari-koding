@@ -154,6 +154,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: VIDEO
 - Rating: 0
 
+### Musa Amin YTChannel
+
+- Creator: Musa Amin
+- URL: https://www.youtube.com/musaamin
+- Description: YouTube Channel seputar Linux System Administrator
+- Topic Tags: linux, sysadmin, cloud, devops
+- Business Model: FREE No Ads
+- Tipe: VIDEO
+- Rating: 0
+
 ### NGODINGERS
 
 - Creator: Muhammad Fahriansyah & M Iqbal Maulana
