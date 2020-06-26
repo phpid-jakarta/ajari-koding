@@ -164,7 +164,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: VIDEO
 - Rating: 0
 
-### Musa Amin YTChannel
+### MUSA AMIN YT CHANNEL
 
 - Creator: Musa Amin
 - URL: https://www.youtube.com/musaamin
@@ -214,7 +214,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: VIDEO
 - Rating: 0
 
-### ThoriqAziz YouTube Channel
+### THORIQAZIZ YOUTUBE CHANNEL
 - Creator: Thoriq Aziz
 - URL: https://www.youtube.com/thoriqaziz
 - Description: Tempat belajar & berbagi bersama seputar dunia IT.
@@ -275,7 +275,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: BLOG
 - Rating: 0
 
-### Flutter ID
+### FLUTTER ID
 
 - Creator: Ilham Maulana
 - URL: http://flutter.id/
@@ -295,7 +295,17 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: BLOG
 - Rating: 0
 
-### MusaAmin.Web.ID
+### KUMPUL4SEMUT
+
+- Creator: kumpul4semut
+- URL: kumpul4semut.com
+- Description: Tutorial koding otodidak php, python, react, linux, dsb
+- Topic Tags: python, bash shell, linux, vps, php, codeigniter, react
+- Business Model: REE with Ads 
+- Tipe: BLOG 
+- Rating: 0
+
+### MUSAAMIN.WEB.ID
 
 - Creator: Musa Amin
 - URL: https://musaamin.web.id
@@ -327,7 +337,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 
 ## 📕 EBOOK
 
-### Ebook Bundle Laravel Vue
+### EBOOK BUNDLE LARAVEL VUE
 
 - Creator: Muhammad Azamuddin & Hafid Mukhlasin
 - URL: https://buku-laravel-vue.com
