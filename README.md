@@ -311,7 +311,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://ihzarizkyk.blogspot.com/
 - Description: Blog Pribadi Yang Berisi mengenai Tutorial Pemrograman C, PHP, Python dan Data Science Seperti NumPy
 - Topic Tags: php, python, numpy 
-- Business Model: FREE No Ads 
+- Business Model: FREE with Ads 
 - Tipe: BLOG 
 - Rating: 0
 
