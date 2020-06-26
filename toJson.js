@@ -8,41 +8,61 @@ const main = async () => {
   try {
     const readmeContent = await fs.readFileSync(path.resolve(`./README.md`), {
       encoding: 'utf-8',
-		});
-		const html = md.render(readmeContent);
-		const $ = cheerio.load(html)
-		const jsonResult = $('h3').map((i, el) => {
-			const data = $(el).next('ul').children().map((_ , li) => {
-				return $(li).text();
-			}).get();
+    });
+    const html = md.render(readmeContent);
+    const $ = cheerio.load(html);
+    const jsonResult = $('h3')
+      .map((i, el) => {
+        const data = $(el)
+          .next('ul')
+          .children()
+          .map((_, li) => {
+            return $(li).text();
+          })
+          .get();
 
-			const formatteddata = {};
-			data.forEach(item => {
-				// website doesn't work to split with :
-				const itemSplit = item.split(':');
-				const t = itemSplit[0].trim().toLowerCase().replace(/\s/g, '_');
-				if (t === 'website' || t === 'url') {
-					formatteddata['url'] = item.replace(/website:/gi, '').replace(/url:/gi, '').trim();
-				} else if (t === 'topic_tags' || t === 'topic' || t === 'tags' || t === 'topik') {
-					const v = itemSplit[1].trim();
-					formatteddata['topic_tags'] = v.split(',').map(i => i.trim().toLowerCase().replace(/\./g, '')).sort();
-				} else {
-					const v = itemSplit[1].trim();
-					formatteddata[t] = v;
-				}
-			})
+        const formatteddata = {};
+        data.forEach((item) => {
+          // website doesn't work to split with :
+          const itemSplit = item.split(':');
+          const t = itemSplit[0].trim().toLowerCase().replace(/\s/g, '_');
+          if (t === 'website' || t === 'url') {
+            formatteddata['url'] = item
+              .replace(/website:/gi, '')
+              .replace(/website :/gi, '')
+              .replace(/url:/gi, '')
+              .replace(/url :/gi, '')
+              .trim();
+          } else if (
+            t === 'topic_tags' ||
+            t === 'topic' ||
+            t === 'tags' ||
+            t === 'topik'
+          ) {
+            const v = itemSplit[1].trim();
+            formatteddata['topic_tags'] = v
+              .split(',')
+              .map((i) => i.trim().toLowerCase().replace(/\./g, ''))
+              .sort();
+          } else {
+            const v = itemSplit[1].trim();
+            formatteddata[t] = v;
+          }
+        });
 
-			const title = $(el).text();
-			return {
-				title,
-				...formatteddata
-			}
-		}).get();
+        const title = $(el).text();
+        return {
+          id: `${i+1}-${title.toLowerCase().replace(/[^\w ]/, '').replace(/\s/g, '_')}`,
+          title,
+          ...formatteddata,
+        };
+      })
+      .get();
 
-		const fileContent = {
-			last_updated: new Date(),
-			awesome_list: jsonResult
-		};
+    const fileContent = {
+      last_updated: new Date(),
+      awesome_list: jsonResult,
+    };
 
     fs.writeFile(
       path.resolve('./data.json'),
@@ -64,9 +84,9 @@ const main = async () => {
         }
         console.log('✅ Success write file data.js');
       }
-		);
+    );
 
-		fs.writeFile(
+    fs.writeFile(
       path.resolve('./data-es.js'),
       `export default ${JSON.stringify(fileContent)}`,
       function (err) {
@@ -75,9 +95,9 @@ const main = async () => {
         }
         console.log('✅ Success write file data-es.js');
       }
-		);
+    );
 
-		fs.writeFile(
+    fs.writeFile(
       path.resolve('./src/data-es.js'),
       `export default ${JSON.stringify(fileContent)}`,
       function (err) {

@@ -33,7 +33,7 @@ Diurutkan berdasarkan abjad
 ### BADUYTECH SOLUTIONS
 
 - Creator: Moch Diki Widianto
-- URL : https://www.youtube.com/channel/UCHCeXVac9AsNvOCkqYE4UtA
+- URL: https://www.youtube.com/channel/UCHCeXVac9AsNvOCkqYE4UtA
 - Description: Channel berbagi informasi dan pengetahuan dunia teknologi informasi dengan menggunakan Bahasa Indonesia.
 - Topic Tags: HTML, CSS, JavaScript, PHP, Laravel, Git, Tips Trik, Programming, Full Stack
 - Business Model: FREE No Ads
@@ -63,7 +63,7 @@ Diurutkan berdasarkan abjad
 ### DEA VENDITAMA
 
 - Creator : Dea Venditama
-- URL : https://www.youtube.com/c/DeaVenditama
+- URL: https://www.youtube.com/c/DeaVenditama
 - Medium : https://medium.com/@deavenditama
 - Description : Coding Tutorial and Random Things about Technology
 - Topic Tags : Web, PHP, CodeIgniter, Yii, Python, Machine Learning, Data Science
@@ -74,7 +74,7 @@ Diurutkan berdasarkan abjad
 ### DIDIK MAKARYO
 
 - Creator : Didik Kurniawan
-- URL : https://youtube.com/didikmakaryo
+- URL: https://youtube.com/didikmakaryo
 - Description : Bahas materi-materi kuliah S1-Teknik Informatika yang dikemas secara simple agar lebih mudah dipahami.
 - Topic Tags : Opini, PHP, HTML, Database
 - Business Model : FREE No Ads
@@ -104,7 +104,7 @@ Diurutkan berdasarkan abjad
 ### HOBI KOMPUTER
 
 - Creator: Hendri Pemenang
-- URL : https://www.youtube.com/hobikomputer
+- URL: https://www.youtube.com/hobikomputer
 - Description: Channel Youtube Pembelajaran dan Berbagi Ilmu Web Developer untuk Front End, Back End, FULL STACK DEVELOPER, Dev Ops, Web Design & Web Programming Dasar.
 - Topic Tags: HTML, CSS, JavaScript, PHP, Laravel, Git, Tips Trik, Design, Web, Front End, Full Stack
 - Business Model: FREE No Ads

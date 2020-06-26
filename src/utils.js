@@ -58,5 +58,6 @@ export const getDistinctTags = (allItems) => {
 };
 
 export const isHaveTag = (item, t) => {
-	return item.topic_tags && item.topic_tags.find(i => i.toLowerCase() === t)
+	const res = item.topic_tags.find(i => i.toLowerCase() === t.toLowerCase());
+	return Boolean(res);
 }

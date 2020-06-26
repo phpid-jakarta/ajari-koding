@@ -11,7 +11,7 @@
 
 <div class="mb-3">
   {#if tags_w_color && tags_w_color.length > 0}
-    {#each tags_w_color as item}
+    {#each tags_w_color as item (item)}
       {#if item.isMapped}
         <span
           class="badge mr-1"

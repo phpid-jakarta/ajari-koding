@@ -11,6 +11,7 @@
 
   export let data;
   let showData = data.awesome_list;
+  let activeTag = "";
   let activeFilter = FILTER_ITEMS.ALL;
   let allTags = getDistinctTags(showData);
 
@@ -20,9 +21,10 @@
     if (filterBy === "semua") {
       showData = data.awesome_list;
     } else {
-      showData = data.awesome_list.filter(
+      const foundData = data.awesome_list.filter(
         i => i.tipe.toLowerCase() === filterBy
       );
+      showData = [...foundData];
     }
   };
 
@@ -31,7 +33,7 @@
     if (searchKeyword === "") {
       showData = data.awesome_list;
     } else {
-      showData = data.awesome_list.filter(
+      const foundData = data.awesome_list.filter(
         i =>
           i.title.toLowerCase().includes(searchKeyword) ||
           i.creator.toLowerCase().includes(searchKeyword) ||
@@ -39,12 +41,22 @@
           i.url.toLowerCase().includes(searchKeyword) ||
           isHaveTag(i, searchKeyword)
       );
+      showData = [...foundData];
     }
   };
 
   const handleClickTag = event => {
     const tagClicked = event.detail.text.toLowerCase();
-    showData = data.awesome_list.filter(i => Boolean(isHaveTag(i, tagClicked)));
+    if (tagClicked !== activeTag) {
+      activeTag = tagClicked;
+      const foundData = data.awesome_list.filter(i => {
+        return isHaveTag(i, tagClicked);
+      });
+      showData = [...foundData];
+    } else {
+      activeTag = "";
+      showData = data.awesome_list;
+    }
   };
 </script>
 
@@ -61,9 +73,9 @@
     <Tabs {activeFilter} on:filter={handleFilter} />
     <Search on:search={handleSearch} />
     {#if showData.length > 0}
-      <TagsCloud {allTags} on:tagclick={handleClickTag} />
+      <TagsCloud {allTags} {activeTag} on:tagclick={handleClickTag} />
       <div class="row justify-content-center gx-3 gy-3">
-        {#each showData as item, i}
+        {#each showData as item (item.id)}
           <CardItem {item} />
         {/each}
       </div>

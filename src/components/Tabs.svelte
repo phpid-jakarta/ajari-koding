@@ -19,7 +19,7 @@
 </style>
 
 <ul class="nav nav-tabs mb-5">
-  {#each FILTERS as f}
+  {#each FILTERS as f (f)}
     {#if f === activeFilter}
       <li class="nav-item">
         <a
