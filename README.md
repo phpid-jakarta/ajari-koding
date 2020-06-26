@@ -6,7 +6,7 @@
 
 ## ❗️ Panduan Berkontribusi
 
-- Urutkan setiap item berdasarkan abjad
+- Urutkan setiap item berdasarkan abjad dan posisikan sesuai tipenya
 - Ikuti format yang telah tersedia
 - Jelaskan Business Model sesuai dengan pilihan yang kami telah sediakan, yakni `FREE No Ads`, `FREE with Ads`, `FREE TRIAL`, `FREEMIUM`, `MEMBERSHIP`
 - Rating akan disematakan oleh tim kurasi dari PHPID
@@ -28,16 +28,18 @@
 
 ## ✅ Daftar sumber daya yang telah selesai dikurasi
 
-Diurutkan berdasarkan abjad
+Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 
-### BADUYTECH SOLUTIONS
+## 🌍 PORTAL
 
-- Creator: Moch Diki Widianto
-- URL: https://www.youtube.com/channel/UCHCeXVac9AsNvOCkqYE4UtA
-- Description: Channel berbagi informasi dan pengetahuan dunia teknologi informasi dengan menggunakan Bahasa Indonesia.
-- Topic Tags: HTML, CSS, JavaScript, PHP, Laravel, Git, Tips Trik, Programming, Full Stack
-- Business Model: FREE No Ads
-- Tipe: VIDEO
+### ARROWFUNXTION
+
+- Creator: Muhammad Azamuddin
+- URL: https://www.facebook.com/arrowfunxtion
+- Description: Fanspage tentang dunia web development modern
+- Topic Tags: react,laravel,node,modern,mongo,redis
+- Business Model: FREE no Ads (for now)
+- Tipe: PORTAL
 - Rating: 0
 
 ### CODEPOLITAN
@@ -50,14 +52,26 @@ Diurutkan berdasarkan abjad
 - Tipe: PORTAL
 - Rating: 0
 
-### DAENG WEB
+### GLC NETWORKS
 
-- Creator: Anugrah Sandi
-- URL: https://daengweb.id
-- Description: Belajar pemrograman dengan study case.
-- Topic Tags: PHP, Laravel, Flutter, VueJS, Tips Trik
-- Business Model: FREE With Ads
-- Tipe: BLOG
+- Creator: Achmad Mardiansyah
+- URL: https://www.glcnetworks.com
+- Description: organisasi yang menyediakan jasa training dan solusi IT (aplikasi, networking, system dan automation), ada free webinar dan rekamannya diupload ke youtube
+- Topic Tags: HTML, CSS, JavaScript, PHP, Python, Django, Shell Script, CodeIgniter, SQL, GIT, Laravel, Git, Networking, SysAdmin, Radius
+- Business Model: paid services with free webinars/consultation
+- Tipe: PORTAL
+- Rating: 0
+
+## 📽 VIDEO
+
+### BADUYTECH SOLUTIONS
+
+- Creator: Moch Diki Widianto
+- URL: https://www.youtube.com/channel/UCHCeXVac9AsNvOCkqYE4UtA
+- Description: Channel berbagi informasi dan pengetahuan dunia teknologi informasi dengan menggunakan Bahasa Indonesia.
+- Topic Tags: HTML, CSS, JavaScript, PHP, Laravel, Git, Tips Trik, Programming, Full Stack
+- Business Model: FREE No Ads
+- Tipe: VIDEO
 - Rating: 0
 
 ### DEA VENDITAMA
@@ -91,16 +105,6 @@ Diurutkan berdasarkan abjad
 - Tipe: VIDEO
 - Rating: 0
 
-### GLC NETWORKS
-
-- Creator: Achmad Mardiansyah
-- URL: https://www.glcnetworks.com
-- Description: organisasi yang menyediakan jasa training dan solusi IT (aplikasi, networking, system dan automation), ada free webinar dan rekamannya diupload ke youtube
-- Topic Tags: HTML, CSS, JavaScript, PHP, Python, Django, Shell Script, CodeIgniter, SQL, GIT, Laravel, Git, Networking, SysAdmin, Radius
-- Business Model: paid services with free webinars/consultation
-- Tipe: PORTAL
-- Rating: 0
-
 ### HOBI KOMPUTER
 
 - Creator: Hendri Pemenang
@@ -121,26 +125,6 @@ Diurutkan berdasarkan abjad
 - Tipe: VIDEO
 - Rating: 0
 
-### ID STACK
-
-- Creator: Hakim Sembiring
-- URL: https://idstack.net
-- Description: Situs Belajar Pemrograman Berbahasa Indonesia
-- Topic Tags: PHP, JavaScript, Laravel, VueJS, NodeJS
-- Business Model: FREE, MEMBERSHIP
-- Tipe: BLOG
-- Rating: 0
-
-### KAWAN KODING
-
-- Creator: Muhammad Amirul Ihsan
-- URL: https://kawankoding.id
-- Description: Tempatnya Belajar Laravel
-- Topic Tags: PHP, Laravel, Tips Trik
-- Business Model: FREE With Ads
-- Tipe: BLOG
-- Rating: 0
-
 ### KENDARI KODING
 
 - Creator: Ilham Julian Efendi
@@ -159,16 +143,6 @@ Diurutkan berdasarkan abjad
 - Topic Tags: android, kotlin, flutter, java
 - Business Model: FREE with Ads
 - Tipe: VIDEO
-- Rating: 0
-
-### MY NOTES CODE
-
-- Creator: Rizaldi Maulidia Achmad
-- URL: https://www.mynotescode.com
-- Description: My Notes Code adalah sebuah blog yang berisi mengenai kumpulan catatan seputar pemograman seperti tutorial, tips, trik, dan pemecahan masalah beserta solusinya
-- Topic Tags: PHP, CodeIgniter, Laravel, jQuery, Tips Trik
-- Business Model: FREE With Ads
-- Tipe: BLOG
 - Rating: 0
 
 ### NGODINGERS
@@ -211,16 +185,6 @@ Diurutkan berdasarkan abjad
 - Tipe: VIDEO
 - Rating: 0
 
-### TEKNO CERDAS
-
-- Creator: Rio Astamal
-- URL: https://teknocerdas.com/
-- Description: TeknoCerdas.com adalah sebuah portal berita teknologi informasi yang membahas cloud computing dan tutorial programming
-- Topic Tags: Cloud, Security, AWS, GCP, Azure
-- Business Model: Free with Ads
-- Tipe: BLOG
-- Rating: 0
-
 ### VICTOR SILALAHI
 
 - Creator: Victor Silalahi
@@ -229,16 +193,6 @@ Diurutkan berdasarkan abjad
 - Topic Tags: JavaScript, jQuery, ThreeJS, VisJS, ChartJS, PlotlyJS, BabylonJS, Python, Matplotlib, MySQL, Tkinter, Socket, Data Visualization, Graph, 3D
 - Business Model: FREE No Ads
 - Tipe: VIDEO
-- Rating: 0
-
-### WARUNG BELAJAR
-
-- Creator: Aris Samsudin
-- URL: https://www.warungbelajar.com
-- Description: Sebuah Blog yang berisi mengenai tutorial dibidang teknologi, seperti Tutorial Pemrograman, penggunaan aplikasi komputer, dan smartphone.
-- Topic Tags: CMS Wordpress, HTML, CSS, Bootstrap, PHP, CodeIgniter, Tips Trik
-- Business Model: FREE With Ads
-- Tipe: BLOG
 - Rating: 0
 
 ### WEB PROGRAMMING UNPAS
@@ -260,6 +214,82 @@ Diurutkan berdasarkan abjad
 - Business Model: FREE With Ads
 - Tipe: VIDEO
 - Rating: 0
+
+## 📝 BLOG
+
+### DAENG WEB
+
+- Creator: Anugrah Sandi
+- URL: https://daengweb.id
+- Description: Belajar pemrograman dengan study case.
+- Topic Tags: PHP, Laravel, Flutter, VueJS, Tips Trik
+- Business Model: FREE With Ads
+- Tipe: BLOG
+- Rating: 0
+
+### ID STACK
+
+- Creator: Hakim Sembiring
+- URL: https://idstack.net
+- Description: Situs Belajar Pemrograman Berbahasa Indonesia
+- Topic Tags: PHP, JavaScript, Laravel, VueJS, NodeJS
+- Business Model: FREE, MEMBERSHIP
+- Tipe: BLOG
+- Rating: 0
+
+### KAWAN KODING
+
+- Creator: Muhammad Amirul Ihsan
+- URL: https://kawankoding.id
+- Description: Tempatnya Belajar Laravel
+- Topic Tags: PHP, Laravel, Tips Trik
+- Business Model: FREE With Ads
+- Tipe: BLOG
+- Rating: 0
+
+### MY NOTES CODE
+
+- Creator: Rizaldi Maulidia Achmad
+- URL: https://www.mynotescode.com
+- Description: My Notes Code adalah sebuah blog yang berisi mengenai kumpulan catatan seputar pemograman seperti tutorial, tips, trik, dan pemecahan masalah beserta solusinya
+- Topic Tags: PHP, CodeIgniter, Laravel, jQuery, Tips Trik
+- Business Model: FREE With Ads
+- Tipe: BLOG
+- Rating: 0
+
+### TEKNO CERDAS
+
+- Creator: Rio Astamal
+- URL: https://teknocerdas.com/
+- Description: TeknoCerdas.com adalah sebuah portal berita teknologi informasi yang membahas cloud computing dan tutorial programming
+- Topic Tags: Cloud, Security, AWS, GCP, Azure
+- Business Model: Free with Ads
+- Tipe: BLOG
+- Rating: 0
+
+### WARUNG BELAJAR
+
+- Creator: Aris Samsudin
+- URL: https://www.warungbelajar.com
+- Description: Sebuah Blog yang berisi mengenai tutorial dibidang teknologi, seperti Tutorial Pemrograman, penggunaan aplikasi komputer, dan smartphone.
+- Topic Tags: CMS Wordpress, HTML, CSS, Bootstrap, PHP, CodeIgniter, Tips Trik
+- Business Model: FREE With Ads
+- Tipe: BLOG
+- Rating: 0
+
+## 📕 EBOOK
+
+### Ebook Bundle Laravel Vue
+
+- Creator: Muhammad Azamuddin & Hafid Mukhlasin
+- URL: https://buku-laravel-vue.com
+- Description: Ebook Bundle untuk Belajar Menjadi Fullstack Developer Laravel & Vue
+- Topic Tags: laravel,vue,database,mysql,api
+- Business Model: MEMBERSHIP
+- Tipe: EBOOK
+- Rating: 0
+
+## 📦 CONTRIBUTORS
 
 ---
 
