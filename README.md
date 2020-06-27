@@ -174,6 +174,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: VIDEO
 - Rating: 0
 
+### MAULANA ILHAM
+
+- Creator: Maulana Ilham
+- URL: https://m.youtube.com/channel/UCqJBoFEcTwwEaOQ7lcnGucw
+- Description: Tutorial pemrograman mobile android
+- Topic Tags: flutter
+- Business Model: FREE with Ads 
+- Tipe: VIDEO
+- Rating: 0
+
 ### MUSA AMIN YT CHANNEL
 
 - Creator: Musa Amin
