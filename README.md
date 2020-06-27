@@ -173,6 +173,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: VIDEO
 - Rating: 0
 
+### LAMPUNGDEV
+
+- Creator: LampungDev
+- URL: https://www.youtube.com/c/lampungdev
+- Description: Belajar Menjadi Software Engineer Profesional 
+- Topic Tags: react, react native, golang, swift, python
+- Business Model: FREE with Ads
+- Tipe: VIDEO
+- Rating: 0
+
 ### LAZDAY
 
 - Creator: Muhammad Irsyad
