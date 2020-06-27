@@ -3,7 +3,7 @@ name: Tambahkan data baru
 about: Tambahkan data baru donk
 title: 'New Data - Nama Produk'
 labels: 'data-proposal'
-assignees: '@mazipan'
+assignees: 'mazipan'
 
 ---
 
