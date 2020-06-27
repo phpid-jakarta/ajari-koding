@@ -19,7 +19,7 @@
   const winWidth = window.innerWidth;
 
   // Pagination config
-  let perPage = winWidth <= 767 ? 10 : 9;
+  let perPage = winWidth <= 767 ? 20 : 18;
   let currentPage = 1;
   $: offsetPage = currentPage * perPage - perPage;
 
