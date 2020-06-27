@@ -135,6 +135,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: VIDEO
 - Rating: 0
 
+### JAGO NGODING
+
+- Creator: Nurul Huda Ibnu Zakaria
+- URL: https://jagongoding.com
+- Description: Catatan tentang Linux, dan hal-hal berkaitan dengan teknis pemrograman.
+- Topic Tags: Linux, php
+- Business Model: FREE No Ads
+- Tipe: VIDEO
+- Rating: 0
+
 ### JAGO REACT
 - Creator: Yuda Sukmana
 - URL: https://jagoreact.com
@@ -265,6 +275,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: BLOG
 - Rating: 0
 
+### CAKJUICE
+
+- Creator: Hendra Juice
+- URL: https://cakjuice.com
+- Description: Blog tentang Python, Odoo, Django
+- Topic Tags: python, django, odoo
+- Business Model: FREE with Ads
+- Tipe: BLOG
+- Rating: 0
+
 ### CODEDOCT
 
 - Creator: Victra sonata
@@ -362,6 +382,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Description: Sebuah Blog yang berisi mengenai tutorial dibidang teknologi, seperti Tutorial Pemrograman, penggunaan aplikasi komputer, dan smartphone.
 - Topic Tags: Wordpress, HTML, CSS, Bootstrap, PHP, CodeIgniter, Tips Trik
 - Business Model: FREE With Ads
+- Tipe: BLOG
+- Rating: 0
+
+### YUDI SETIAWN BLOG
+
+- Creator: Yudi Setiawan
+- URL: https://medium.com/@kolonel.yudisetiawan
+- Description: Berbagi pengalaman lewat tulisan selama berkarir di dunia programming yang berfokus pada pengembangan aplikasi mobile (Android & Flutter)
+- Topic Tags: android, flutter, java, kotlin, dart
+- Business Model: FREE No Ads
 - Tipe: BLOG
 - Rating: 0
 
