@@ -23,22 +23,22 @@
     {#if f === activeFilter}
       <li class="nav-item">
         <a
-          class="nav-link text-capitalize active"
+          class="nav-link text-capitalize active d-flex align-items-center"
           aria-current="page"
           href="?"
           on:click={e => doFilter(e, f)}>
           <TabIcon {f} />
-          {f}
+          <span class="ml-2">{f}</span>
         </a>
       </li>
     {:else}
       <li class="nav-item">
         <a
-          class="nav-link text-capitalize"
+          class="nav-link text-capitalize d-flex align-items-center"
           href="?tipe={f}"
           on:click={e => doFilter(e, f)}>
           <TabIcon {f} />
-          {f}
+          <span class="ml-2">{f}</span>
         </a>
       </li>
     {/if}

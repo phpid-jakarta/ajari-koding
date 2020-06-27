@@ -61,3 +61,11 @@ export const isHaveTag = (item, t) => {
 	const res = item.topic_tags.find(i => i.toLowerCase() === t.toLowerCase());
 	return Boolean(res);
 }
+
+export const createArray = (length) => {
+	const arr = [];
+	for (let index = 0; index < length; index++) {
+		arr.push(index)
+	}
+	return arr;
+}

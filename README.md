@@ -8,7 +8,7 @@
 
 - Urutkan setiap item berdasarkan abjad dan posisikan sesuai tipenya
 - Ikuti format yang telah tersedia
-- Jelaskan Business Model sesuai dengan pilihan yang kami telah sediakan, yakni `FREE No Ads`, `FREE with Ads`, `FREE TRIAL`, `FREEMIUM`, `MEMBERSHIP`
+- Jelaskan Business Model sesuai dengan pilihan yang kami telah sediakan, yakni `FREE NO ADS`, `FREE WITH ADS`, `FREE TRIAL`, `FREEMIUM`, `MEMBERSHIP`
 - Rating akan disematakan oleh tim kurasi dari PHPID
 - Semua item akan dikurasi terlebih dahulu oleh tim PHPID, keputusan tim adalah mutlak
 
@@ -21,7 +21,7 @@
 - URL: Alamat website/apps
 - Description: Deskripsi singkat
 - Topic Tags: Tags
-- Business Model: FREE No Ads | FREE with Ads | FREE TRIAL | FREEMIUM | MEMBERSHIP
+- Business Model: FREE NO ADS | FREE WITH ADS | FREE TRIAL | FREEMIUM | MEMBERSHIP | PAID
 - Tipe: VIDEO | BLOG | PORTAL | EBOOK | CONTRIBUTOR
 - Rating: 1-5
 ```
@@ -38,7 +38,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://www.facebook.com/arrowfunxtion
 - Description: Fanspage tentang dunia web development modern
 - Topic Tags: React, Laravel, NodeJS, Modern Web, MongoDB, Redis
-- Business Model: FREE no Ads (for now)
+- Business Model: FREE NO ADS
 - Tipe: PORTAL
 - Rating: 0
 
@@ -50,17 +50,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Topic Tags: Full Stack, Laravel, CodeIgniter, Web, PHP, JavaScript, Android, VueJS, React, Kotlin, CSS, HTML
 - Business Model: MEMBERSHIP
 - Tipe: PORTAL
-- Rating: 0
-
-### GLC NETWORKS
-
-- Creator: Achmad Mardiansyah
-- URL: https://www.glcnetworks.com
-- Description: organisasi yang menyediakan jasa training dan solusi IT (aplikasi, networking, system dan automation), ada free webinar dan rekamannya diupload ke youtube
-- Topic Tags: HTML, CSS, JavaScript, PHP, Python, Django, Shell Script, CodeIgniter, SQL, GIT, Laravel, Git, Networking, SysAdmin, Radius
-- Business Model: paid services with free webinars/consultation
-- Tipe: PORTAL
-- Rating: 0
+- Rating: 5
 
 ### TEKNO CERDAS
 
@@ -68,7 +58,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://teknocerdas.com/
 - Description: TeknoCerdas.com adalah sebuah portal berita teknologi informasi yang membahas cloud computing dan tutorial programming
 - Topic Tags: Cloud, Security, AWS, GCP, Azure
-- Business Model: Free with Ads
+- Business Model: FREE WITH ADS
 - Tipe: PORTAL
 - Rating: 0
 
@@ -80,7 +70,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://www.youtube.com/channel/UCHCeXVac9AsNvOCkqYE4UtA
 - Description: Channel berbagi informasi dan pengetahuan dunia teknologi informasi dengan menggunakan Bahasa Indonesia.
 - Topic Tags: HTML, CSS, JavaScript, PHP, Laravel, Git, Tips Trik, Programming, Full Stack
-- Business Model: FREE No Ads
+- Business Model: FREE NO ADS
 - Tipe: VIDEO
 - Rating: 0
 
@@ -88,10 +78,9 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 
 - Creator : Dea Venditama
 - URL: https://www.youtube.com/c/DeaVenditama
-- Medium : https://medium.com/@deavenditama
 - Description : Coding Tutorial and Random Things about Technology
 - Topic Tags : Web, PHP, CodeIgniter, Yii, Python, Machine Learning, Data Science
-- Business Model: FREE No Ads (for now)
+- Business Model: FREE NO ADS (for now)
 - Tipe: VIDEO
 - Rating: 0
 
@@ -101,7 +90,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://youtube.com/didikmakaryo
 - Description : Bahas materi-materi kuliah S1-Teknik Informatika yang dikemas secara simple agar lebih mudah dipahami.
 - Topic Tags : Opini, PHP, HTML, Database
-- Business Model : FREE No Ads
+- Business Model : FREE NO ADS
 - Tipe: VIDEO
 - Rating: 0
 
@@ -111,7 +100,17 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://www.youtube.com/channel/UCyIdrgBbX7-A8tcu_ivA4KA
 - Description: Sharing - sharing video belajar bahasa pemrograman
 - Topic Tags: HTML, CSS, JavaScript, PHP, CodeIgniter, Angular, Ionic
-- Business Model: FREE With Ads
+- Business Model: FREE WITH ADS
+- Tipe: VIDEO
+- Rating: 0
+
+### GLC NETWORKS YOUTUBE
+
+- Creator: Achmad Mardiansyah
+- URL: https://www.youtube.com/channel/UCI611_IIkQC0rsLWIFIx_yg
+- Description: Organisasi yang menyediakan jasa training dan solusi IT (aplikasi, networking, system dan automation), ada free webinar dan rekamannya diupload ke youtube
+- Topic Tags: HTML, CSS, JavaScript, PHP, Python, Django, Shell Script, CodeIgniter, SQL, GIT, Laravel, Git, Networking, SysAdmin, Radius
+- Business Model: FREE NO ADS
 - Tipe: VIDEO
 - Rating: 0
 
@@ -121,7 +120,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://www.youtube.com/hobikomputer
 - Description: Channel Youtube Pembelajaran dan Berbagi Ilmu Web Developer untuk Front End, Back End, FULL STACK DEVELOPER, Dev Ops, Web Design & Web Programming Dasar.
 - Topic Tags: HTML, CSS, JavaScript, PHP, Laravel, Git, Tips Trik, Design, Web, Front End, Full Stack
-- Business Model: FREE No Ads
+- Business Model: FREE NO ADS
 - Tipe: VIDEO
 - Rating: 0
 
@@ -131,14 +130,24 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://www.youtube.com/c/H4nkTech
 - Description: Berbagi seputar Tutotrial Komputer yang meliputi Pemograman, Jaringan, Video Editing, Tips dan Trik, Seputar kegiatan Dunia Kampus
 - Topic Tags: Database, PHP, CodeIgniter, HTML, Filmora
-- Business Model: FREE No Ads
+- Business Model: FREE NO ADS
+- Tipe: VIDEO
+- Rating: 0
+
+### JAGO NGODING
+
+- Creator: Nurul Huda Ibnu Zakaria
+- URL: https://jagongoding.com
+- Description: Catatan tentang Linux, dan hal-hal berkaitan dengan teknis pemrograman.
+- Topic Tags: Linux, php
+- Business Model: FREE NO ADS
 - Tipe: VIDEO
 - Rating: 0
 
 ### JAGO REACT
 - Creator: Yuda Sukmana
 - URL: https://jagoreact.com
-- Description: Tempat Belajar Modern Web Development 
+- Description: Tempat Belajar Modern Web Development
 - Topic Tags: react, firebase
 - Business Model:  MEMBERSHIP
 - Tipe: VIDEO
@@ -150,7 +159,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL : https://www.youtube.com/channel/UCEzN0oBll3dQga-9z88heyA
 - Description: Berbagi tutorial pemrograman web dan mobile dan segala sesuatu yang menarik seputar dunia IT.
 - Topic Tags: PHP, CodeIgniter, Laravel, Flutter, Git, Android, Database, Tips Trik
-- Business Model: FREE With Ads
+- Business Model: FREE WITH ADS
 - Tipe: VIDEO
 - Rating: 0
 
@@ -160,7 +169,17 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://youtube.com/c/lazdayindonesia
 - Description: Video Tutorial Android Kotlin, Flutter & Java
 - Topic Tags: android, kotlin, flutter, java
-- Business Model: FREE with Ads
+- Business Model: FREE WITH ADS
+- Tipe: VIDEO
+- Rating: 0
+
+### MAULANA ILHAM
+
+- Creator: Maulana Ilham
+- URL: https://m.youtube.com/channel/UCqJBoFEcTwwEaOQ7lcnGucw
+- Description: Tutorial pemrograman mobile android
+- Topic Tags: flutter
+- Business Model: FREE WITH ADS
 - Tipe: VIDEO
 - Rating: 0
 
@@ -170,17 +189,17 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://www.youtube.com/musaamin
 - Description: YouTube Channel seputar Linux System Administrator
 - Topic Tags: linux, sysadmin, cloud, devops
-- Business Model: FREE No Ads
+- Business Model: FREE NO ADS
 - Tipe: VIDEO
 - Rating: 0
 
 ### NGODINGERS
 
 - Creator: Muhammad Fahriansyah & M Iqbal Maulana
-- URL: https://www.youtube.com/c/Ngodingers/featured
+- URL: https://www.youtube.com/c/Ngodingers
 - Description: Ngodingers bertujuan untuk memberikan konten pemrograman dengan Bahasa Indonesia, agar lebih mudah dalam dipahamai dan diaplikasikan dalam kehidupan.
 - Topic Tags: NodeJS, Golang, AI, OpenCV, Deep Learning, Machine Learning, Data Sience, Full Stack, PHP, JavaScript
-- Bussines Model: FREE with Ads
+- Business Model: FREE WITH ADS
 - Tipe: VIDEO
 - Rating: 0
 
@@ -190,7 +209,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://www.petanikode.com
 - Description: Tempat belajar budidaya kode.
 - Topic Tags: JavaScript, Java, PHP, Python, Git, C, C++
-- Business Model: FREE with Ads
+- Business Model: FREE WITH ADS
 - Tipe: VIDEO
 - Rating: 0
 
@@ -200,7 +219,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://www.youtube.com/pojokcode
 - Description: Tutorial SQL dan Pemprograman
 - Topic Tags: PHP, Java, MySQL, MariaDB, SQL Server, Oracle
-- Business Model: FREE With Ads
+- Business Model: FREE WITH ADS
 - Tipe: VIDEO
 - Rating: 0
 
@@ -210,7 +229,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://santrikoding.com
 - Description: Belajar koding bahasa indonesia terlengkap dan mudah dipahami seperti Laravel, CodeIgniter, Vue JS, JavaScript dan masih banyak lagi.
 - Topic Tags: PHP, CodeIgniter, Laravel, SysAdmin, Database, JavaScript
-- Business Model: FREEMIUM, MEMBERSHIP
+- Business Model: FREEMIUM
 - Tipe: VIDEO
 - Rating: 0
 
@@ -219,7 +238,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://www.youtube.com/thoriqaziz
 - Description: Tempat belajar & berbagi bersama seputar dunia IT.
 - Topic Tags: php, laravel, vuejs
-- Business Model: FREE No Ads
+- Business Model: FREE NO ADS
 - Tipe: VIDEO
 - Rating: 0
 
@@ -229,7 +248,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://www.youtube.com/c/VictorSilalahi
 - Description: Video pembelajaran programming di javascript dan python
 - Topic Tags: JavaScript, jQuery, ThreeJS, VisJS, ChartJS, PlotlyJS, BabylonJS, Python, Matplotlib, MySQL, Tkinter, Socket, Data Visualization, Graph, 3D
-- Business Model: FREE No Ads
+- Business Model: FREE NO ADS
 - Tipe: VIDEO
 - Rating: 0
 
@@ -239,7 +258,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://youtube.com/webprogrammingunpas
 - Description: Channel Youtube Pembelajaran Web Design & Web Programming Dasar
 - Topic Tags: HTML, CSS, JavaScript, PHP, CodeIgniter, Laravel, Git, Tips Trik, Web Design, Modern Web, Web
-- Business Model: FREE With Ads
+- Business Model: FREE WITH ADS
 - Tipe: VIDEO
 - Rating: 0
 
@@ -249,7 +268,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://youtube.com/yukcoding2
 - Description: Berbagi tutorial pemrograman gratis dan tips trik menarik seputar dunia IT.
 - Topic Tags: PHP, CodeIgniter, Laravel, Android, Database, Tips Trik
-- Business Model: FREE With Ads
+- Business Model: FREE WITH ADS
 - Tipe: VIDEO
 - Rating: 0
 
@@ -261,7 +280,17 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://www.aneiqbal.com/p/tutorial-php.html
 - Description: Tutorial CRUD sederhana dengan PHP & MySQL untuk pemula (study case data mahasiswa).
 - Topic Tags: php, mysql, phpmyadmin
-- Business Model: FREE with Ads
+- Business Model: FREE WITH ADS
+- Tipe: BLOG
+- Rating: 0
+
+### CAKJUICE
+
+- Creator: Hendra Juice
+- URL: https://cakjuice.com
+- Description: Blog tentang Python, Odoo, Django
+- Topic Tags: python, django, odoo
+- Business Model: FREE WITH ADS
 - Tipe: BLOG
 - Rating: 0
 
@@ -271,7 +300,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://codedoct.com
 - Description: Tutorial programming
 - Topic Tags: php, laravel, ruby, rails, react native, visual basic, ubuntu, css, sass
-- Business Model: FREE with Ads
+- Business Model: FREE WITH ADS
 - Tipe: BLOG
 - Rating: 0
 
@@ -281,7 +310,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://daengweb.id
 - Description: Belajar pemrograman dengan study case.
 - Topic Tags: PHP, Laravel, Flutter, VueJS, Tips Trik
-- Business Model: FREE With Ads
+- Business Model: FREE WITH ADS
 - Tipe: BLOG
 - Rating: 0
 
@@ -291,7 +320,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: http://flutter.id/
 - Description: Tutorial flutter bahasa indonesia
 - Topic Tags: flutter, restapi
-- Business Model: FREE with Ads 
+- Business Model: FREE WITH ADS
 - Tipe: BLOG
 - Rating: 0
 
@@ -310,9 +339,9 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Creator: Mochammad Ihza Rizky Karim
 - URL: https://ihzarizkyk.blogspot.com/
 - Description: Blog Pribadi Yang Berisi mengenai Tutorial Pemrograman C, PHP, Python dan Data Science Seperti NumPy
-- Topic Tags: php, python, numpy 
-- Business Model: FREE No Ads 
-- Tipe: BLOG 
+- Topic Tags: php, python, numpy
+- Business Model: FREE WITH ADS
+- Tipe: BLOG
 - Rating: 0
 
 ### KAWAN KODING
@@ -321,7 +350,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://kawankoding.id
 - Description: Tempatnya Belajar Laravel
 - Topic Tags: PHP, Laravel, Tips Trik
-- Business Model: FREE With Ads
+- Business Model: FREE WITH ADS
 - Tipe: BLOG
 - Rating: 0
 
@@ -331,8 +360,8 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: kumpul4semut.com
 - Description: Tutorial koding otodidak php, python, react, linux, dsb
 - Topic Tags: python, bash shell, linux, vps, php, codeigniter, react
-- Business Model: REE with Ads 
-- Tipe: BLOG 
+- Business Model: REE with Ads
+- Tipe: BLOG
 - Rating: 0
 
 ### MUSAAMIN.WEB.ID
@@ -341,7 +370,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://musaamin.web.id
 - Description: Blog personal yang berisi tutorial Linux System Administrator dan teknologi open source lainnya.
 - Topic Tags: linux, sysadmin, cloud, devops
-- Business Model: FREE with Ads
+- Business Model: FREE WITH ADS
 - Tipe: BLOG
 - Rating: 0
 
@@ -351,7 +380,17 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://www.mynotescode.com
 - Description: My Notes Code adalah sebuah blog yang berisi mengenai kumpulan catatan seputar pemograman seperti tutorial, tips, trik, dan pemecahan masalah beserta solusinya
 - Topic Tags: PHP, CodeIgniter, Laravel, jQuery, Tips Trik
-- Business Model: FREE With Ads
+- Business Model: FREE WITH ADS
+- Tipe: BLOG
+- Rating: 0
+
+### PUPPET KODE
+
+- Creator: Achmad Rivaldi
+- URL: http://puppetkode.my.id/
+- Description: Belajar Pemerograman bersama puppetkode
+- Topic Tags: JavaScript, web, php
+- Business Model: FREE NO ADS
 - Tipe: BLOG
 - Rating: 0
 
@@ -361,7 +400,17 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://www.warungbelajar.com
 - Description: Sebuah Blog yang berisi mengenai tutorial dibidang teknologi, seperti Tutorial Pemrograman, penggunaan aplikasi komputer, dan smartphone.
 - Topic Tags: Wordpress, HTML, CSS, Bootstrap, PHP, CodeIgniter, Tips Trik
-- Business Model: FREE With Ads
+- Business Model: FREE WITH ADS
+- Tipe: BLOG
+- Rating: 0
+
+### YUDI SETIAWAN BLOG
+
+- Creator: Yudi Setiawan
+- URL: https://medium.com/@kolonel.yudisetiawan
+- Description: Berbagi pengalaman lewat tulisan selama berkarir di dunia programming yang berfokus pada pengembangan aplikasi mobile (Android & Flutter)
+- Topic Tags: android, flutter, java, kotlin, dart
+- Business Model: FREE NO ADS
 - Tipe: BLOG
 - Rating: 0
 
@@ -379,13 +428,13 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 
 ## 📦 CONTRIBUTORS
 
-### Komunitas Git Indonesia
+### KOMUNITAS GIT INDONESIA
 
 - Creator: Komunitas Git Indonesia
 - URL: https://github.com/GitIndonesia
 - Description: Komunitas Git Indonesia, didalamnya terdapat repository-repository yang berguna untuk semua yg dimana telah dijadikan satu menjadi list-awesome-repository indonesia, kalian juga bisa ikut membantu kontribusi.
 - Topic Tags: komunitas, git, php, html, css
-- Business Model: FREE No Ads
+- Business Model: FREE NO ADS
 - Tipe: CONTRIBUTOR
 - Rating: 0
 

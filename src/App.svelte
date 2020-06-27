@@ -26,7 +26,6 @@
   const handleFilter = event => {
     const filterBy = event.detail.text.toLowerCase();
     activeFilter = filterBy;
-    activeTag = "";
     if (filterBy === "semua") {
       showData = data.awesome_list;
     } else {
@@ -88,6 +87,11 @@
 <style>
   .app-content {
     min-height: 70vh;
+		text-rendering: optimizeLegibility;
+		word-wrap: break-word;
+		font-kerning: normal;
+		-moz-font-feature-settings: "kern", "liga", "clig", "calt";
+		font-feature-settings: "kern", "liga", "clig", "calt";
   }
 </style>
 
