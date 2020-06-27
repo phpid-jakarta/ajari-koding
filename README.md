@@ -252,6 +252,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: VIDEO
 - Rating: 0
 
+### SKUY NGODING
+
+- Creator: Hafizul Furqan
+- URL: https://www.youtube.com/channel/UCnsuWbi9bdFzrjNOZUSIPMg
+- Description: Sharing apapun yang dirasa bermanfaat, khususnya di bidang programming.
+- Topic Tags: php, codeigniter 4, javascript
+- Business Model: FREE NO ADS
+- Tipe: VIDEO
+- Rating: 0
+
 ### THORIQAZIZ YOUTUBE CHANNEL
 - Creator: Thoriq Aziz
 - URL: https://www.youtube.com/thoriqaziz
