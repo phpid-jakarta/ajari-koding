@@ -8,9 +8,8 @@
 
 - Urutkan setiap item berdasarkan abjad dan posisikan sesuai tipenya
 - Ikuti format yang telah tersedia
-- Jelaskan Business Model sesuai dengan pilihan yang kami telah sediakan, yakni `FREE NO ADS`, `FREE WITH ADS`, `FREE TRIAL`, `FREEMIUM`, `MEMBERSHIP`
-- Rating akan disematakan oleh tim kurasi dari PHPID
-- Semua item akan dikurasi terlebih dahulu oleh tim PHPID, keputusan tim adalah mutlak
+- Jelaskan Business Model sesuai dengan pilihan yang kami telah sediakan, yakni `FREE NO ADS`, `FREE WITH ADS`, `FREE TRIAL`, `FREEMIUM`, `MEMBERSHIP`,`ONE TIME PAID`
+- Rating akan disematakan oleh tim kurasi dari PHPID dan bersifat mutlak
 
 ## 📝 Template
 
