@@ -385,6 +385,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: BLOG
 - Rating: 0
 
+### PUPPET KODE
+
+- Creator: Achmad Rivaldi
+- URL: http://puppetkode.my.id/
+- Description: Belajar Pemerograman bersama puppetkode
+- Topic Tags: JavaScript, web, php
+- Business Model: FREE No Ads
+- Tipe: BLOG
+- Rating: 0
+
 ### WARUNG BELAJAR
 
 - Creator: Aris Samsudin
