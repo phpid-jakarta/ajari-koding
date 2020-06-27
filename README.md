@@ -179,7 +179,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://www.youtube.com/c/lampungdev
 - Description: Belajar Menjadi Software Engineer Profesional 
 - Topic Tags: react, react native, golang, swift, python
-- Business Model: FREE with Ads
+- Business Model: FREE WITH ADS
 - Tipe: VIDEO
 - Rating: 0
 
