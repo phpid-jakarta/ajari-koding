@@ -30,7 +30,7 @@
       </small>
       <h5 class="card-title font-weight-bold">{item.title}</h5>
       <h6 class="card-subtitle mb-2 text-muted">{item.creator}</h6>
-      <p class="card-text">{item.description}</p>
+      <p class="card-text mt-3">{item.description}</p>
 
       <Rating rating={item.rating} />
 
