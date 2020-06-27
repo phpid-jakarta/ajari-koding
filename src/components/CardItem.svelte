@@ -1,5 +1,6 @@
 <script>
   import Tags from "./Tags.svelte";
+  import Rating from "./Rating.svelte";
   export let item;
 
   const topic_tags = [...item.topic_tags];
@@ -16,14 +17,22 @@
     position: absolute;
     bottom: 1rem;
   }
+  .business-model {
+    font-size: 10px;
+  }
 </style>
 
 <div class="col-md-4 col-sm-6 col-xs-12">
   <div class="card">
     <div class="card-body">
-      <h5 class="card-title">{item.title}</h5>
+      <small class="text-muted text-uppercase business-model">
+        {item.business_model}
+      </small>
+      <h5 class="card-title font-weight-bold">{item.title}</h5>
       <h6 class="card-subtitle mb-2 text-muted">{item.creator}</h6>
       <p class="card-text">{item.description}</p>
+
+      <Rating rating={item.rating} />
 
       {#if item.topic_tags && item.topic_tags.length > 0}
         <Tags title={item.title} topic_tags={item.topic_tags} />
@@ -36,18 +45,18 @@
         class="btn btn-outline-primary btn--visit">
         Kunjungi
         <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="18"
-          height="18"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="feather feather-arrow-right">
-          <line x1="5" y1="12" x2="19" y2="12" />
-          <polyline points="12 5 19 12 12 19" />
+          width="24"
+          height="24"
+          viewBox="0 0 16 16"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            fill-rule="evenodd"
+            d="M8.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0
+            0 1-.708-.708L10.793 8 8.146 5.354a.5.5 0 0 1 0-.708z" />
+          <path
+            fill-rule="evenodd"
+            d="M4 8a.5.5 0 0 1 .5-.5H11a.5.5 0 0 1 0 1H4.5A.5.5 0 0 1 4 8z" />
         </svg>
       </a>
     </div>

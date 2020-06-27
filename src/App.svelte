@@ -63,6 +63,11 @@
 <style>
   .app-content {
     min-height: 70vh;
+		text-rendering: optimizeLegibility;
+		word-wrap: break-word;
+		font-kerning: normal;
+		-moz-font-feature-settings: "kern", "liga", "clig", "calt";
+		font-feature-settings: "kern", "liga", "clig", "calt";
   }
 </style>
 
