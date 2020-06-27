@@ -1,3 +1,7 @@
+<script>
+  import { REPO_URL, REPO_NEW_ISSUE_URL } from "../constant.js";
+</script>
+
 <style>
 
 </style>
@@ -13,7 +17,7 @@
 
     <p>
       <a
-        href="https://github.com/phpid-jakarta/ajari-koding"
+        href="{REPO_URL}"
         target="_blank"
         rel="noopener noreferrer"
         class="btn btn-outline-light mb-2 mr-2">
@@ -40,7 +44,7 @@
         Yuk bantu kami
       </a>
       <a
-        href="https://github.com/phpid-jakarta/ajari-koding/issues/new?assignees=%40mazipan&labels=data-proposal&template=add_new_data.md&title=New+Data+-+Nama+Produk"
+        href="{REPO_NEW_ISSUE_URL}"
         target="_blank"
         rel="noopener noreferrer"
         class="btn btn-light mb-2">
