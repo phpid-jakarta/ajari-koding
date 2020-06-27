@@ -1,5 +1,6 @@
 <script>
   import { createEventDispatcher } from "svelte";
+  import { createArray, clickOutside } from "../utils.js";
 
   const dispatch = createEventDispatcher();
   const winWidth = window.innerWidth;
@@ -10,13 +11,15 @@
   export let currentPage;
 
   $: pageCount = Math.ceil(total / perPage);
+  let showPerPageOptions = false;
 
-  const handleClick = (e, val) => {
+  const handleClickPage = (e, val) => {
     e.preventDefault();
     dispatch("pageclick", {
       page: val
     });
   };
+
   const handleClickPerPage = (e, val) => {
     e.preventDefault();
     dispatch("perpageclick", {
@@ -30,11 +33,11 @@
 </style>
 
 <div class="d-flex justify-content-center mt-5">
-  <div class="dropdown mr-2">
-    <button class="btn btn-primary dropdown-toggle" id="dropdownPageOptions" data-toggle="dropdown" aria-expanded="false">
-      Per Halaman: {perPage}
+  <div class="dropdown align-self-baseline mr-2">
+    <button use:clickOutside class="btn btn-primary" on:click={ () => {showPerPageOptions = !showPerPageOptions} } on:click_outside={ () => {showPerPageOptions = false}}>
+      Per Halaman: {perPage} ▾
     </button>
-    <ul class="dropdown-menu" aria-labelledby="dropdownPageOptions">
+    <ul class="dropdown-menu {showPerPageOptions ? 'show' : ''}">
       {#each perPageOptions as page (page)}
         <li>
           <a class="dropdown-item" href="#" on:click={e => handleClickPerPage(e, page)}>{page}</a>
@@ -44,15 +47,15 @@
   </div>
   <ul class="pagination">
     <li class="page-item {currentPage == 1 ? 'disabled' : ''}">
-      <a href="#" class="page-link" on:click={e => handleClick(e, currentPage - 1)}>&laquo;</a>
+      <a href="#" class="page-link" on:click={e => handleClickPage(e, currentPage - 1)}>&laquo;</a>
     </li>
-    {#each Array(pageCount) as _, i}
+    {#each createArray(pageCount) as i}
       <li class="page-item {currentPage == i + 1 ? 'active' : ''}">
-        <a href="#" class="page-link" on:click={e => handleClick(e, i + 1)}>{i + 1}</a>
+        <a href="#" class="page-link" on:click={e => handleClickPage(e, i + 1)}>{i + 1}</a>
       </li>
     {/each}
     <li class="page-item {currentPage == pageCount ? 'disabled' : ''}">
-      <a href="#" class="page-link" on:click={e => handleClick(e, currentPage + 1)}>&raquo;</a>
+      <a href="#" class="page-link" on:click={e => handleClickPage(e, currentPage + 1)}>&raquo;</a>
     </li>
   </ul>
 </div>
