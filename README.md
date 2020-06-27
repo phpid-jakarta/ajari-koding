@@ -429,7 +429,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 
 ## 📦 CONTRIBUTORS
 
-### Komunitas Git Indonesia
+### KOMUNITAS GIT INDONESIA
 
 - Creator: Komunitas Git Indonesia
 - URL: https://github.com/GitIndonesia
