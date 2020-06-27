@@ -6,6 +6,7 @@
   import CardItem from "./components/CardItem.svelte";
   import Footer from "./components/Footer.svelte";
   import Empty from "./components/Empty.svelte";
+  import Pagination from "./components/Pagination.svelte";
   import { FILTER_ITEMS } from "./constant.js";
   import { getDistinctTags, isHaveTag } from "./utils.js";
 
@@ -14,10 +15,18 @@
   let activeTag = "";
   let activeFilter = FILTER_ITEMS.ALL;
   let allTags = getDistinctTags(showData);
+  
+  const winWidth = window.innerWidth;
+
+  // Pagination config
+  let perPage = winWidth <= 767 ? 10 : 9;
+  let currentPage = 1;
+  $: offsetPage = currentPage * perPage - perPage;
 
   const handleFilter = event => {
     const filterBy = event.detail.text.toLowerCase();
     activeFilter = filterBy;
+    activeTag = "";
     if (filterBy === "semua") {
       showData = data.awesome_list;
     } else {
@@ -26,6 +35,7 @@
       );
       showData = [...foundData];
     }
+    resetCurrentPage();
   };
 
   const handleSearch = event => {
@@ -43,6 +53,7 @@
       );
       showData = [...foundData];
     }
+    resetCurrentPage();
   };
 
   const handleClickTag = event => {
@@ -57,7 +68,21 @@
       activeTag = "";
       showData = data.awesome_list;
     }
+    resetCurrentPage();
   };
+
+  const handleClickPage = event => {
+    currentPage = event.detail.page;
+  };
+
+  const handleClickPerPage = event => {
+    perPage = event.detail.perPage;
+    resetCurrentPage();
+  };
+
+  const resetCurrentPage = () => {
+    currentPage = 1;
+  }
 </script>
 
 <style>
@@ -75,10 +100,11 @@
     {#if showData.length > 0}
       <TagsCloud {allTags} {activeTag} on:tagclick={handleClickTag} />
       <div class="row justify-content-center gx-3 gy-3">
-        {#each showData as item (item.id)}
+        {#each showData.slice(offsetPage, offsetPage + perPage) as item (item.id)}
           <CardItem {item} />
         {/each}
       </div>
+      <Pagination total={showData.length} {perPage} {currentPage} on:pageclick={handleClickPage} on:perpageclick={handleClickPerPage} />
     {:else}
       <Empty />
     {/if}
