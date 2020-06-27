@@ -33,6 +33,9 @@ const main = async () => {
               .replace(/url:/gi, '')
               .replace(/url :/gi, '')
               .trim();
+          } else if (t === 'business_model'){
+            const v = itemSplit[1].trim();
+            formatteddata[t] = v.toUpperCase();
           } else if (
             t === 'topic_tags' ||
             t === 'topic' ||
@@ -42,6 +45,7 @@ const main = async () => {
             const v = itemSplit[1].trim();
             formatteddata['topic_tags'] = v
               .split(',')
+              // all tags should be in lowercase
               .map((i) => i.trim().toLowerCase().replace(/\./g, ''))
               .sort();
           } else {
@@ -53,7 +57,8 @@ const main = async () => {
         const title = $(el).text();
         return {
           id: `${title.toLowerCase().replace(/[^\w ]/, '').replace(/\s/g, '_')}`,
-          title,
+          // title is in uppercase
+          title: title.toUpperCase(),
           ...formatteddata,
         };
       })
@@ -62,6 +67,7 @@ const main = async () => {
     const fileContent = {
       last_updated: new Date(),
       awesome_list: jsonResult.sort((a, b) => {
+                                // Sort by title alphabet
 				if(a.id < b.id) { return -1; }
 				if(a.id > b.id) { return 1; }
 				return 0;
