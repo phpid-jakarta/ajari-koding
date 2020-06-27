@@ -32,6 +32,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 
 ## 🌍 PORTAL
 
+### AMPERAKODING
+
+- Creator: Muhammad Azmi
+- URL: https://amperakoding.com
+- Description: Tutorial Pemograman, Komputer, dan Linux
+- Topic Tags: php, mysql, codeigniter, linux
+- Business Model: FREEMIUM
+- Tipe: PORTAL
+- Rating: 0
+
 ### ARROWFUNXTION
 
 - Creator: Muhammad Azamuddin
@@ -284,6 +294,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: BLOG
 - Rating: 0
 
+### BANDITHIJO BLOG
+
+- Creator: Rizqi Nur Assyaufi
+- URL: https://bandithijo.github.io
+- Description: Blog pribadi berisi catatan hasil bereksplorasi dalam menggunakan GNU/Linux dalam kegiatan sehari-hari dan bekerja.
+- Topic Tags: tips trik, ruby, rails, arch linux
+- Business Model: FREE NO ADS
+- Tipe: BLOG
+- Rating: 0
+
 ### CAKJUICE
 
 - Creator: Hendra Juice
@@ -350,6 +370,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - URL: https://kawankoding.id
 - Description: Tempatnya Belajar Laravel
 - Topic Tags: PHP, Laravel, Tips Trik
+- Business Model: FREE WITH ADS
+- Tipe: BLOG
+- Rating: 0
+
+### KOPIDING.IN
+
+- Creator: Lendis Fabri
+- URL: https://kopiding.in
+- Description: Hanya ingin berbagi saja, website dengan kumpulan informasi teknologi pemrograman terbaru dan source code gratisan
+- Topic Tags: laravel, python, web development
 - Business Model: FREE WITH ADS
 - Tipe: BLOG
 - Rating: 0
