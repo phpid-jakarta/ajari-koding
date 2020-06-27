@@ -385,7 +385,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: BLOG
 - Rating: 0
 
-### YUDI SETIAWN BLOG
+### YUDI SETIAWAN BLOG
 
 - Creator: Yudi Setiawan
 - URL: https://medium.com/@kolonel.yudisetiawan
