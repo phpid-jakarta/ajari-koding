@@ -3,12 +3,15 @@
 
   const dispatch = createEventDispatcher();
 
-  function doSearch(e) {
-    const val = e.target.value;
+  let keyword = '';
+
+  function doSearch(txt) {
     dispatch("search", {
-      text: val
+      text: txt
     });
   }
+
+  $: doSearch(keyword); 
 </script>
 
 <style>
@@ -28,8 +31,8 @@
     type="text"
     class="form-control input-search"
     id="search"
-    placeholder="Cari nama produk, kreator, deskripsi atau tag..."
-    on:change={doSearch} />
+    bind:value={keyword}
+    placeholder="Cari nama produk, kreator, deskripsi atau tag..." />
   <svg
     width="1em"
     height="1em"
