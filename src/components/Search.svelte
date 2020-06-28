@@ -11,7 +11,7 @@
     });
   }
 
-  $: doSearch(keyword); 
+  $: doSearch(keyword);
 </script>
 
 <style>
