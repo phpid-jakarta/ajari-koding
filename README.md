@@ -353,6 +353,36 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: BLOG
 - Rating: 0
 
+### DIDIK WICAKSONO
+
+- Creator: Didik Wicaksono
+- URL: https://didik.id
+- Description: Blog pribadi berisikan tentang programming, pengembangan diri, serta makanan
+- Topic Tags: ruby, rails, javascript
+- Business Model: FREE NO ADS
+- Tipe: BLOG
+- Rating: 0
+
+### EPSI RNS - DESKTOP CUSTOMIZATION
+
+- Creator: Epsi Sayidina
+- URL: http://epsi-rns.github.io/
+- Description: This site is mainly discuss about linux distribution or BSD, desktop customization, window manager tweak, And sometimes other interesting issue as well, such as package manager, file system and init.
+- Topic Tags: Terminal, Window Manager, Container, Distro, BASH, Lua
+- Business Model: FREE WITH ADS
+- Tipe: BLOG
+- Rating: 0
+
+### EPSI RNS - WEB DEVELOPMENT
+
+- Creator: Epsi Sayidina
+- URL: https://epsi-rns.gitlab.io/
+- Description: This site is mainly discuss about web development, frontend, backend, and especially SSG (static site generator), And sometimes other interesting issue as well, such as coding and design.
+- Topic Tags: SSG, JAM Stack, Template Engine, CSS Preprocessor, Bundler, CI/CD, API
+- Business Model: FREE WITH ADS
+- Tipe: BLOG
+- Rating: 0
+
 ### FLUTTER ID
 
 - Creator: Ilham Maulana
