@@ -143,16 +143,6 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: VIDEO
 - Rating: 0
 
-### JAGO NGODING
-
-- Creator: Nurul Huda Ibnu Zakaria
-- URL: https://jagongoding.com
-- Description: Catatan tentang Linux, dan hal-hal berkaitan dengan teknis pemrograman.
-- Topic Tags: Linux, php
-- Business Model: FREE NO ADS
-- Tipe: VIDEO
-- Rating: 0
-
 ### JAGO REACT
 - Creator: Yuda Sukmana
 - URL: https://jagoreact.com
@@ -410,6 +400,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Description: Blog Pribadi Yang Berisi mengenai Tutorial Pemrograman C, PHP, Python dan Data Science Seperti NumPy
 - Topic Tags: php, python, numpy
 - Business Model: FREE WITH ADS
+- Tipe: BLOG
+- Rating: 0
+
+### JAGO NGODING
+
+- Creator: Nurul Huda Ibnu Zakaria
+- URL: https://jagongoding.com
+- Description: Catatan tentang Linux, dan hal-hal berkaitan dengan teknis pemrograman.
+- Topic Tags: Linux, php
+- Business Model: FREE NO ADS
 - Tipe: BLOG
 - Rating: 0
 
