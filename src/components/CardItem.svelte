@@ -1,4 +1,5 @@
 <script>
+  import Icon from "./Icon.svelte";
   import Tags from "./Tags.svelte";
   import Rating from "./Rating.svelte";
   export let item;
@@ -44,20 +45,7 @@
         rel="noopener noreferrer"
         class="btn btn-outline-primary btn--visit">
         Kunjungi
-        <svg
-          width="24"
-          height="24"
-          viewBox="0 0 16 16"
-          fill="currentColor"
-          xmlns="http://www.w3.org/2000/svg">
-          <path
-            fill-rule="evenodd"
-            d="M8.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0
-            0 1-.708-.708L10.793 8 8.146 5.354a.5.5 0 0 1 0-.708z" />
-          <path
-            fill-rule="evenodd"
-            d="M4 8a.5.5 0 0 1 .5-.5H11a.5.5 0 0 1 0 1H4.5A.5.5 0 0 1 4 8z" />
-        </svg>
+        <Icon name="arrow" width=24 height=24 />
       </a>
     </div>
   </div>
