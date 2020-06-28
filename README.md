@@ -61,6 +61,26 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: PORTAL
 - Rating: 5
 
+### FASTPLAZ
+
+- Creator: Luri Darmawan
+- URL: https://fastplaz.com/
+- Description: Pacsal Web Framework
+- Topic Tags: pascal,lazarus,framework,web
+- Business Model: FREE NO ADS
+- Tipe: PORTAL
+- Rating: 0
+
+### PASCAL INDONESIA
+
+- Creator: Pascal Indonesia Team,
+- URL: https://pascal-id.org
+- Description: Situs Informasi Pascal Indonesia
+- Topic Tags: pascal,delphi,framework,fastplaz
+- Business Model: FREE NO ADS
+- Tipe: PORTAL
+- Rating: 0
+
 ### TEKNO CERDAS
 
 - Creator: Rio Astamal
