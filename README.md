@@ -493,6 +493,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: BLOG
 - Rating: 0
 
+### POJOK PROGRAMMER
+
+- Creator: Nur Hidayat
+- URL: https://pojokprogrammer.net
+- Description: Blog tentang Pemrograman
+- Topic Tags: PHP, Database, Analisa, Design
+- Business Model: FREE WITH ADS
+- Tipe: BLOG
+- Rating: 0
+
 ### PUPPET KODE
 
 - Creator: Achmad Rivaldi
