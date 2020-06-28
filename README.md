@@ -281,6 +281,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: VIDEO
 - Rating: 0
 
+### TUTORKOMPUTER
+
+- Creator: Andi Hoerudin
+- URL: https://www.youtube.com/channel/UCpU7qfVvHlMf698on43t9LQ/playlists
+- Description: Tutorial Pemograman Dengan Study Case tentu dengan teknologi Kekinian.
+- Topic Tags: Javascript,php,codeinteger,laravel,android,react native,vue js
+- Business Model: FREE NO ADS 
+- Tipe: VIDEO 
+- Rating: 0
+
 ### VICTOR SILALAHI
 
 - Creator: Victor Silalahi
