@@ -68,10 +68,10 @@ const main = async () => {
       last_updated: new Date(),
       awesome_list: jsonResult.sort((a, b) => {
                                 // Sort by title alphabet
-				if(a.id < b.id) { return -1; }
-				if(a.id > b.id) { return 1; }
-				return 0;
-			}),
+        if(a.id < b.id) { return -1; }
+        if(a.id > b.id) { return 1; }
+        return 0;
+      }),
     };
 
     fs.writeFile(

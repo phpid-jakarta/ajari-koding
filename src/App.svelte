@@ -15,7 +15,7 @@
   let activeTag = "";
   let activeFilter = FILTER_ITEMS.ALL;
   let allTags = getDistinctTags(showData);
-  
+
   const winWidth = window.innerWidth;
 
   // Pagination config
@@ -87,11 +87,11 @@
 <style>
   .app-content {
     min-height: 70vh;
-		text-rendering: optimizeLegibility;
-		word-wrap: break-word;
-		font-kerning: normal;
-		-moz-font-feature-settings: "kern", "liga", "clig", "calt";
-		font-feature-settings: "kern", "liga", "clig", "calt";
+    text-rendering: optimizeLegibility;
+    word-wrap: break-word;
+    font-kerning: normal;
+    -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+    font-feature-settings: "kern", "liga", "clig", "calt";
   }
 </style>
 
