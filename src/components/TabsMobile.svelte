@@ -44,7 +44,7 @@
 }
 </style>
 
-<ul class="nav tabs-mobile show-on-mobile-only">
+<ul class="nav tabs-mobile border-top show-on-mobile-only">
   {#each FILTERS as f (f)}
     <li class="nav-item">
       <a

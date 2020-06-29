@@ -1,5 +1,6 @@
 <script>
 import Hero from './components/Hero.svelte'
+import HeaderMobile from './components/HeaderMobile.svelte'
 import Tabs from './components/Tabs.svelte'
 import TabsMobile from './components/TabsMobile.svelte'
 import Search from './components/Search.svelte'
@@ -100,6 +101,7 @@ const resetCurrentPage = () => {
 
 <main class="app">
   <Hero />
+  <HeaderMobile />
 
   <section class="app-content container mt-5 mb-5">
     <Tabs {activeFilter} on:filter={handleFilter} />

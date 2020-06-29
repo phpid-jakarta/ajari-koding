@@ -7,7 +7,7 @@
 
 </style>
 
-<header class="container-fluid bg-dark pb-5 pt-5">
+<header class="container-fluid bg-dark pb-5 pt-5 hide-on-mobile">
   <div class="container">
     <h1 class="display-1 text-light font-weight-bolder">Ajari Koding</h1>
     <h2 class="text-muted">oleh PHPID</h2>
