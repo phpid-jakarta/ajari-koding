@@ -49,7 +49,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Topic Tags: React, Laravel, NodeJS, Modern Web, MongoDB, Redis
 - Business Model: FREE NO ADS
 - Tipe: PORTAL
-- Rating: 0
+- Rating: 3
 
 ### CODEPOLITAN
 
@@ -69,7 +69,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Topic Tags: pascal,lazarus,framework,web
 - Business Model: FREE NO ADS
 - Tipe: PORTAL
-- Rating: 0
+- Rating: 3
 
 ### PASCAL INDONESIA
 
@@ -79,7 +79,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Topic Tags: pascal,delphi,framework,fastplaz
 - Business Model: FREE NO ADS
 - Tipe: PORTAL
-- Rating: 0
+- Rating: 2
 
 ### TEKNO CERDAS
 
@@ -89,7 +89,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Topic Tags: Cloud, Security, AWS, GCP, Azure
 - Business Model: FREE WITH ADS
 - Tipe: PORTAL
-- Rating: 0
+- Rating: 4
 
 ## 📽 VIDEO
 
@@ -200,7 +200,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Topic Tags: android, kotlin, flutter, java
 - Business Model: FREE WITH ADS
 - Tipe: VIDEO
-- Rating: 0
+- Rating: 4
 
 ### MAULANA ILHAM
 
@@ -240,7 +240,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Topic Tags: JavaScript, Java, PHP, Python, Git, C, C++
 - Business Model: FREE WITH ADS
 - Tipe: VIDEO
-- Rating: 0
+- Rating: 4
 
 ### POJOK CODE
 
@@ -309,7 +309,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Topic Tags: HTML, CSS, JavaScript, PHP, CodeIgniter, Laravel, Git, Tips Trik, Web Design, Modern Web, Web
 - Business Model: FREE WITH ADS
 - Tipe: VIDEO
-- Rating: 0
+- Rating: 5
 
 ### YUK CODING
 
@@ -371,7 +371,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Topic Tags: PHP, Laravel, Flutter, VueJS, Tips Trik
 - Business Model: FREE WITH ADS
 - Tipe: BLOG
-- Rating: 0
+- Rating: 4
 
 ### DIDIK WICAKSONO
 
@@ -451,7 +451,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Topic Tags: PHP, Laravel, Tips Trik
 - Business Model: FREE WITH ADS
 - Tipe: BLOG
-- Rating: 0
+- Rating: 4
 
 ### KOPIDING.IN
 
@@ -501,7 +501,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Topic Tags: PHP, Database, Analisa, Design
 - Business Model: FREE WITH ADS
 - Tipe: BLOG
-- Rating: 0
+- Rating: 3
 
 ### PUPPET KODE
 
@@ -543,7 +543,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Topic Tags: Laravel, VueJS, Database, MySQL, Rest API
 - Business Model: MEMBERSHIP
 - Tipe: EBOOK
-- Rating: 0
+- Rating: 4
 
 ## 📦 CONTRIBUTORS
 
