@@ -1,26 +1,25 @@
 <script>
-import Hero from './components/Hero.svelte'
-import HeaderMobile from './components/HeaderMobile.svelte'
-import Tabs from './components/Tabs.svelte'
-import TabsMobile from './components/TabsMobile.svelte'
-import Search from './components/Search.svelte'
-import TagsCloud from './components/TagsCloud.svelte'
-import CardItem from './components/CardItem.svelte'
-import Footer from './components/Footer.svelte'
-import Empty from './components/Empty.svelte'
-import Pagination from './components/Pagination.svelte'
-import { FILTER_ITEMS } from './constant.js'
-import { getDistinctTags, isHaveTag } from './utils.js'
+import data from '../data-es'
+import Hero from '../components/Hero.svelte'
+import HeaderMobile from '../components/HeaderMobile.svelte'
+import Tabs from '../components/Tabs.svelte'
+import TabsMobile from '../components/TabsMobile.svelte'
+import Search from '../components/Search.svelte'
+import TagsCloud from '../components/TagsCloud.svelte'
+import CardItem from '../components/CardItem.svelte'
+import Footer from '../components/Footer.svelte'
+import Empty from '../components/Empty.svelte'
+import Pagination from '../components/Pagination.svelte'
+import { FILTER_ITEMS } from '../constant.js'
+import { getDistinctTags, isHaveTag } from '../utils.js'
 
 let offsetPage
-
-export let data
 let showData = data.awesome_list
 let activeTag = ''
 let activeFilter = FILTER_ITEMS.ALL
 const allTags = getDistinctTags(showData)
 
-const winWidth = window.innerWidth
+const winWidth = 767
 
 // Pagination config
 let perPage = winWidth <= 767 ? 20 : 18
@@ -88,6 +87,7 @@ const resetCurrentPage = () => {
 }
 </script>
 
+
 <style>
   .app-content {
     min-height: 70vh;
@@ -98,6 +98,11 @@ const resetCurrentPage = () => {
     font-feature-settings: "kern", "liga", "clig", "calt";
   }
 </style>
+
+<svelte:head>
+	<title>Ajari Koding oleh PHPID</title>
+</svelte:head>
+
 
 <main class="app">
   <Hero />
@@ -122,3 +127,4 @@ const resetCurrentPage = () => {
 
   <Footer />
 </main>
+

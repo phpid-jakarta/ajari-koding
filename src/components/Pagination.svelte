@@ -1,33 +1,33 @@
 <script>
 import { createEventDispatcher } from 'svelte'
-import { createArray, clickOutside } from "../utils.js";
+import { createArray, clickOutside } from '../utils.js'
 
-let pageCount;
+let pageCount
 
-  const dispatch = createEventDispatcher()
-  const winWidth = window.innerWidth
-  const perPageOptions = winWidth <= 767 ? [20, 30, 50, 100] : [18, 30, 60, 90]
+const dispatch = createEventDispatcher()
+const winWidth = 767 // TODO: window.innerWidth onMount
+const perPageOptions = winWidth <= 767 ? [20, 30, 50, 100] : [18, 30, 60, 90]
 
-  export let total
-  export let perPage
-  export let currentPage
+export let total
+export let perPage
+export let currentPage
 
-  $: pageCount = Math.ceil(total / perPage)
-  let showPerPageOptions = false
+$: pageCount = Math.ceil(total / perPage)
+let showPerPageOptions = false
 
-  const handleClickPage = (e, val) => {
-    e.preventDefault()
-    dispatch('pageclick', {
-      page: val
-    })
-  }
+const handleClickPage = (e, val) => {
+  e.preventDefault()
+  dispatch('pageclick', {
+    page: val
+  })
+}
 
-  const handleClickPerPage = (e, val) => {
-    e.preventDefault()
-    dispatch('perpageclick', {
-      perPage: val
-    })
-  }
+const handleClickPerPage = (e, val) => {
+  e.preventDefault()
+  dispatch('perpageclick', {
+    perPage: val
+  })
+}
 </script>
 
 <style>
@@ -51,15 +51,15 @@ let pageCount;
     </ul>
   </div>
   <ul class="pagination">
-    <li class="page-item {currentPage == 1 ? 'disabled' : ''}">
+    <li class="page-item {currentPage === 1 ? 'disabled' : ''}">
       <a href="?page={currentPage - 1}" class="page-link" on:click={e => handleClickPage(e, currentPage - 1)}>&laquo;</a>
     </li>
     {#each createArray(pageCount) as i}
-      <li class="page-item {currentPage == i + 1 ? 'active' : ''}">
+      <li class="page-item {currentPage === i + 1 ? 'active' : ''}">
         <a href="?page={i - 1}" class="page-link" on:click={e => handleClickPage(e, i + 1)}>{i + 1}</a>
       </li>
     {/each}
-    <li class="page-item {currentPage == pageCount ? 'disabled' : ''}">
+    <li class="page-item {currentPage === pageCount ? 'disabled' : ''}">
       <a href="?page={currentPage + 1}" class="page-link" on:click={e => handleClickPage(e, currentPage + 1)}>&raquo;</a>
     </li>
   </ul>

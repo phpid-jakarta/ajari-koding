@@ -47,4 +47,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: '${{ secrets.PERSONAL_TOKEN }}'
-          publish_dir: ./public
+          publish_dir: ./__sapper__/export/ajari-koding/

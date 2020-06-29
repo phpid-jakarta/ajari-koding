@@ -16,7 +16,8 @@ module.exports = {
     }
   ],
   rules: {
-    'no-multiple-empty-lines': 'off'
+    'no-multiple-empty-lines': 'off',
+    camelcase: 'off'
   },
   settings: {}
 }
