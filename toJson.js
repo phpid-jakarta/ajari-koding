@@ -91,7 +91,7 @@ const main = async () => {
     }
 
     const arrayWithRating = jsonResult.filter(i => i.rating > 0)
-    const arrayWithoutRating = jsonResult.filter(i => i.rating > 0)
+    const arrayWithoutRating = jsonResult.filter(i => i.rating < 1)
     const fileContent = {
       last_updated: new Date(),
       awesome_list: [
