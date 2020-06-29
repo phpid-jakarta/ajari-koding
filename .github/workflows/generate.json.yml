@@ -42,7 +42,7 @@ jobs:
           github_token: '${{ secrets.GITHUB_TOKEN }}'
           force: true
       - name: Build UI
-        run: yarn build
+        run: yarn export
       - name: GitHub Pages Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
