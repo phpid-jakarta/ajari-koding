@@ -36,7 +36,7 @@
       <Rating rating={item.rating} />
 
       {#if item.topic_tags && item.topic_tags.length > 0}
-        <Tags title={item.title} topic_tags={item.topic_tags} />
+        <Tags topic_tags={item.topic_tags} />
       {/if}
 
       <a

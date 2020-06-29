@@ -1,6 +1,7 @@
 <script>
 import Hero from './components/Hero.svelte'
 import Tabs from './components/Tabs.svelte'
+import TabsMobile from './components/TabsMobile.svelte'
 import Search from './components/Search.svelte'
 import TagsCloud from './components/TagsCloud.svelte'
 import CardItem from './components/CardItem.svelte'
@@ -114,6 +115,7 @@ const resetCurrentPage = () => {
     {:else}
       <Empty />
     {/if}
+    <TabsMobile {activeFilter} on:filter={handleFilter} />
   </section>
 
   <Footer />
