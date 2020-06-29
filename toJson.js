@@ -36,6 +36,9 @@ const main = async () => {
           } else if (t === 'business_model') {
             const v = itemSplit[1].trim()
             formatteddata[t] = v.toUpperCase()
+          } else if (t === 'rating') {
+            const v = itemSplit[1].trim()
+            formatteddata[t] = parseInt(v, 10)
           } else if (
             t === 'topic_tags' ||
             t === 'topic' ||
@@ -67,9 +70,8 @@ const main = async () => {
       })
       .get()
 
-    const fileContent = {
-      last_updated: new Date(),
-      awesome_list: jsonResult.sort((a, b) => {
+    const sortByAplhabet = (arr) => {
+      return [...arr].sort((a, b) => {
         // Sort by title alphabet
         if (a.id < b.id) {
           return -1
@@ -79,6 +81,23 @@ const main = async () => {
         }
         return 0
       })
+    }
+
+    const sortByRating = (arr) => {
+      return [...arr].sort((a, b) => {
+        // Sort by rating
+        return a.rating - b.rating
+      })
+    }
+
+    const arrayWithRating = jsonResult.filter(i => i.rating > 0)
+    const arrayWithoutRating = jsonResult.filter(i => i.rating > 0)
+    const fileContent = {
+      last_updated: new Date(),
+      awesome_list: [
+        ...sortByRating(arrayWithRating),
+        ...sortByAplhabet(arrayWithoutRating)
+      ]
     }
 
     fs.writeFile(
