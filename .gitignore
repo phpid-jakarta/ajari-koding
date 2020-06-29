@@ -107,3 +107,4 @@ dist
 /public/build/
 /public/images/
 /public/prerendered/
+/__sapper__/
