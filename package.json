@@ -9,14 +9,18 @@
   "private": false,
   "scripts": {
     "toJson": "node ./toJson.js",
-    "set:publicpath": "node ./publicPathReplacer.js",
+    "postbuild:prerender": "node ./prerender.js",
+    "postbuild:publicpath": "node ./publicPathReplacer.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c && yarn set:publicpath",
+    "build": "rollup -c && yarn postbuild:prerender && yarn postbuild:publicpath",
     "dev": "rollup -c -w",
     "start": "sirv public",
     "lint": "eslint src/*.svelte *.js --fix"
   },
   "devDependencies": {
+    "@prerenderer/prerenderer": "^0.7.2",
+    "@prerenderer/renderer-jsdom": "^0.2.0",
+    "@prerenderer/renderer-puppeteer": "^0.2.0",
     "@rollup/plugin-commonjs": "^12.0.0",
     "@rollup/plugin-node-resolve": "^8.0.0",
     "eslint": "^7.3.1",
@@ -26,6 +30,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "eslint-plugin-svelte3": "^2.7.3",
+    "mkdirp": "^1.0.4",
     "rollup": "^2.3.4",
     "rollup-plugin-copy": "^3.3.0",
     "rollup-plugin-livereload": "^1.0.0",
