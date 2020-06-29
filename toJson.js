@@ -86,7 +86,7 @@ const main = async () => {
     const sortByRating = (arr) => {
       return [...arr].sort((a, b) => {
         // Sort by rating
-        return a.rating - b.rating
+        return b.rating - a.rating
       })
     }
 
