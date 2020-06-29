@@ -1,4 +1,5 @@
-<script>eateEventDispatcher } from "svelte";
+<script>
+import { createEventDispatcher } from 'svelte'
 import { createArray, clickOutside } from "../utils.js";
 
 let pageCount;
@@ -44,22 +45,22 @@ let pageCount;
     <ul class="dropdown-menu {showPerPageOptions ? 'show' : ''}">
       {#each perPageOptions as page (page)}
         <li>
-          <a class="dropdown-item" href="#" on:click={e => handleClickPerPage(e, page)}>{page}</a>
+          <a class="dropdown-item" href="?perpage={page}" on:click={e => handleClickPerPage(e, page)}>{page}</a>
         </li>
       {/each}
     </ul>
   </div>
   <ul class="pagination">
     <li class="page-item {currentPage == 1 ? 'disabled' : ''}">
-      <a href="#" class="page-link" on:click={e => handleClickPage(e, currentPage - 1)}>&laquo;</a>
+      <a href="?page={currentPage - 1}" class="page-link" on:click={e => handleClickPage(e, currentPage - 1)}>&laquo;</a>
     </li>
     {#each createArray(pageCount) as i}
       <li class="page-item {currentPage == i + 1 ? 'active' : ''}">
-        <a href="#" class="page-link" on:click={e => handleClickPage(e, i + 1)}>{i + 1}</a>
+        <a href="?page={i - 1}" class="page-link" on:click={e => handleClickPage(e, i + 1)}>{i + 1}</a>
       </li>
     {/each}
     <li class="page-item {currentPage == pageCount ? 'disabled' : ''}">
-      <a href="#" class="page-link" on:click={e => handleClickPage(e, currentPage + 1)}>&raquo;</a>
+      <a href="?page={currentPage + 1}" class="page-link" on:click={e => handleClickPage(e, currentPage + 1)}>&raquo;</a>
     </li>
   </ul>
 </div>
