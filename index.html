@@ -42,6 +42,19 @@
 		body{
 			--bs-font-sans-serif: 'Montserrat',sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 		}
+    /* IS MOBILE */
+    @media (max-width: 576px) {
+      .hide-on-mobile {
+        display: none;
+      }
+    }
+
+    /* IS NOT MOBILE */
+    @media (min-width: 576px) {
+      .show-on-mobile-only {
+        display: none;
+      }
+    }
 	</style>
 </head>
 
