@@ -11,7 +11,7 @@
     "toJson": "node ./toJson.js",
     "set:publicpath": "node ./publicPathReplacer.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c && yarn set:publicpath",
+    "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public",
     "lint": "eslint src/*.svelte *.js --fix"
