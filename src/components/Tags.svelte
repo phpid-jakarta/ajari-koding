@@ -1,8 +1,8 @@
 <script>
-  import { getTagWithColor } from "../utils.js";
-  export let topic_tags;
+  import { getTagWithColor } from '../utils.js'
+  export let topic_tags
 
-  const tags_w_color = getTagWithColor(topic_tags);
+  const tags_w_color = getTagWithColor(topic_tags)
 </script>
 
 <style>

@@ -1,5 +1,5 @@
 <script>
-  import { REPO_NEW_ISSUE_URL } from "../constant.js";
+  import { REPO_NEW_ISSUE_URL } from '../constant.js'
 </script>
 
 <style>

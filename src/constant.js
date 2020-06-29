@@ -1,5 +1,5 @@
-export const REPO_URL = 'https://github.com/phpid-jakarta/ajari-koding';
-export const REPO_NEW_ISSUE_URL = `${REPO_URL}/issues/new?assignees=%40mazipan&labels=data-proposal&template=add_new_data.md&title=New+Data+-+Nama+Produk`;
+export const REPO_URL = 'https://github.com/phpid-jakarta/ajari-koding'
+export const REPO_NEW_ISSUE_URL = `${REPO_URL}/issues/new?assignees=%40mazipan&labels=data-proposal&template=add_new_data.md&title=New+Data+-+Nama+Produk`
 
 export const FILTER_ITEMS = {
   ALL: 'semua',
@@ -10,9 +10,9 @@ export const FILTER_ITEMS = {
   EBOOK: 'ebook'
 }
 
-export const FILTERS = [FILTER_ITEMS.ALL, FILTER_ITEMS.VIDEO, FILTER_ITEMS.PORTAL, FILTER_ITEMS.BLOG, FILTER_ITEMS.CONTRIBUTOR, FILTER_ITEMS.EBOOK];
+export const FILTERS = [FILTER_ITEMS.ALL, FILTER_ITEMS.VIDEO, FILTER_ITEMS.PORTAL, FILTER_ITEMS.BLOG, FILTER_ITEMS.CONTRIBUTOR, FILTER_ITEMS.EBOOK]
 
-export const TAG_CLASSES = ['bg-primary', 'bg-success', 'bg-danger', 'bg-warning text-dark', 'bg-info', 'bg-dark text-light'];
+export const TAG_CLASSES = ['bg-primary', 'bg-success', 'bg-danger', 'bg-warning text-dark', 'bg-info', 'bg-dark text-light']
 
 export const TAGS_MAPPING = {
   android: {
@@ -31,126 +31,126 @@ export const TAGS_MAPPING = {
     bg: '#f34b7d',
     fg: '#fff'
   },
-  'codeigniter': {
+  codeigniter: {
     bg: '#dd4814',
     fg: '#fff'
   },
-  'css': {
+  css: {
     bg: '#563d7c',
     fg: '#fff'
   },
-  'dart': {
+  dart: {
     bg: '#00B4AB',
     fg: '#fff'
   },
-  'flutter': {
+  flutter: {
     bg: '#00B4AB',
     fg: '#fff'
   },
-  'go': {
+  go: {
     bg: '#00ADD8',
     fg: '#fff'
   },
-  'golang': {
+  golang: {
     bg: '#00ADD8',
     fg: '#fff'
   },
-  'html': {
+  html: {
     bg: '#e34c26',
     fg: '#fff'
   },
-  'java': {
+  java: {
     bg: '#b07219',
     fg: '#fff'
   },
-  'javascript': {
+  javascript: {
     bg: '#f1e05a',
     fg: '#333'
   },
-  'jquery': {
+  jquery: {
     bg: '#0769ad',
     fg: '#fff'
   },
-  'kotlin': {
+  kotlin: {
     bg: '#F18E33',
     fg: '#fff'
   },
-  'laravel': {
+  laravel: {
     bg: '#F05340',
     fg: '#fff'
   },
-  'mysql': {
+  mysql: {
     bg: '#00758f',
     fg: '#fff'
   },
-  'nodejs': {
+  nodejs: {
     bg: '#66cc33',
     fg: '#fff'
   },
-  'php': {
+  php: {
     bg: '#4F5D95',
     fg: '#fff'
   },
-  'python': {
+  python: {
     bg: '#4584b6',
     fg: '#fff'
   },
-  'reason': {
+  reason: {
     bg: '#ff5847',
     fg: '#fff'
   },
-  'scala': {
+  scala: {
     bg: '#c22d40',
     fg: '#fff'
   },
-  'shell': {
+  shell: {
     bg: '#89e051',
     fg: '#333'
   },
-  'swift': {
+  swift: {
     bg: '#ffac45',
     fg: '#333'
   },
-  'typescript': {
+  typescript: {
     bg: '#2b7489',
     fg: '#fff'
   },
-  'vue': {
+  vue: {
     bg: '#42b883',
     fg: '#fff'
   },
-  'vuejs': {
+  vuejs: {
     bg: '#42b883',
     fg: '#fff'
   },
-  'webassembly': {
+  webassembly: {
     bg: '#04133b',
     fg: '#fff'
   },
 
   // common terms
 
-  'aws': {
+  aws: {
     bg: '#ff9900',
     fg: '#333'
   },
-  'cloud': {
+  cloud: {
     bg: '#00aff0',
     fg: '#fff'
   },
-  'gcp': {
+  gcp: {
     bg: '#4285f4',
     fg: '#fff'
   },
-  'google': {
+  google: {
     bg: '#4285f4',
     fg: '#fff'
   },
-  'azure': {
+  azure: {
     bg: '#0078d7',
     fg: '#fff'
   },
-  'database': {
+  database: {
     bg: '#b2b7f8',
     fg: '#333'
   },
@@ -162,16 +162,16 @@ export const TAGS_MAPPING = {
     bg: '#8f0f8d',
     fg: '#fff'
   },
-  'sysadmin': {
+  sysadmin: {
     bg: '#2F2530',
     fg: '#fff'
   },
-  'programming': {
+  programming: {
     bg: '#E6EFBB',
     fg: '#333'
   },
   'full stack': {
     bg: '#882B0F',
     fg: '#fff'
-  },
+  }
 }

@@ -1,7 +1,7 @@
 <script>
-  import { createArray } from "../utils.js";
-  export let rating;
-  const arrayRatings = rating > 0 ? createArray(rating) : [];
+  import { createArray } from '../utils.js'
+  export let rating
+  const arrayRatings = rating > 0 ? createArray(rating) : []
 </script>
 
 <style>

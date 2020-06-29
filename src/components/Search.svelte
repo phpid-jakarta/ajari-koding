@@ -1,18 +1,18 @@
 <script>
-  import Icon from "./Icon.svelte";
-  import { createEventDispatcher } from "svelte";
+  import Icon from './Icon.svelte'
+  import { createEventDispatcher } from 'svelte'
 
-  const dispatch = createEventDispatcher();
+  const dispatch = createEventDispatcher()
 
-  let keyword = '';
+  let keyword = ''
 
-  function doSearch(txt) {
-    dispatch("search", {
+  function doSearch (txt) {
+    dispatch('search', {
       text: txt
-    });
+    })
   }
 
-  $: doSearch(keyword);
+  $: doSearch(keyword)
 </script>
 
 <style>

@@ -1,19 +1,18 @@
 <script>
-  import { createEventDispatcher } from "svelte";
+  import { createEventDispatcher } from 'svelte'
+  import { getTagWithColor } from '../utils.js'
 
-  const dispatch = createEventDispatcher();
+const dispatch = createEventDispatcher()
+  export let allTags
+  export let activeTag
 
-  import { getTagWithColor } from "../utils.js";
-  export let allTags;
-  export let activeTag;
-
-  const tags_w_color = getTagWithColor(allTags.tags);
+  const tags_w_color = getTagWithColor(allTags.tags)
   const handleClick = (e, val) => {
-    e.preventDefault();
-    dispatch("tagclick", {
+    e.preventDefault()
+    dispatch('tagclick', {
       text: val
-    });
-  };
+    })
+  }
 </script>
 
 <style>

@@ -1,6 +1,6 @@
 <script>
-  import Icon from "./Icon.svelte";
-  import { REPO_URL, REPO_NEW_ISSUE_URL } from "../constant.js";
+  import Icon from './Icon.svelte'
+  import { REPO_URL, REPO_NEW_ISSUE_URL } from '../constant.js'
 </script>
 
 <style>

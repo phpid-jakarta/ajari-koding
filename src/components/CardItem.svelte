@@ -1,10 +1,10 @@
 <script>
-  import Icon from "./Icon.svelte";
-  import Tags from "./Tags.svelte";
-  import Rating from "./Rating.svelte";
-  export let item;
+  import Icon from './Icon.svelte'
+  import Tags from './Tags.svelte'
+  import Rating from './Rating.svelte'
+  export let item
 
-  const topic_tags = [...item.topic_tags];
+  const topic_tags = [...item.topic_tags]
 </script>
 
 <style>

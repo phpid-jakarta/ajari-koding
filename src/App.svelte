@@ -1,87 +1,89 @@
 <script>
-  import Hero from "./components/Hero.svelte";
-  import Tabs from "./components/Tabs.svelte";
-  import Search from "./components/Search.svelte";
-  import TagsCloud from "./components/TagsCloud.svelte";
-  import CardItem from "./components/CardItem.svelte";
-  import Footer from "./components/Footer.svelte";
-  import Empty from "./components/Empty.svelte";
-  import Pagination from "./components/Pagination.svelte";
-  import { FILTER_ITEMS } from "./constant.js";
-  import { getDistinctTags, isHaveTag } from "./utils.js";
+import Hero from './components/Hero.svelte'
+import Tabs from './components/Tabs.svelte'
+import Search from './components/Search.svelte'
+import TagsCloud from './components/TagsCloud.svelte'
+import CardItem from './components/CardItem.svelte'
+import Footer from './components/Footer.svelte'
+import Empty from './components/Empty.svelte'
+import Pagination from './components/Pagination.svelte'
+import { FILTER_ITEMS } from './constant.js'
+import { getDistinctTags, isHaveTag } from './utils.js'
 
-  export let data;
-  let showData = data.awesome_list;
-  let activeTag = "";
-  let activeFilter = FILTER_ITEMS.ALL;
-  let allTags = getDistinctTags(showData);
+let offsetPage
 
-  const winWidth = window.innerWidth;
+export let data
+let showData = data.awesome_list
+let activeTag = ''
+let activeFilter = FILTER_ITEMS.ALL
+const allTags = getDistinctTags(showData)
 
-  // Pagination config
-  let perPage = winWidth <= 767 ? 20 : 18;
-  let currentPage = 1;
-  $: offsetPage = currentPage * perPage - perPage;
+const winWidth = window.innerWidth
 
-  const handleFilter = event => {
-    const filterBy = event.detail.text.toLowerCase();
-    activeFilter = filterBy;
-    if (filterBy === "semua") {
-      showData = data.awesome_list;
-    } else {
-      const foundData = data.awesome_list.filter(
-        i => i.tipe.toLowerCase() === filterBy
-      );
-      showData = [...foundData];
-    }
-    resetCurrentPage();
-  };
+// Pagination config
+let perPage = winWidth <= 767 ? 20 : 18
+let currentPage = 1
+$: offsetPage = currentPage * perPage - perPage
 
-  const handleSearch = event => {
-    const searchKeyword = event.detail.text.toLowerCase();
-    if (searchKeyword === "") {
-      showData = data.awesome_list;
-    } else {
-      const foundData = data.awesome_list.filter(
-        i =>
-          i.title.toLowerCase().includes(searchKeyword) ||
+const handleFilter = event => {
+  const filterBy = event.detail.text.toLowerCase()
+  activeFilter = filterBy
+  if (filterBy === 'semua') {
+    showData = data.awesome_list
+  } else {
+    const foundData = data.awesome_list.filter(
+      i => i.tipe.toLowerCase() === filterBy
+    )
+    showData = [...foundData]
+  }
+  resetCurrentPage()
+}
+
+const handleSearch = event => {
+  const searchKeyword = event.detail.text.toLowerCase()
+  if (searchKeyword === '') {
+    showData = data.awesome_list
+  } else {
+    const foundData = data.awesome_list.filter(
+      i =>
+        i.title.toLowerCase().includes(searchKeyword) ||
           i.creator.toLowerCase().includes(searchKeyword) ||
           i.description.toLowerCase().includes(searchKeyword) ||
           i.url.toLowerCase().includes(searchKeyword) ||
           isHaveTag(i, searchKeyword)
-      );
-      showData = [...foundData];
-    }
-    resetCurrentPage();
-  };
-
-  const handleClickTag = event => {
-    const tagClicked = event.detail.text.toLowerCase();
-    if (tagClicked !== activeTag) {
-      activeTag = tagClicked;
-      const foundData = data.awesome_list.filter(i => {
-        return isHaveTag(i, tagClicked);
-      });
-      showData = [...foundData];
-    } else {
-      activeTag = "";
-      showData = data.awesome_list;
-    }
-    resetCurrentPage();
-  };
-
-  const handleClickPage = event => {
-    currentPage = event.detail.page;
-  };
-
-  const handleClickPerPage = event => {
-    perPage = event.detail.perPage;
-    resetCurrentPage();
-  };
-
-  const resetCurrentPage = () => {
-    currentPage = 1;
+    )
+    showData = [...foundData]
   }
+  resetCurrentPage()
+}
+
+const handleClickTag = event => {
+  const tagClicked = event.detail.text.toLowerCase()
+  if (tagClicked !== activeTag) {
+    activeTag = tagClicked
+    const foundData = data.awesome_list.filter(i => {
+      return isHaveTag(i, tagClicked)
+    })
+    showData = [...foundData]
+  } else {
+    activeTag = ''
+    showData = data.awesome_list
+  }
+  resetCurrentPage()
+}
+
+const handleClickPage = event => {
+  currentPage = event.detail.page
+}
+
+const handleClickPerPage = event => {
+  perPage = event.detail.perPage
+  resetCurrentPage()
+}
+
+const resetCurrentPage = () => {
+  currentPage = 1
+}
 </script>
 
 <style>

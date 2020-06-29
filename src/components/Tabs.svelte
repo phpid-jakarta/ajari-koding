@@ -1,16 +1,16 @@
 <script>
-  import Icon from "./Icon.svelte";
-  import { createEventDispatcher } from "svelte";
-  import { FILTERS } from "../constant.js";
-  export let activeFilter;
+  import Icon from './Icon.svelte'
+  import { createEventDispatcher } from 'svelte'
+  import { FILTERS } from '../constant.js'
+  export let activeFilter
 
-  const dispatch = createEventDispatcher();
+  const dispatch = createEventDispatcher()
 
-  function doFilter(e, filterBy) {
-    e.preventDefault();
-    dispatch("filter", {
+  function doFilter (e, filterBy) {
+    e.preventDefault()
+    dispatch('filter', {
       text: filterBy
-    });
+    })
   }
 </script>
 
