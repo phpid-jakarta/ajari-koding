@@ -27,6 +27,6 @@
   </div>
   <img
     class="illustration pl-5 pr-5 mb-5"
-    src="https://phpid-jakarta.github.io/ajari-koding/images/empty-state.png"
+    src="https://phpid-jakarta.github.io/ajari-koding/empty-state.png"
     alt="Empty State" />
 </div>

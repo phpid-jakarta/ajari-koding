@@ -1,7 +1,6 @@
 <script>
-// import { onMount } from 'svelte';
+import { allData, showData, perPage, offsetPage } from '../store';
 
-import data from '../data-es'
 import Hero from '../components/Hero.svelte'
 import HeaderMobile from '../components/HeaderMobile.svelte'
 import Tabs from '../components/Tabs.svelte'
@@ -12,81 +11,6 @@ import CardItem from '../components/CardItem.svelte'
 import Footer from '../components/Footer.svelte'
 import Empty from '../components/Empty.svelte'
 import Pagination from '../components/Pagination.svelte'
-import { FILTER_ITEMS } from '../constant.js'
-import { getDistinctTags, isHaveTag } from '../utils.js'
-
-let offsetPage
-let showData = data.awesome_list
-let activeTag = ''
-let activeFilter = FILTER_ITEMS.ALL
-const allTags = getDistinctTags(showData)
-
-const winWidth = 767
-
-// Pagination config
-let perPage = winWidth <= 767 ? 20 : 18
-let currentPage = 1
-$: offsetPage = currentPage * perPage - perPage
-
-const handleFilter = event => {
-  const filterBy = event.detail.text.toLowerCase()
-  activeFilter = filterBy
-  if (filterBy === 'semua') {
-    showData = data.awesome_list
-  } else {
-    const foundData = data.awesome_list.filter(
-      i => i.tipe.toLowerCase() === filterBy
-    )
-    showData = [...foundData]
-  }
-  resetCurrentPage()
-}
-
-const handleSearch = event => {
-  const searchKeyword = event.detail.text.toLowerCase()
-  if (searchKeyword === '') {
-    showData = data.awesome_list
-  } else {
-    const foundData = data.awesome_list.filter(
-      i =>
-        i.title.toLowerCase().includes(searchKeyword) ||
-          i.creator.toLowerCase().includes(searchKeyword) ||
-          i.description.toLowerCase().includes(searchKeyword) ||
-          i.url.toLowerCase().includes(searchKeyword) ||
-          isHaveTag(i, searchKeyword)
-    )
-    showData = [...foundData]
-  }
-  resetCurrentPage()
-}
-
-const handleClickTag = event => {
-  const tagClicked = event.detail.text.toLowerCase()
-  if (tagClicked !== activeTag) {
-    activeTag = tagClicked
-    const foundData = data.awesome_list.filter(i => {
-      return isHaveTag(i, tagClicked)
-    })
-    showData = [...foundData]
-  } else {
-    activeTag = ''
-    showData = data.awesome_list
-  }
-  resetCurrentPage()
-}
-
-const handleClickPage = event => {
-  currentPage = event.detail.page
-}
-
-const handleClickPerPage = event => {
-  perPage = event.detail.perPage
-  resetCurrentPage()
-}
-
-const resetCurrentPage = () => {
-  currentPage = 1
-}
 </script>
 
 
@@ -111,20 +35,20 @@ const resetCurrentPage = () => {
   <HeaderMobile />
 
   <section class="app-content container mt-5 mb-5">
-    <Tabs {activeFilter} on:filter={handleFilter} />
-    <Search on:search={handleSearch} />
-    {#if showData.length > 0}
-      <TagsCloud {allTags} {activeTag} on:tagclick={handleClickTag} />
+    <Tabs />
+    <Search />
+    {#if $showData.length > 0}
+      <TagsCloud />
       <div class="row justify-content-center gx-3 gy-3">
-        {#each showData.slice(offsetPage, offsetPage + perPage) as item (item.id)}
+        {#each $showData.slice($offsetPage, $offsetPage + $perPage) as item (item.id)}
           <CardItem {item} />
         {/each}
       </div>
-      <Pagination total={showData.length} {perPage} {currentPage} on:pageclick={handleClickPage} on:perpageclick={handleClickPerPage} />
+      <Pagination />
     {:else}
       <Empty />
     {/if}
-    <TabsMobile {activeFilter} on:filter={handleFilter} />
+    <TabsMobile />
   </section>
 
   <Footer />

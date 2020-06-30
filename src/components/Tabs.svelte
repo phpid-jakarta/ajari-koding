@@ -1,16 +1,19 @@
 <script>
+  import { allData, showData, activeTab, currentPage } from "../store";
   import Icon from './Icon.svelte'
-  import { createEventDispatcher } from 'svelte'
   import { FILTERS } from '../constant.js'
-  export let activeFilter
 
-  const dispatch = createEventDispatcher()
-
-  function doFilter (e, filterBy) {
-    e.preventDefault()
-    dispatch('filter', {
-      text: filterBy
-    })
+  function doFilter(e, p) {
+    e.preventDefault();
+    const clickedTab = p.toLowerCase();
+    activeTab.set(clickedTab)
+    if (clickedTab === "semua") {
+      showData.set($allData);
+    } else {
+      const foundData = $allData.filter(i => i.tipe.toLowerCase() === clickedTab);
+      showData.set([...foundData]);
+    }
+    currentPage.set(1);
   }
 </script>
 
@@ -23,7 +26,7 @@
     <li class="nav-item">
       <a
         class="nav-link text-capitalize d-flex align-items-center"
-        class:active="{activeFilter === f}"
+        class:active="{$activeTab === f}"
         aria-current="page"
         href="?tipe={f}"
         on:click={e => doFilter(e, f)}>

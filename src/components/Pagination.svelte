@@ -1,33 +1,25 @@
 <script>
-import { createEventDispatcher } from 'svelte'
-import { createArray, clickOutside } from '../utils.js'
+  import { allData, showData, currentPage, perPage, totalPage } from "../store";
+  import { createArray, clickOutside } from "../utils.js";
+  import Icon from "./Icon.svelte";
 
-let pageCount
+  let pageCount;
+  let winWidth = 767; // TODO: window.innerWidth onMount
+  let perPageOptions = winWidth <= 767 ? [20, 30, 50, 100] : [18, 30, 60, 90];
 
-const dispatch = createEventDispatcher()
-const winWidth = 767 // TODO: window.innerWidth onMount
-const perPageOptions = winWidth <= 767 ? [20, 30, 50, 100] : [18, 30, 60, 90]
+  $: pageCount = Math.ceil($totalPage / $perPage);
+  let showPerPageOptions = false;
 
-export let total
-export let perPage
-export let currentPage
+  const handleClickPage = (e, val) => {
+    e.preventDefault();
+    currentPage.set(parseInt(val, 10));
+  };
 
-$: pageCount = Math.ceil(total / perPage)
-let showPerPageOptions = false
-
-const handleClickPage = (e, val) => {
-  e.preventDefault()
-  dispatch('pageclick', {
-    page: val
-  })
-}
-
-const handleClickPerPage = (e, val) => {
-  e.preventDefault()
-  dispatch('perpageclick', {
-    perPage: val
-  })
-}
+  const handleClickPerPage = (e, val) => {
+    e.preventDefault();
+    perPage.set(parseInt(val, 10));
+    currentPage.set(1);
+  };
 </script>
 
 <style>
@@ -36,31 +28,57 @@ const handleClickPerPage = (e, val) => {
 
 <div class="d-flex justify-content-center mt-5">
   <div class="dropdown align-self-baseline mr-2">
-    <button use:clickOutside class="btn btn-primary" on:click={ () => { showPerPageOptions = !showPerPageOptions } } on:click_outside={ () => { showPerPageOptions = false }}>
-      <span>{perPage}</span>
-<svg width="18" height="18" viewBox="0 0 16 16" class="ml-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-</svg>
+    <button
+      use:clickOutside
+      class="btn btn-primary"
+      on:click={() => {
+        showPerPageOptions = !showPerPageOptions;
+      }}
+      on:click_outside={() => {
+        showPerPageOptions = false;
+      }}>
+      <span>{$perPage}</span>
+      <Icon name="caret_down" width="18" height="18" class="ml-2" />
     </button>
     <ul class="dropdown-menu {showPerPageOptions ? 'show' : ''}">
       {#each perPageOptions as page (page)}
         <li>
-          <a class="dropdown-item" href="?perpage={page}" on:click={e => handleClickPerPage(e, page)}>{page}</a>
+          <a
+            class="dropdown-item"
+            href="?perpage={page}"
+            on:click={e => handleClickPerPage(e, page)}>
+            {page}
+          </a>
         </li>
       {/each}
     </ul>
   </div>
   <ul class="pagination">
-    <li class="page-item {currentPage === 1 ? 'disabled' : ''}">
-      <a href="?page={currentPage - 1}" class="page-link" on:click={e => handleClickPage(e, currentPage - 1)}>&laquo;</a>
+    <li class="page-item {$currentPage === 1 ? 'disabled' : ''}">
+      <a
+        href="?page={$currentPage - 1}"
+        class="page-link"
+        on:click={e => handleClickPage(e, $currentPage - 1)}>
+        &laquo;
+      </a>
     </li>
     {#each createArray(pageCount) as i}
-      <li class="page-item {currentPage === i + 1 ? 'active' : ''}">
-        <a href="?page={i - 1}" class="page-link" on:click={e => handleClickPage(e, i + 1)}>{i + 1}</a>
+      <li class="page-item {$currentPage === i + 1 ? 'active' : ''}">
+        <a
+          href="?page={i - 1}"
+          class="page-link"
+          on:click={e => handleClickPage(e, i + 1)}>
+          {i + 1}
+        </a>
       </li>
     {/each}
-    <li class="page-item {currentPage === pageCount ? 'disabled' : ''}">
-      <a href="?page={currentPage + 1}" class="page-link" on:click={e => handleClickPage(e, currentPage + 1)}>&raquo;</a>
+    <li class="page-item {$currentPage === pageCount ? 'disabled' : ''}">
+      <a
+        href="?page={$currentPage + 1}"
+        class="page-link"
+        on:click={e => handleClickPage(e, $currentPage + 1)}>
+        &raquo;
+      </a>
     </li>
   </ul>
 </div>
