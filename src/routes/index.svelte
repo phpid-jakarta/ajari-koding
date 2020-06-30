@@ -1,4 +1,6 @@
 <script>
+// import { onMount } from 'svelte';
+
 import data from '../data-es'
 import Hero from '../components/Hero.svelte'
 import HeaderMobile from '../components/HeaderMobile.svelte'
@@ -104,7 +106,7 @@ const resetCurrentPage = () => {
 </svelte:head>
 
 
-<main class="app">
+<main id="page-index">
   <Hero />
   <HeaderMobile />
 
