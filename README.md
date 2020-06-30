@@ -71,6 +71,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: PORTAL
 - Rating: 3
 
+### ILMU CODING
+
+- Creator: Wildan Fuady
+- URL: https://ilmucoding.com
+- Description: Situs belajar coding Bahasa Indonesia 
+- Topic Tags: python, golang, codeigniter 3, codeigniter 4, vuejs, reactjs, flutter, laravel, livewire, deno, dart, android, kotlin, c++, react native, djanggo
+- Business Model: FREE WITH ADS
+- Tipe: PORTAL
+- Rating: 0
+
 ### PASCAL INDONESIA
 
 - Creator: Pascal Indonesia Team,
