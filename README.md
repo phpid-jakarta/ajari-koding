@@ -71,6 +71,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: PORTAL
 - Rating: 3
 
+### ILMU CODING
+
+- Creator: Wildan Fuady
+- URL: https://ilmucoding.com
+- Description: Situs belajar coding Bahasa Indonesia 
+- Topic Tags: python, golang, codeigniter 3, codeigniter 4, vuejs, reactjs, flutter, laravel, livewire, deno, dart, android, kotlin, c++, react native, djanggo
+- Business Model: FREE WITH ADS
+- Tipe: PORTAL
+- Rating: 0
+
 ### PASCAL INDONESIA
 
 - Creator: Pascal Indonesia Team,
@@ -103,13 +113,23 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: VIDEO
 - Rating: 0
 
+### BALEDEMY
+
+- Creator: Ekky Ridyanto
+- URL: https://www.youtube.com/channel/UCo2MhO0TrEUKdL9Pt-JNgLg
+- Description: Channel Belajar Online. Mulai Dari Sini Akses Beragam Kelas Pemrograman, Web Design, Mobile Apps. 
+- Topic Tags: firebase, ajax, php, codeigniter, laravel, composer, html, css, bootstrap, webdesign, webprogramming, javascript, vuejs, react, angular, mobileapps
+- Business Model: FREE NO ADS
+- Tipe: VIDEO
+- Rating: 0
+
 ### DEA VENDITAMA
 
 - Creator : Dea Venditama
 - URL: https://www.youtube.com/c/DeaVenditama
 - Description : Coding Tutorial and Random Things about Technology
 - Topic Tags : Web, PHP, CodeIgniter, Yii, Python, Machine Learning, Data Science
-- Business Model: FREE NO ADS (for now)
+- Business Model: FREE NO ADS
 - Tipe: VIDEO
 - Rating: 0
 
