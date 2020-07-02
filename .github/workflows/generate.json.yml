@@ -35,7 +35,7 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "Github Actions"
           git add -A
-          git commit -m "[Github Actions]: Generate json file"
+          git commit -m "✅ [Github Actions]: Generate json file"
       - name: GitHub Push
         uses: ad-m/github-push-action@v0.5.0
         with:

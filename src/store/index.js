@@ -1,6 +1,6 @@
 import { writable, derived, readable } from 'svelte/store'
 import { FILTER_ITEMS } from '../constant.js'
-import data from '../data-es'
+import data from '../../data-es'
 import { getDistinctTags } from '../utils.js'
 
 export const allData = readable(data.awesome_list, function set () {

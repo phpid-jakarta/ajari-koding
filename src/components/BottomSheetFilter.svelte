@@ -92,11 +92,7 @@
   class="show-on-mobile-only bottomsheet {$showBottomSheetFilter ? 'bottomsheet--show' : 'bottomsheet--hide'}">
   <div class="bottomsheet-wrapper">
     <div class="bottomsheet-header" on:click={handleClose}>
-      <Icon
-        name="close"
-        width="30"
-        height="30"
-        fill="#6c757d" />
+      <Icon name="close" width="30" height="30" fill="#6c757d" />
       <span class="text-title text-muted">Filter</span>
     </div>
 

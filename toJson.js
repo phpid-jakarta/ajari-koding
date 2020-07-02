@@ -4,6 +4,18 @@ const cheerio = require('cheerio')
 const MarkdownIt = require('markdown-it')
 const md = new MarkdownIt()
 
+const writeFile = (pathFile, contentString) => {
+  fs.writeFile(
+    path.resolve(pathFile), contentString,
+    function (err) {
+      if (err) {
+        return console.log(`❌ Error write file ${pathFile}`, err)
+      }
+      console.log(`✅ Success write file ${pathFile}`)
+    }
+  )
+}
+
 const main = async () => {
   try {
     const readmeContent = await fs.readFileSync(path.resolve('./README.md'), {
@@ -100,49 +112,9 @@ const main = async () => {
       ]
     }
 
-    fs.writeFile(
-      path.resolve('./data.json'),
-      JSON.stringify(fileContent),
-      function (err) {
-        if (err) {
-          return console.log('❌ Error write file data.json', err)
-        }
-        console.log('✅ Success write file data.json')
-      }
-    )
-
-    fs.writeFile(
-      path.resolve('./data.js'),
-      `module.exports = ${JSON.stringify(fileContent)}`,
-      function (err) {
-        if (err) {
-          return console.log('❌ Error write file data.js', err)
-        }
-        console.log('✅ Success write file data.js')
-      }
-    )
-
-    fs.writeFile(
-      path.resolve('./data-es.js'),
-      `export default ${JSON.stringify(fileContent)}`,
-      function (err) {
-        if (err) {
-          return console.log('❌ Error write file data-es.js', err)
-        }
-        console.log('✅ Success write file data-es.js')
-      }
-    )
-
-    fs.writeFile(
-      path.resolve('./src/data-es.js'),
-      `export default ${JSON.stringify(fileContent)}`,
-      function (err) {
-        if (err) {
-          return console.log('❌ Error write file src/data-es.js', err)
-        }
-        console.log('✅ Success write file src/data-es.js')
-      }
-    )
+    writeFile('./data.json', JSON.stringify(fileContent))
+    writeFile('./data.js', `module.exports = ${JSON.stringify(fileContent)}`)
+    writeFile('./data-es.js', `export default ${JSON.stringify(fileContent)}`)
   } catch (error) {
     console.error('❌ Error read file README.md', error)
   }

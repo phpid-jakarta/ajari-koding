@@ -1,8 +1,8 @@
 <script>
-  import Icon from './Icon.svelte'
-  import Tags from './Tags.svelte'
-  import Rating from './Rating.svelte'
-  export let item
+  import Icon from "./Icon.svelte";
+  import Tags from "./Tags.svelte";
+  import Rating from "./Rating.svelte";
+  export let item;
 </script>
 
 <style>
@@ -43,7 +43,7 @@
         rel="noopener noreferrer"
         class="btn btn-outline-primary btn--visit">
         Kunjungi
-        <Icon name="arrow" width=24 height=24 />
+        <Icon name="arrow" width="24" height="24" />
       </a>
     </div>
   </div>
