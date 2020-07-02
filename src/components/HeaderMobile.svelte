@@ -11,7 +11,7 @@
 
 <nav class="navbar navbar-dark bg-dark hdr show-on-mobile-only">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/ajari-koding">Ajari Koding</a>
+    <a class="navbar-brand" href="/">Ajari Koding</a>
     <ul class="nav">
       <li class="nav-item">
         <a
