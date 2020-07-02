@@ -12,7 +12,7 @@
     "dev": "sapper dev",
     "build": "sapper build",
     "start": "node __sapper__/build",
-    "export": "sapper export --basepath ajari-koding",
+    "export": "sapper export",
     "lint": "eslint **/*.svelte --fix"
   },
   "devDependencies": {
