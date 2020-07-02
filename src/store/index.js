@@ -30,3 +30,6 @@ export const totalPage = derived(showData,
 
 export const activeTag = writable('')
 export const activeTab = writable(FILTER_ITEMS.ALL)
+
+export const showBottomSheetFilter = writable(false)
+export const showBottomSheetSort = writable(false)

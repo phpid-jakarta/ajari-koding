@@ -33,7 +33,7 @@
   }
 </style>
 
-<div class="mb-3">
+<div class="mb-3 hide-on-mobile">
   {#if allTagsWithColor && allTagsWithColor.length > 0}
     {#each allTagsWithColor as item (item)}
       {#if item.isMapped}
