@@ -81,6 +81,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: PORTAL
 - Rating: 0
 
+### INACODE
+
+- Creator: InaCode
+- URL: https://inacode.id
+- Description: Konten belajar ilmu komputer
+- Topic Tags: komputer,pemrograman,coding
+- Business Model: FREE NO ADS 
+- Tipe: PORTAL
+- Rating: 0
+
 ### PASCAL INDONESIA
 
 - Creator: Pascal Indonesia Team,
@@ -140,6 +150,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Description: Website untuk belajar design dan coding secara online
 - Topic Tags: laravel, react js, node js, express js, dart, flutter, kotlin, react native, data science, code igniter, php, html, css
 - Business Model: FREEMIUM
+- Tipe: VIDEO
+- Rating: 0
+
+### DAKWAH KODING DIGITAL
+
+- Creator: Ade Priyanto
+- URL: https://www.youtube.com/DakwahKodingDigital
+- Description: Chanel Berbagi Informasi dan Pengetahuan tentang Pemrograman Web, Yii2 Framework, Trik & Tips, Kajian Islami serta Pertanian.
+- Topic Tags: php, mysql, Yii2, Tips Trik
+- Business Model: FREE WITH ADS 
 - Tipe: VIDEO
 - Rating: 0
 
