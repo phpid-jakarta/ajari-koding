@@ -20,6 +20,7 @@ import Pagination from "../components/Pagination.svelte";
 import FloatingButtonMobile from "../components/FloatingButtonMobile.svelte";
 import BottomSheetFilter from "../components/BottomSheetFilter.svelte";
 import BottomSheetSort from "../components/BottomSheetSort.svelte";
+import ThemeSwitcher from "../components/ThemeSwitcher.svelte";
 </script>
 
 <style>
@@ -63,3 +64,4 @@ import BottomSheetSort from "../components/BottomSheetSort.svelte";
 <TabsMobile />
 <BottomSheetFilter />
 <BottomSheetSort />
+<ThemeSwitcher />

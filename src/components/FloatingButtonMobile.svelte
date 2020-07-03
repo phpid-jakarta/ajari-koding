@@ -4,9 +4,11 @@
 
   const handleClickFilter = () => {
     showBottomSheetFilter.set(true)
+    document.body.classList.add('overflow-hidden');
   }
   const handleClickSort = () => {
     showBottomSheetSort.set(true)
+    document.body.classList.add('overflow-hidden');
   }
 </script>
 

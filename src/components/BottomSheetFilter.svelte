@@ -30,6 +30,7 @@
 
   const handleClose = () => {
     showBottomSheetFilter.set(false);
+    document.body.classList.remove('overflow-hidden');
   };
 </script>
 
