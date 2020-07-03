@@ -1,68 +1,126 @@
 <!doctype html>
 <html lang='en'>
+
 <head>
-	<meta charset='utf-8'>
-	<meta name='viewport' content='width=device-width,initial-scale=1.0'>
-	<meta name='theme-color' content='#333333'>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width,initial-scale=1.0'>
+  <meta name='theme-color' content='#343a40'>
 
-	<title>Ajari Koding oleh PHPID</title>
-	<!-- SEO Metadata -->
-	<meta itemprop="name" content="Ajari Koding oleh PHPID">
-	<meta name="description" content="Kumpulan berbagai sumber daya untuk belajar koding dari hasil karya para kreator lokal yang terpercaya dan telah dikurasi oleh komunitas PHPID" />
-	<meta name="twitter:card" content="summary_large_image"/>
-	<meta name="twitter:image" content="https://phpid-jakarta.github.io/ajari-koding/meta-image-ajari-koding.png"/>
-	<meta name="twitter:site" content="@PHP_Indonesia"/>
+  <title>Ajari Koding oleh PHPID</title>
+  <!-- SEO Metadata -->
+  <meta itemprop="name" content="Ajari Koding oleh PHPID">
+  <meta name="description"
+    content="Kumpulan berbagai sumber daya untuk belajar koding dari hasil karya para kreator lokal yang terpercaya dan telah dikurasi oleh komunitas PHPID" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://phpid-jakarta.github.io/ajari-koding/meta-image-ajari-koding.png" />
+  <meta name="twitter:site" content="@PHP_Indonesia" />
 
-	<meta property="og:title" content="Ajari Koding oleh PHPID" />
-	<meta property="og:description" content="Kumpulan berbagai sumber daya untuk belajar koding dari hasil karya para kreator lokal yang terpercaya dan telah dikurasi oleh komunitas PHPID" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://phpid-jakarta.github.io/ajari-koding/" />
-	<meta property="og:image" content="https://phpid-jakarta.github.io/ajari-koding/meta-image-ajari-koding.png" />
+  <meta property="og:title" content="Ajari Koding oleh PHPID" />
+  <meta property="og:description"
+    content="Kumpulan berbagai sumber daya untuk belajar koding dari hasil karya para kreator lokal yang terpercaya dan telah dikurasi oleh komunitas PHPID" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://phpid-jakarta.github.io/ajari-koding/" />
+  <meta property="og:image" content="https://phpid-jakarta.github.io/ajari-koding/meta-image-ajari-koding.png" />
 
-	%sapper.base%
+  %sapper.base%
 
-	<link rel='manifest' href='/ajari-koding/manifest.json' crossorigin='use-credentials'>
-	<link rel='icon' type='image/png' href='/ajari-koding/favicon.png'>
+  <link rel='manifest' href='/ajari-koding/manifest.json' crossorigin='use-credentials'>
+  <link rel='icon' type='image/png' href='/ajari-koding/favicon.png'>
 
-	%sapper.styles%
+  %sapper.styles%
   %sapper.head%
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
 
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-	<!-- Google Fonts -->
-	<style>
-		body{
-			--bs-font-sans-serif: 'Montserrat',sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-		}
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <style>
     /* IS MOBILE */
     @media (max-width: 576px) {
       .hide-on-mobile {
-        display: none !important;;
+        display: none !important;
+        ;
       }
     }
 
     /* IS NOT MOBILE */
     @media (min-width: 576px) {
       .show-on-mobile-only {
-        display: none !important;;
+        display: none !important;
+        ;
       }
+    }
+
+    body.light {
+      --bg-color: #fff;
+      --bg-card: #fff;
+      --text-color: #212529;
+      --border-line: 1px solid rgba(0, 0, 0, .125);
+    }
+
+    body.dark {
+      --bg-color: #111f31;
+      --bg-card: #111f31;
+      --text-color: #fff;
+      --border-line: 1px solid #fff;
+    }
+
+    body {
+      --bs-font-sans-serif: 'Montserrat', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      background-color: var(--bg-color);
+      color: var(--text-color);
     }
   </style>
 
 
-	<!-- Google Analytics -->
-	<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-97096911-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	  gtag('config', 'UA-97096911-1');
-	</script>
+  <!-- Google Analytics -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-97096911-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-97096911-1');
+  </script>
 </head>
-<body>
-	<div id='sapper'>%sapper.html%</div>
-	%sapper.scripts%
+
+<body class="light">
+  <div id='sapper'>%sapper.html%</div>
+  %sapper.scripts%
+
+  <script>
+    (function () {
+      window.__header_theme = { 'dark': '#343a40', 'light': '#343a40' };
+      window.__onThemeChange = function () { };
+      var preferredTheme;
+      try {
+        preferredTheme = localStorage.getItem('theme');
+      } catch (err) { }
+
+      function setTheme(newTheme) {
+        window.__theme = newTheme;
+        preferredTheme = newTheme;
+        document.body.className = newTheme;
+        document.querySelector('meta[name="theme-color"]').setAttribute("content", window.__header_theme[newTheme]);
+        window.__onThemeChange(newTheme);
+      }
+
+      window.__setPreferredTheme = function (newTheme) {
+        setTheme(newTheme);
+        try {
+          localStorage.setItem('theme', newTheme);
+        } catch (err) { }
+      }
+
+      var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      darkQuery.addListener(function (e) {
+        window.__setPreferredTheme(e.matches ? 'dark' : 'light')
+      });
+
+      setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
+    })();
+  </script>
 </body>
+
 </html>

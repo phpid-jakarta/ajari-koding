@@ -2,12 +2,16 @@
   import Icon from "./Icon.svelte";
   import Tags from "./Tags.svelte";
   import Rating from "./Rating.svelte";
+  import { activeTheme } from "../store";
   export let item;
 </script>
 
 <style>
   .card {
     height: 100%;
+    background-color: var(--bg-card);
+    color: var(--text-color);
+    border: var(--border-line);
   }
   .card .card-body {
     padding-bottom: calc(1rem + 38px); /* card body padding + button height */
@@ -41,7 +45,7 @@
         href="{item.url}?utm_source=ajari-koding&utm_medium=website&utm_campaign=phpid"
         target="_blank"
         rel="noopener noreferrer"
-        class="btn btn-outline-primary btn--visit">
+        class="btn {$activeTheme === 'dark' ? 'btn-light' : 'btn-outline-primary'} btn--visit">
         Kunjungi
         <Icon name="arrow" width="24" height="24" />
       </a>

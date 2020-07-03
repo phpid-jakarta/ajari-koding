@@ -12,7 +12,7 @@
 }
 </style>
 
-<footer class="container-fluid bg-light ftr">
+<footer class="container-fluid ftr">
   <p class="text-center">
     Copyright © 2020
     <br/>

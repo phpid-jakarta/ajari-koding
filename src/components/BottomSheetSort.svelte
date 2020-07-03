@@ -4,7 +4,8 @@
 
   const handleClose = () => {
     showBottomSheetSort.set(false);
-  };
+    document.body.classList.remove('overflow-hidden');
+  }
 </script>
 
 <style>

@@ -26,10 +26,12 @@
     }
     currentPage.set(1);
     showBottomSheetFilter.set(false);
+    document.body.classList.remove('overflow-hidden');
   };
 
   const handleClose = () => {
     showBottomSheetFilter.set(false);
+    document.body.classList.remove('overflow-hidden');
   };
 </script>
 

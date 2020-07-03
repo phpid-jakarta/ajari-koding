@@ -1,5 +1,5 @@
 <script>
-  import { allData, showData, activeTab, currentPage } from "../store";
+  import { allData, showData, activeTab, currentPage, activeTheme } from "../store";
   import Icon from "./Icon.svelte";
   import { FILTERS } from "../constant.js";
 
@@ -25,14 +25,19 @@
 </script>
 
 <style>
-
+.is--dark {
+  color: var(--text-color);
+}
+.is--dark.active {
+  color: var(--bg-color);
+}
 </style>
 
 <ul class="nav nav-tabs mb-5 hide-on-mobile">
   {#each FILTERS as f (f)}
     <li class="nav-item">
       <a
-        class="nav-link text-capitalize d-flex align-items-center"
+        class="nav-link {$activeTheme === 'dark' ? 'is--dark' : 'is--ligth'} text-capitalize d-flex align-items-center"
         class:active={$activeTab === f}
         aria-current="page"
         href="?tipe={f}"
