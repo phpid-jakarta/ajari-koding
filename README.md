@@ -101,6 +101,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: PORTAL
 - Rating: 4
 
+### TRENTECH.ID
+
+- Creator: Angga Permana
+- URL: https://www.trentech.id
+- Description: Informasi seputar startup, teknologi, dan belajar koding.
+- Topic Tags: trentech, startup, koding, wordpress, vuejs, codeigniter, laravel, react, gatsby, angular, php
+- Business Model: FREE WITH ADS
+- Tipe: PORTAL
+- Rating: 0
+
 ## 📽 VIDEO
 
 ### BADUYTECH SOLUTIONS
@@ -120,6 +130,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Description: Channel Belajar Online. Mulai Dari Sini Akses Beragam Kelas Pemrograman, Web Design, Mobile Apps. 
 - Topic Tags: firebase, ajax, php, codeigniter, laravel, composer, html, css, bootstrap, webdesign, webprogramming, javascript, vuejs, react, angular, mobileapps
 - Business Model: FREE NO ADS
+- Tipe: VIDEO
+- Rating: 0
+
+### BUILDWITH ANGGA
+
+- Creator: Angga
+- URL: https://buildwithangga.com/
+- Description: Website untuk belajar design dan coding secara online
+- Topic Tags: laravel, react js, node js, express js, dart, flutter, kotlin, react native, data science, code igniter, php, html, css
+- Business Model: FREEMIUM
 - Tipe: VIDEO
 - Rating: 0
 
@@ -301,6 +321,15 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: VIDEO
 - Rating: 0
 
+### TUNAS EDUCATION CENTER
+- Creator: Tunas Digital Indonesia
+- URL: https://www.youtube.com/channel/UCic3QxqNzTzGGcegNzsgqFA
+- Description: Video berseri ini membahas tentang bagaimana cara membangun framework MVC (Model View Controller) sendiri. Kenapa kita perlu membangun framework sendiri? Banyak keuntungannya, jika anda saat ini masih mahasiswa, ini bisa jadi topik skripsi anda. Jika anda saat ini menjadi programmer/praktisi maka ini bisa jadi peluang bisnis baru berupa menjual framework anda sendiri.
+- Topic Tags: MVC, Framework MVC, Design Pattern
+- Business Model: FREE WITH ADS
+- Tipe: VIDEO 
+- Rating: 0 
+
 ### TUTORKOMPUTER
 
 - Creator: Andi Hoerudin
@@ -403,6 +432,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: BLOG
 - Rating: 0
 
+### DO EXPLOIT
+
+- Creator: Michael A.C Tulenan
+- URL: https://biolinky.co/doexploit
+- Description: Blog yang berisi tutorial linux server dari basic sampai advanced. Pas banget buat pemula, kenapa? karena disertai keterangan dari step awal hingga akhir, sehingga proses belajar jadi lebih mudah. Learn then Share!
+- Topic Tags: linux, server, python, devops, sysadmin, debian
+- Business Model: FREE NO ADS
+- Tipe: BLOG  
+- Rating: 0 
+
 ### EPSI RNS - DESKTOP CUSTOMIZATION
 
 - Creator: Epsi Sayidina
@@ -448,7 +487,7 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Creator: Mochammad Ihza Rizky Karim
 - URL: https://ihzarizkyk.blogspot.com/
 - Description: Blog Pribadi Yang Berisi mengenai Tutorial Pemrograman C, PHP, Python dan Data Science Seperti NumPy
-- Topic Tags: php, python, numpy
+- Topic Tags: php, python, numpy, c
 - Business Model: FREE WITH ADS
 - Tipe: BLOG
 - Rating: 0
