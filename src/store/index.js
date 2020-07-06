@@ -34,3 +34,11 @@ export const activeTab = writable(FILTER_ITEMS.ALL)
 export const showBottomSheetFilter = writable(false)
 export const showBottomSheetSort = writable(false)
 export const activeTheme = writable('')
+
+export const snackbarShow = writable(false)
+export const snackbarMessage = writable('')
+
+export const isLogin = writable(false)
+export const userName = writable('')
+export const userEmail = writable('')
+export const userImage = writable('')

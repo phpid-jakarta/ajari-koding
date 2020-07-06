@@ -34,7 +34,9 @@
     "cheerio": "1.0.0-rc.3",
     "compression": "1.7.4",
     "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
     "firebase": "^7.15.5",
+    "firebaseui": "^4.5.1",
     "markdown-it": "11.0.0",
     "polka": "next",
     "sirv-cli": "0.4.6"

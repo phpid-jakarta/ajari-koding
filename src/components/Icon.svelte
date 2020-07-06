@@ -121,7 +121,7 @@ const paths = {
   fill="currentColor"
   xmlns="http://www.w3.org/2000/svg"
   {...$$restProps}>
-  {#each paths[name] as path}
-    <path fill-rule="evenodd" d="{path}" />
+  {#each paths[name] as d (d)}
+    <path fill-rule="evenodd" d="{d}" />
   {/each}
 </svg>

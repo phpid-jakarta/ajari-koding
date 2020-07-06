@@ -1,6 +1,41 @@
+<script context="module">
+  export async function preload(page, session) {
+    const {
+        FIREBASE_API_KEY,
+        FIREBASE_AUTH_DOMAIN,
+        FIREBASE_DATABASE_URL,
+        FIREBASE_PROJECT_ID,
+        FIREBASE_STORAGE_BUCKET,
+        FIREBASE_MESSAGING_SENDER_ID,
+        FIREBASE_APP_ID,
+        FIREBASE_MEASUREMENT_ID
+    } = session;
+
+    return {
+      FIREBASE_API_KEY,
+      FIREBASE_AUTH_DOMAIN,
+      FIREBASE_DATABASE_URL,
+      FIREBASE_PROJECT_ID,
+      FIREBASE_STORAGE_BUCKET,
+      FIREBASE_MESSAGING_SENDER_ID,
+      FIREBASE_APP_ID,
+      FIREBASE_MEASUREMENT_ID
+    };
+  }
+</script>
+
 <script>
 import { onMount } from 'svelte'
-import getFirebase from '../firebase'
+import { getFirebaseApp } from '../firebase'
+
+export let FIREBASE_API_KEY
+export let FIREBASE_AUTH_DOMAIN
+export let FIREBASE_DATABASE_URL
+export let FIREBASE_PROJECT_ID
+export let FIREBASE_STORAGE_BUCKET
+export let FIREBASE_MESSAGING_SENDER_ID
+export let FIREBASE_APP_ID
+export let FIREBASE_MEASUREMENT_ID
 
 let currentSid = ''
 onMount(() => {
@@ -11,10 +46,16 @@ onMount(() => {
     window.localStorage.setItem('__SID', c)
   }
 
-  // delay 1s for init Firebase
-  setTimeout(() => {
-    getFirebase();
-  }, 1000)
+  getFirebaseApp({
+    FIREBASE_API_KEY,
+    FIREBASE_AUTH_DOMAIN,
+    FIREBASE_DATABASE_URL,
+    FIREBASE_PROJECT_ID,
+    FIREBASE_STORAGE_BUCKET,
+    FIREBASE_MESSAGING_SENDER_ID,
+    FIREBASE_APP_ID,
+    FIREBASE_MEASUREMENT_ID
+  });
 })
 </script>
 
