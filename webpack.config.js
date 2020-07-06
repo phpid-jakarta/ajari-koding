@@ -36,7 +36,15 @@ module.exports = {
       // dev && new webpack.HotModuleReplacementPlugin(),
       new webpack.DefinePlugin({
         'process.browser': true,
-        'process.env.NODE_ENV': JSON.stringify(mode)
+        'process.env.NODE_ENV': JSON.stringify(mode),
+        'process.env.FIREBASE_API_KEY': String(process.env.FIREBASE_API_KEY) || '',
+        'process.env.FIREBASE_AUTH_DOMAIN': String(process.env.FIREBASE_AUTH_DOMAIN) || '',
+        'process.env.FIREBASE_DATABASE_URL': String(process.env.FIREBASE_DATABASE_URL) || '',
+        'process.env.FIREBASE_PROJECT_ID': String(process.env.FIREBASE_PROJECT_ID) || '',
+        'process.env.FIREBASE_STORAGE_BUCKET': String(process.env.FIREBASE_STORAGE_BUCKET) || '',
+        'process.env.FIREBASE_MESSAGING_SENDER_ID': String(process.env.FIREBASE_MESSAGING_SENDER_ID) || '',
+        'process.env.FIREBASE_APP_ID': String(process.env.FIREBASE_APP_ID) || '',
+        'process.env.FIREBASE_MEASUREMENT_ID': String(process.env.FIREBASE_MEASUREMENT_ID) || ''
       })
     ].filter(Boolean),
     devtool: dev && 'inline-source-map'

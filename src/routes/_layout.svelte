@@ -1,5 +1,6 @@
 <script>
 import { onMount } from 'svelte'
+import getFirebase from '../firebase'
 
 let currentSid = ''
 onMount(() => {
@@ -9,6 +10,11 @@ onMount(() => {
     currentSid = c
     window.localStorage.setItem('__SID', c)
   }
+
+  // delay 1s for init Firebase
+  setTimeout(() => {
+    getFirebase();
+  }, 1000)
 })
 </script>
 
