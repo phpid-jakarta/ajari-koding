@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const webpack = require('webpack')
 const path = require('path')
 const config = require('sapper/config/webpack.js')
