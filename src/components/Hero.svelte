@@ -55,7 +55,7 @@
 </style>
 
 
-<nav class="navbar d-header">
+<nav class="navbar d-header hide-on-mobile">
   <div class="container">
     <a class="navbar-brand" href="/ajari-koding">&nbsp;</a>
     {#if !isLoading}
