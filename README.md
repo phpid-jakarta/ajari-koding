@@ -624,16 +624,6 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 
 ## 📕 EBOOK
 
-### EBOOK BUNDLE LARAVEL VUE
-
-- Creator: Muhammad Azamuddin & Hafid Mukhlasin
-- URL: https://buku-laravel-vue.com
-- Description: Ebook Bundle untuk Belajar Menjadi Fullstack Developer Laravel & Vue
-- Topic Tags: Laravel, VueJS, Database, MySQL, Rest API
-- Business Model: MEMBERSHIP
-- Tipe: EBOOK
-- Rating: 4
-
 ### DUNIAILKOM
 
 - Creator: Andre Pratama
@@ -641,6 +631,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Description: Website belajar Programming dan Ilmu Komputer. Menyajikan berbagai tutorial bahasa pemrograman yang mudah dipahami hingga informasi seputar dunia pendidikan IT. Duniailkom juga menyediakan eBook premium sebagai media belajar programming yang lebih lengkap. 
 - Topic Tags: pascal, html, css, php, mysql, javascript, jquery, java, c, python, wordpress, laravel
 - Business Model: FREE WITH ADS
+- Tipe: EBOOK
+- Rating: 4
+
+### EBOOK BUNDLE LARAVEL VUE
+
+- Creator: Muhammad Azamuddin & Hafid Mukhlasin
+- URL: https://buku-laravel-vue.com
+- Description: Ebook Bundle untuk Belajar Menjadi Fullstack Developer Laravel & Vue
+- Topic Tags: Laravel, VueJS, Database, MySQL, Rest API
+- Business Model: MEMBERSHIP
 - Tipe: EBOOK
 - Rating: 4
 
