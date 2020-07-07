@@ -39,14 +39,14 @@ module.exports = {
       new webpack.DefinePlugin({
         'process.browser': true,
         'process.env.NODE_ENV': JSON.stringify(mode),
-        '__FIREBASE_API_KEY__': String(process.env.FIREBASE_API_KEY) || '',
-        '__FIREBASE_AUTH_DOMAIN__': String(process.env.FIREBASE_AUTH_DOMAIN) || '',
-        '__FIREBASE_DATABASE_URL__': String(process.env.FIREBASE_DATABASE_URL) || '',
-        '__FIREBASE_PROJECT_ID__': String(process.env.FIREBASE_PROJECT_ID) || '',
-        '__FIREBASE_STORAGE_BUCKET__': String(process.env.FIREBASE_STORAGE_BUCKET) || '',
-        '__FIREBASE_MESSAGING_SENDER_ID__': String(process.env.FIREBASE_MESSAGING_SENDER_ID) || '',
-        '__FIREBASE_APP_ID__': String(process.env.FIREBASE_APP_ID) || '',
-        '__FIREBASE_MEASUREMENT_ID__': String(process.env.FIREBASE_MEASUREMENT_ID) || ''
+        __FIREBASE_API_KEY__: String(`"${process.env.FIREBASE_API_KEY}"`),
+        __FIREBASE_AUTH_DOMAIN__: String(`"${process.env.FIREBASE_AUTH_DOMAIN}"`),
+        __FIREBASE_DATABASE_URL__: String(`"${process.env.FIREBASE_DATABASE_URL}"`),
+        __FIREBASE_PROJECT_ID__: String(`"${process.env.FIREBASE_PROJECT_ID}"`),
+        __FIREBASE_STORAGE_BUCKET__: String(`"${process.env.FIREBASE_STORAGE_BUCKET}"`),
+        __FIREBASE_MESSAGING_SENDER_ID__: String(`"${process.env.FIREBASE_MESSAGING_SENDER_ID}"`),
+        __FIREBASE_APP_ID__: String(`"${process.env.FIREBASE_APP_ID}"`),
+        __FIREBASE_MEASUREMENT_ID__: String(`"${process.env.FIREBASE_MEASUREMENT_ID}"`)
       })
     ].filter(Boolean),
     devtool: dev && 'inline-source-map'
