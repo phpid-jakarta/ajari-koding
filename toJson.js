@@ -73,8 +73,9 @@ const main = async () => {
         return {
           id: `${title
             .toLowerCase()
+            .replace(/\./g, '')
             .replace(/[^\w ]/, '')
-            .replace(/\s/g, '_')}`,
+            .replace(/\s/g, '')}`,
           // title is in uppercase
           title: title.toUpperCase(),
           ...formatteddata
@@ -104,14 +105,21 @@ const main = async () => {
 
     const arrayWithRating = jsonResult.filter(i => i.rating > 0)
     const arrayWithoutRating = jsonResult.filter(i => i.rating < 1)
+    const allList = [
+      ...sortByRating(arrayWithRating),
+      ...sortByAplhabet(arrayWithoutRating)
+    ]
+
     const fileContent = {
       last_updated: new Date(),
-      awesome_list: [
-        ...sortByRating(arrayWithRating),
-        ...sortByAplhabet(arrayWithoutRating)
-      ]
+      awesome_list: allList
     }
 
+    const d = {}
+    allList.forEach((i) => {
+      d[i.id] = 0
+    })
+    writeFile('./db.json', JSON.stringify({ likes: d, dislikes: d }))
     writeFile('./data.json', JSON.stringify(fileContent))
     writeFile('./data.js', `module.exports = ${JSON.stringify(fileContent)}`)
     writeFile('./data-es.js', `export default ${JSON.stringify(fileContent)}`)
