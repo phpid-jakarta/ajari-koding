@@ -72,7 +72,7 @@
               on:click={handleLogout}
               rel="noopener noreferrer"
               class="btn {$activeTheme === 'dark' ? 'btn-outline-light' : 'btn-outline-primary'}  mb-2 mr-2">
-              Logout
+              Keluar
             </button>
           {:else}
             <button

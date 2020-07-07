@@ -11,9 +11,8 @@
     "toJson": "node ./toJson.js",
     "dev": "sapper dev",
     "build": "sapper build",
-    "parse:env": "node ./parseEnv.js",
     "start": "node __sapper__/build",
-    "export": "cross-env NODE_ENV=production yarn parse:env && sapper export --basepath ajari-koding",
+    "export": "cross-env NODE_ENV=production sapper export --basepath ajari-koding",
     "lint": "eslint **/*.svelte --fix"
   },
   "devDependencies": {
