@@ -12,11 +12,6 @@ const alias = { svelte: path.resolve('node_modules', 'svelte') }
 const extensions = ['.mjs', '.js', '.json', '.svelte', '.html']
 const mainFields = ['svelte', 'module', 'browser', 'main']
 
-console.log('===========================')
-console.log(JSON.stringify(process.env))
-console.log('FIREBASE_API_KEY: ', process.env.FIREBASE_API_KEY)
-console.log('===========================')
-
 module.exports = {
   client: {
     entry: config.client.entry(),
