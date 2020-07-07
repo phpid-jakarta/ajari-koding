@@ -322,6 +322,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: VIDEO
 - Rating: 0
 
+### SASTRA NABABAN
+
+- Creator: Sastra Nababan
+- URL: https://www.youtube.com/SastraNababan
+- Description: Membahas topik seputar pemograman, open source, teknologi dan software engineering.
+- Topic Tags: Javascript, React, Tailwind, Typescript
+- Business Model: FREE NO ADS 
+- Tipe: VIDEO
+- Rating: 0
+
 ### SKUY NGODING
 
 - Creator: Hafizul Furqan
@@ -621,6 +631,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Description: Ebook Bundle untuk Belajar Menjadi Fullstack Developer Laravel & Vue
 - Topic Tags: Laravel, VueJS, Database, MySQL, Rest API
 - Business Model: MEMBERSHIP
+- Tipe: EBOOK
+- Rating: 4
+
+### DUNIAILKOM
+
+- Creator: Andre Pratama
+- URL: https://www.duniailkom.com
+- Description: Website belajar Programming dan Ilmu Komputer. Menyajikan berbagai tutorial bahasa pemrograman yang mudah dipahami hingga informasi seputar dunia pendidikan IT. Duniailkom juga menyediakan eBook premium sebagai media belajar programming yang lebih lengkap. 
+- Topic Tags: pascal, html, css, php, mysql, javascript, jquery, java, c, python, wordpress, laravel
+- Business Model: FREE WITH ADS
 - Tipe: EBOOK
 - Rating: 4
 
