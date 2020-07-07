@@ -2,8 +2,14 @@
   import Icon from "./Icon.svelte";
   import Tags from "./Tags.svelte";
   import Rating from "./Rating.svelte";
-  import { activeTheme } from "../store";
+  import { activeTheme, isLogin } from "../store";
+  import { getLikeSingleRef, updateLikesOrDislikes } from "../firebase";
   export let item;
+
+  const handleClickThumbUp = (id) => {
+    const ref = getLikeSingleRef(id);
+    updateLikesOrDislikes(ref);
+  }
 </script>
 
 <style>
@@ -65,10 +71,14 @@
           Kunjungi
           <Icon name="arrow" width="24" height="24" />
         </a>
-        <button
-          class="btn {$activeTheme === 'dark' ? 'btn-light' : 'btn-outline-primary'}">
-          <Icon name="thumbs_up" width="24" height="24" />
-        </button>
+
+        {#if $isLogin}
+          <button
+            class="btn {$activeTheme === 'dark' ? 'btn-light' : 'btn-outline-primary'}" on:click={() => { handleClickThumbUp(item.id) }}>
+            <Icon name="thumbs_up" width="24" height="24" />
+          </button>
+        {/if}
+
       </div>
     </div>
   </div>
