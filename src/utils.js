@@ -85,3 +85,8 @@ export const clickOutside = (node) => {
     }
   }
 }
+
+export const formatThousand = (num) => {
+  const parsed = num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.')
+  return `${parsed}`
+}

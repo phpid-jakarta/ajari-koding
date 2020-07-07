@@ -1,15 +1,21 @@
 <script>
-  import { createArray } from '../utils.js'
-  export let rating
-  const arrayRatings = rating > 0 ? createArray(rating) : []
+  import { createArray, formatThousand } from "../utils.js";
+  import Icon from "./Icon.svelte";
+  export let rating;
+  export let likes;
+  const arrayRatings = rating > 0 ? createArray(rating) : [];
 </script>
 
 <style>
   .text-12 {
     font-size: 12px;
   }
-  .bi-star-fill {
+  .rating {
     color: var(--bs-warning);
+  }
+  .thumb {
+    color: var(--bs-success);
+    font-size: 1.1rem;
   }
   .c-tooltip {
     position: relative;
@@ -33,7 +39,7 @@
     visibility: visible;
   }
   .c-tooltip .c-tooltiptext::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 0;
     height: 0;
@@ -45,25 +51,22 @@
   }
 </style>
 
-<div class="mb-3 text-12 d-flex align-items-center c-tooltip">
-  {#if arrayRatings.length > 0}
-    {#each arrayRatings as item (item)}
-      <svg
-        width="24"
-        height="24"
-        viewBox="0 0 16 16"
-        class="mr-1 bi-star-fill"
-        fill="currentColor"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173
-          6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927
-          0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83
-          4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-      </svg>
-    {/each}
-  {:else}
-    <span class="text-muted">Rating Belum tersedia</span>
-  {/if}
-  <span class="c-tooltiptext">Rating oleh tim PHPID</span>
+<div class="mb-1">
+  <div class="rating mb-1 c-tooltip d-flex align-items-center">
+    {#if arrayRatings.length > 0}
+      {#each arrayRatings as item (item)}
+        <Icon name="star" />
+      {/each}
+    {:else}
+      <span class="text-12 text-muted">Rating Belum tersedia</span>
+    {/if}
+    <span class="text-12 c-tooltiptext">Rating oleh tim PHPID</span>
+  </div>
+  <div class="thumb c-tooltip d-flex align-items-center">
+    <div class="d-flex align-items-center mb-2 thumb">
+      <Icon name="thumbs_up" width="18" height="18" />
+      <span class="ml-2">{likes ? formatThousand(likes) : 0}</span>
+    </div>
+    <span class="text-12 c-tooltiptext">Like oleh pengguna</span>
+  </div>
 </div>

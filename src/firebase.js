@@ -1,3 +1,5 @@
+import { SESSION_ID_KEY } from './constant'
+
 var firebase = require('firebase/app').default
 
 require('firebase/auth')
@@ -41,6 +43,7 @@ export function observeLoginStatus ({ onLogin, onLogout }) {
   firebase.auth().onAuthStateChanged(function (user) {
     if (user) {
       onLogin({ email: user.email, name: user.displayName, image: user.photoURL })
+      window.localStorage.setItem(SESSION_ID_KEY, user.uid)
     } else {
       onLogout()
     }

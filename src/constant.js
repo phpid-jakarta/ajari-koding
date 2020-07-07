@@ -1,5 +1,6 @@
 export const REPO_URL = 'https://github.com/phpid-jakarta/ajari-koding'
 export const REPO_NEW_ISSUE_URL = `${REPO_URL}/issues/new?assignees=%40mazipan&labels=data-proposal&template=add_new_data.md&title=New+Data+-+Nama+Produk`
+export const SESSION_ID_KEY = '__UID'
 
 export const FILTER_ITEMS = {
   ALL: 'semua',

@@ -72,7 +72,7 @@ onMount(() => {
 
   setTimeout(() => {
     const r = getLikesRef()
-    r.once('value').then(function (snapshot) {
+    r.on('value', function (snapshot) {
       const result = snapshot.val()
       const withLikes = $originData.map(i => {
         i.likes = result[i.id]
@@ -80,7 +80,7 @@ onMount(() => {
       })
       allData.set(withLikes)
       showData.set(withLikes)
-    });
+    })
   }, 2000)
 })
 </script>
