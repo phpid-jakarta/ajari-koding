@@ -5,6 +5,10 @@ require('firebase/database')
 
 var app = null
 var provider = null
+var database = null
+const LIKES = 'likes'
+const DISLIKES = 'dislikes'
+
 export function getFirebaseApp ({
   FIREBASE_API_KEY,
   FIREBASE_AUTH_DOMAIN,
@@ -28,16 +32,17 @@ export function getFirebaseApp ({
   }
   if (!app && firebase.initializeApp) {
     app = firebase.initializeApp(config)
+    database = firebase.database()
   }
   return app
 }
 
-export function observeLoginStatus ({ onSuccess, onFailed }) {
+export function observeLoginStatus ({ onLogin, onLogout }) {
   firebase.auth().onAuthStateChanged(function (user) {
     if (user) {
-      onSuccess({ email: user.email, name: user.displayName, image: user.photoURL })
+      onLogin({ email: user.email, name: user.displayName, image: user.photoURL })
     } else {
-      onFailed()
+      onLogout()
     }
   })
 }
@@ -76,6 +81,45 @@ export function doLogout ({ onLogout, onFailed }) {
     const errorMessage = error.message
     console.error('> Error when logout', errorMessage)
     onFailed(errorMessage)
+  })
+}
+
+export function getDatabase () {
+  if (database) {
+    return database
+  }
+  database = firebase.database()
+  return database
+}
+
+export function getLikesRef () {
+  return database.ref(`${LIKES}`)
+}
+
+export function getLikeSingleRef (id) {
+  return database.ref(`${LIKES}/${id}`)
+}
+
+export function getDislikesRef () {
+  return database.ref(`${DISLIKES}`)
+}
+
+export function getDislikeSingleRef (id) {
+  return database.ref(`${DISLIKES}/${id}`)
+}
+
+export function updateLikesOrDislikes (ref) {
+  ref.transaction(function (item) {
+    item += 1
+    return item
+  })
+}
+
+export function writeUserData (userId, name, email, imageUrl) {
+  database.ref('users/' + userId).set({
+    username: name,
+    email: email,
+    profile_picture: imageUrl
   })
 }
 

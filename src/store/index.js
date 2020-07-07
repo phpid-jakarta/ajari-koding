@@ -3,9 +3,10 @@ import { FILTER_ITEMS } from '../constant.js'
 import data from '../../data-es'
 import { getDistinctTags } from '../utils.js'
 
-export const allData = readable(data.awesome_list, function set () {
+export const originData = readable(data.awesome_list, function set () {
   return function destroy () {}
 })
+export const allData = writable(data.awesome_list)
 export const showData = writable(data.awesome_list)
 export const allDistictTags = derived(allData,
   ($allData) => {
@@ -38,6 +39,7 @@ export const activeTheme = writable('')
 export const snackbarShow = writable(false)
 export const snackbarMessage = writable('')
 
+export const isLoadingAccount = writable(true)
 export const isLogin = writable(false)
 export const userName = writable('')
 export const userEmail = writable('')

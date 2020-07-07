@@ -1,40 +1,27 @@
 <script>
-  import { onMount } from 'svelte'
+  import { onMount, createEventDispatcher } from 'svelte'
   import Icon from './Icon.svelte'
-  import { activeTheme, isLogin, userName, userEmail, userImage } from "../store"
+  import { activeTheme, isLoadingAccount, isLogin, userName, userEmail, userImage } from "../store"
   import { REPO_URL, REPO_NEW_ISSUE_URL } from '../constant.js'
-  import { doLogin, doLogout, observeLoginStatus } from '../firebase'
+  import { doLogin, doLogout } from '../firebase'
 
-  let isLoading = true
-  const onSuccess = ({ email, name, image }) => {
-    isLoading = false
-    isLogin.set(true)
-    userName.set(name)
-    userEmail.set(email)
-    userImage.set(image)
+  const dispatch = createEventDispatcher();
+
+  const dispatchLogin = ({ email, name, image }) => {
+    dispatch('login', { email, name, image });
   }
 
-  const resetLoginStatus = () => {
-    isLoading = false
-    isLogin.set(false)
-    userName.set('')
-    userEmail.set('')
-    userImage.set('')
+  const dispatchLogout = () => {
+    dispatch('logout');
   }
 
   const handleLogin = () => {
-    doLogin({ onSuccess, onFailed: resetLoginStatus });
+    doLogin({ onSuccess: dispatchLogin, onFailed: dispatchLogout });
   }
 
   const handleLogout = () => {
-    doLogout({ onLogout: resetLoginStatus });
+    doLogout({ onLogout: dispatchLogout });
   }
-
-  onMount(() => {
-    setTimeout(() => {
-      observeLoginStatus({ onSuccess, onFailed: resetLoginStatus })
-    }, 1000)
-  })
 </script>
 
 <style>
@@ -64,16 +51,7 @@
           <Icon name="new_issue" width=24 height=24 />
         </a>
       </li>
-      <li class="nav-item">
-        <a
-          class="nav-link n-link"
-          href={REPO_URL}
-          target="_blank"
-          rel="noopener noreferrer">
-          <Icon name="octocat" width=24 height=24  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-        </a>
-      </li>
-      {#if !isLoading}
+      {#if !$isLoadingAccount}
         {#if $isLogin}
           <li class="nav-item">
             <img alt="{$userName}" src="{$userImage}" class="avatar"/>
