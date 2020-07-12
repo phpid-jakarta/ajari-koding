@@ -109,6 +109,13 @@ onMount(() => {
     <Search />
     {#if $showData.length > 0}
       <TagsCloud />
+      {#if !$isLoadingAccount && !$isLogin}
+        <div class="alert alert-info" role="alert">
+          Sekarang kamu bisa memberikan dukungan dengan menekan tombol 👍 di bawah loh!
+          <br/>
+          Tapi harus masuk dengan akun Google kamu dulu ya.
+        </div>
+      {/if}
       <div class="row justify-content-center gx-3 gy-3">
         {#each $showData.slice($offsetPage, $offsetPage + $perPage) as item (item.id)}
           <CardItem {item} />

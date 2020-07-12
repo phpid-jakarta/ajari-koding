@@ -5,7 +5,7 @@
   import Rating from "./Rating.svelte";
   import { activeTheme, isLogin } from "../store";
   import { getLikeSingleRef, updateLikesOrDislikes } from "../firebase";
-  import { SESSION_ID_KEY } from '../constant'
+  import { SESSION_ID_KEY } from "../constant";
   export let item;
 
   let showDesc = false;
@@ -16,22 +16,29 @@
   let clickedLikeBtn = false;
   const handleClickThumbUp = id => {
     clickedLikeBtn = true;
-    const uid = window.localStorage.getItem(SESSION_ID_KEY)
-    if (uid) {
-      const dataInStorage = window.localStorage.getItem(uid)
-      if (dataInStorage) {
-        const parseData = JSON.parse(dataInStorage)
-        console.debug(`Data like in web storage`, parseData)
-        if (!parseData[id] || parseData[id] < 10) {
-          const numb = parseData[id] || 0;
-          const ref = getLikeSingleRef(id);
-          updateLikesOrDislikes(ref);
-          window.localStorage.setItem(uid, JSON.stringify({...parseData, [id]: numb + 1 }))
+    if ($isLogin) {
+      const uid = window.localStorage.getItem(SESSION_ID_KEY);
+      if (uid) {
+        const dataInStorage = window.localStorage.getItem(uid);
+        if (dataInStorage) {
+          const parseData = JSON.parse(dataInStorage);
+          console.debug(`Data like in web storage`, parseData);
+          if (!parseData[id] || parseData[id] < 10) {
+            const numb = parseData[id] || 0;
+            const ref = getLikeSingleRef(id);
+            updateLikesOrDislikes(ref);
+            window.localStorage.setItem(
+              uid,
+              JSON.stringify({ ...parseData, [id]: numb + 1 })
+            );
+          } else {
+            console.warn(
+              `Hey, you've already push like button for "${id}" more than 10 times`
+            );
+          }
         } else {
-          console.warn(`Hey, you've already push like button for "${id}" more than 10 times`)
+          window.localStorage.setItem(uid, JSON.stringify({ [id]: 1 }));
         }
-      } else {
-        window.localStorage.setItem(uid, JSON.stringify({ [id]: 1 }))
       }
     }
 
@@ -206,16 +213,14 @@
             <Icon name="arrow" width="24" height="24" />
           </a>
 
-          {#if $isLogin}
-            <button
-              class="btn btn-like {clickedLikeBtn ? 'bubble' : ''}
-              {$activeTheme === 'dark' ? 'btn-light' : 'btn-outline-primary'}"
-              on:click={() => {
-                handleClickThumbUp(item.id);
-              }}>
-              <Icon name="thumbs_up" width="24" height="24" />
-            </button>
-          {/if}
+          <button
+            class="btn btn-like {clickedLikeBtn ? 'bubble' : ''}
+            {$activeTheme === 'dark' ? 'btn-light' : 'btn-outline-primary'}"
+            on:click={() => {
+              handleClickThumbUp(item.id);
+            }}>
+            <Icon name="thumbs_up" width="24" height="24" />
+          </button>
 
         </div>
       </div>
