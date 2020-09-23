@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-**Penjelasan bug/erroe**
+**Penjelasan bug/error**
 Penjelasan singkat dan padat mengenai bug/error yang ditemukan
 
 **Cuplikan gambar**
