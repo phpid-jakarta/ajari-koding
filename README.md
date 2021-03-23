@@ -31,6 +31,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 
 ## 🌍 PORTAL
 
+### AZIS HAPIDIN
+
+- Creator: Azis Hapidin
+- URL: https://azishapidin.com/
+- Description: Blog pribadi Azis Hapidin, membahas seputar dunia software development.
+- Topic Tags: developer, laravel, php, linux, mysql
+- Business Model: FREE WITH ADS
+- Tipe: BLOG
+- Rating: 0
+
 ### CARIK BOT
 
 - Creator: Luri Darmawan
