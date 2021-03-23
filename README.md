@@ -31,6 +31,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 
 ## 🌍 PORTAL
 
+### CARIK BOT
+
+- Creator: Luri Darmawan
+- URL: https://carik.id/
+- Description: Smart and Funny Chat Bot Assistant
+- Topic Tags: bot, chatbot, nlp
+- Business Model: FREE NO ADS
+- Tipe: CONTRIBUTOR
+- Rating: 5
+
 ### AMPERAKODING
 
 - Creator: Muhammad Azmi
