@@ -31,6 +31,97 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 
 ## 🌍 PORTAL
 
+### KELAS REKAYASA
+
+- Creator: Puguh Sulistyo Pambudi
+- URL: https://puguhsulistyo.xyz
+- Description: video pembelajaran php dasar
+- Topic Tags: php, codeigniter, css, html
+- Business Model: FREE NO ADS
+- Tipe: VIDEO
+- Rating: 0 
+
+### LINTANG WISESA (SIMPLINNOVATION)
+
+- Creator: LINTANG WISESA
+- URL: https://www.youtube.com/c/LintangWisesa1
+- Description: Kanal YouTube berisi showcase, demo & tutorial seputar teknologi mulai dari front-end, back-end, database, IoT, microcontroller & data science.
+- Topic Tags: javascript, python, c++, nodejs, flask, arduino, raspberry pi, react, vue, mysql, mongodb, postgresql, pandas, scikit-learn
+- Business Model: FREE WITH ADS
+- Tipe: VIDEO
+- Rating: 0
+
+### ANWAR MAULANA
+
+- Creator: Anwar Maulana
+- URL: https://www.youtube.com/c/AnwarMaulana3idot
+- Description: Tutorial aplikasi Android menggunakan block-programming App Inventor & Kodular
+- Topic Tags: appinventor, kodular
+- Business Model: FREE NO ADS
+- Tipe: VIDEO
+- Rating: 0
+
+
+### TAHUCODE 
+
+- Creator: Gilang Rusydi
+- URL : http://facebook.com/tahucode.id
+- Description: Berbagai variasi informasi seputar dunia IT
+- Topic Tags: html/html5,css/css3, php,javascript,framework php, library php, framework js, library js, design, review product
+- Business Model: FREE NO ADS
+- Tipe: BLOG 
+- Rating: 0 
+
+### THE GEEK'S JOURNEY
+
+- Creator: JanuriDP
+- URL: https://www.youtube.com/channel/UCKlFMWdYE9CILIoIjOEeu8w
+- Description: Vlog dan Screencast tentang System Administrator, DevOps, Programming, dan Makanan.
+- Topic Tags: SysAdmin, DevOps, Cloud, Linux
+- Business Model: FREE NO ADS
+- Tipe: VIDEO
+- Rating: 0
+
+### SEKOLAH PROGRAM
+
+- Creator: Febri Hidayan
+- URL: https://sekolahprogram.com/
+- Description: Media untuk belajar tutorial pemograman secara online dan sepenuhnya gratis
+- Topic Tags: HTML, Java, Python, Vue.js, Laravel, PHP
+- Business Model: FREE WITH ADS
+- Tipe: BLOG
+- Rating: 0
+
+### LARAVEL.WEB.ID
+
+- Creator: Yugo
+- URL: https://laravel.web.id
+- Description: Tutorial, tips & trik seputar framework Laravel dan PHP dalam Bahasa Indonesia
+- Topic Tags: laravel, php
+- Business Model: FREE WITH ADS
+- Tipe: BLOG
+- Rating: 0
+
+### Praktek TDD Laravel
+
+- Creator: Nafies Luthfi
+- URL: https://blog.nafies.id/tags/testing
+- Description: Seri artikel praktek TDD untuk project Laravel.
+- Topic Tags: laravel, testing
+- Business Model: FREE NO ADS
+- Tipe: BLOG
+- Rating: 0 
+
+### ALWAYS NGODING
+
+- Creator: Muhammad Saleh Solahudin
+- URL: https://alwaysngoding.com
+- Description: Tempat belajar pemrograman gratis berbahasa Indonesia.
+- Topic Tags: web, html, css, php, javascript, database, mysql, python
+- Business Model: FREE NO ADS
+- Tipe: PORTAL
+- Rating: 0
+
 ### AZIS HAPIDIN
 
 - Creator: Azis Hapidin
