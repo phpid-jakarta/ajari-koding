@@ -31,6 +31,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 
 ## 🌍 PORTAL
 
+### PASARKODE
+
+- Creator: Ano Van
+- URL: https://pasarkode.com
+- Description: Tempat pengembang dan desainer dapat menjual dan membeli berbagai source code atau asset digital yang siap digunakan.
+- Topic Tags: developer, desainer, freelancer, programmer
+- Business Model: MEMBERSHIP
+- Tipe: PORTAL
+- Rating: 0 
+
 ### KELAS REKAYASA
 
 - Creator: Puguh Sulistyo Pambudi
