@@ -31,6 +31,16 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 
 ## 🌍 PORTAL
 
+### BAGICODE
+
+- Creator: Robby Dianputra
+- URL: https://bagicode.com
+- Description:  Kelas online free dan one time paid dengan studi kasus membuat aplikasi android
+- Topic Tags: xml, kotlin, android, java
+- Business Model: ONE TIME PAID
+- Tipe: VIDEO
+- Rating: 0
+
 ### PASARKODE
 
 - Creator: Ano Van
