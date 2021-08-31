@@ -32,8 +32,8 @@ jobs:
         run: yarn toJson
       - name: Commit files report
         run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "Github Actions"
+          git config --local user.email "mazipanneh@gmail.com"
+          git config --local user.name "mazipan"
           git add -A
           git commit -m "✅ [Github Actions]: Generate json file"
       - name: GitHub Push
