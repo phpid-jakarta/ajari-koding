@@ -87,6 +87,12 @@
   .tag--unfocus:hover {
     opacity: 1;
   }
+  .bg-badge--dark {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .bg-badge--light {
+    background-color: rgba(255, 255, 255, 0.19);
+  }
 </style>
 
 <div class={$showBottomSheetFilter ? 'overlay' : ''} on:click={handleClose} />
@@ -112,7 +118,7 @@
               style="background-color: {item.bg};color: {item.fg};"
               on:click={e => handleClick(e, item.tag)}>
               {item.tag}
-              <span class="badge bg-secondary">
+              <span class="badge {item.fg == "#fff" ? "bg-badge--light" : "bg-badge--dark"}">
                 {$allDistictTags.withCount[item.tag]}
               </span>
             </button>
@@ -127,7 +133,7 @@
               {$activeTag !== '' && item.tag !== $activeTag ? 'tag--unfocus' : ''}"
               on:click={e => handleClick(e, item.tag)}>
               {item.tag}
-              <span class="badge bg-secondary">
+              <span class="badge {item.fg == "#fff" ? "bg-badge--light" : "bg-badge--dark"}">
                 {$allDistictTags.withCount[item.tag]}
               </span>
             </button>
