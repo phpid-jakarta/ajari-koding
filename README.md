@@ -59,7 +59,18 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Topic Tags: php, codeigniter, css, html
 - Business Model: FREE NO ADS
 - Tipe: VIDEO
-- Rating: 0 
+- Rating: 0
+
+
+### KARTEIL
+
+- Creator: Irsyad A. Panjaitan
+- URL: https://karteil.com
+- Description: Platform pembelajaran online yang berbentuk ebook yang ditujukan untuk para pengembang web.
+- Topic Tags: PHP, Laravel, MySQL, React.js, Tailwind CSS
+- Business Model: PREMIUM
+- Tipe: EBOOK
+- Rating: 0
 
 ### LINTANG WISESA (SIMPLINNOVATION)
 
@@ -433,15 +444,25 @@ Diurutkan berdasarkan abjad dan dipisahkan berdasarkan tipe
 - Tipe: VIDEO
 - Rating: 4
 
-### POJOK CODE
+### PARSINTA
 
-- Creator: Asep Komarudin
-- URL: https://www.youtube.com/pojokcode
-- Description: Tutorial SQL dan Pemprograman
-- Topic Tags: PHP, Java, MySQL, MariaDB, SQL Server, Oracle
-- Business Model: FREE WITH ADS
-- Tipe: VIDEO
+- Creator: Irsyad A. Panjaitan
+- URL: https://parsinta.com
+- Description: Platform pembelajaran online yang berbentuk screencast, artikel, ebook yang ditujukan untuk para pengembang web.
+- Topic Tags: PHP, Laravel, MySQL, React.js, Tailwind CSS, Vue.js, Inertia.js
+- Business Model: FREE AND PREMIUM
+- Tipe: VIDEO / EBOOK / ARTIKEL
 - Rating: 0
+
+### Nama Produk
+
+- Creator: Nama pembuat atau nama tim
+- URL: Alamat website/apps
+- Description: Deskripsi singkat
+- Topic Tags: Tags
+- Business Model: FREE NO ADS | FREE WITH ADS | FREE TRIAL | FREEMIUM | MEMBERSHIP | PAID
+- Tipe: VIDEO | BLOG | PORTAL | EBOOK | CONTRIBUTOR
+- Rating: 1-5
 
 ### SANTRI KODING
 
